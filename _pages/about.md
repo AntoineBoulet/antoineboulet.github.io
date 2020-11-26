@@ -26,7 +26,7 @@ social: true # includes social icons at the bottom of the page
 I am research associate in the Theory Nuclear Science Department at FRIB/NSCL (MSU) under the line managment of Scott Bogner and Witold (Witek) Nazarewicz since 2019. 
 I am currently working on the development of microscopically motivated density functional theories.
 
-**Research Interests**   
+**[Research Interests](research.md)**   
 My research interests as theoretical physicist are focused on the quantum many body problem (infinite and finite systems) and the development of non-empirical, <em>ab initio</em> and/or beyond-mean-field density functional theories (mainly for nuclear and ultracold atomic systems) from first principles using:  
 - path integral and effective action in quantum field theory   
 - effective field theory 
