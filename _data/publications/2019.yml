@@ -1,0 +1,47 @@
+---
+- label: phd
+  tag: "Ph.D."
+  title: "Density functional theory for Fermi systems with large s-wave scattering length: application to atomic and nuclear physics"
+  year: 2019
+  authors: <u>A. Boulet</u>,
+  journal: Paris-Saclay University
+  number:
+  page: 
+  abstract: In the present work, a density functional theory (DFT) is developed for systems interacting through an anomalously large $s$-wave scattering length $a_s$. Examples of such systems are atomic gas or neutron matter. The Many-Body Perturbation Theory (MBPT) is first discussed to describe dilute Fermi systems. This approach leads to the well-known Lee-Yang functional valid in a very narrow range of density when the $s$-wave scattering length is large. To extend the domain of validity of the perturbative approach, resummation techniques with the ladder approximation is used. This leads to compact expressions for both the energy and/or the on-shell self-energy in infinite spin-degenerated systems that can be applied from diluted to dense systems. It also leads to finite energy in atomic gas at the unitary limit, i.e. when $|a_sk_F|\to\infty$. The deduced functionals remain rather complex and lacks of predictive power in general. To simplify the functional, approximations called phase-space or partial phase-space approximations respectively for the energy or for the self-energy, are proposed. These approximations not only simplify the form of the functionals, but also improve their predictive power at various density while properly reproducing the low density limit. Guided by the non-perturbative resummation technique developed in this thesis, several novel functionals are proposed as well as extensions of them to include effective range effects. These non-empirical functionals, that essentially contain no free parameters, are tested against cold atom and/or neutron matter properties. A very good reproduction of <em>ab initio</em> and experimental observations in cold atom is obtained. The equation of state obtained for neutron matter is also reproduced up to $\rho = 0.01~\text{fm}^{-3}$. The static response of neutron matter, recently obtained from <em>ab initio</em> theory, is also better reproduced compared to standardly used empirical nuclear DFT. This study has also pointed out the necessity to better understand quasi-particle properties like the effective mass. To further progress, starting from resummed expressions of the self-energy together with partial phase-space approximation, compact expressions of the chemical potential and effective masses are obtained that are eventually compatible with the DFTs proposed in the first part of this thesis. These expressions are anticipated to significantly extend the domain of validity compared to the perturbative approach. We finally show that the developments made in this work are also useful to reconcile the parameters generally used in the empirical nuclear DFT with the properties of the strong nuclear interaction.
+  arXiv: https://tel.archives-ouvertes.fr/tel-02355418
+  doi: https://www.theses.fr/2019SACLS212
+  bibtex: > #
+    @phdthesis{Boulet:2019grl,
+      author = "Boulet, Antoine",
+      title = "{Density functional theory for Fermi systems with large s-wave scattering length : application to atomic and nuclear physics}",
+      reportNumber = "tel-02355418, 2019SACLS212",
+      school = "Institut de Physique Nucl\'eaire d'Orsay, France",
+      year = "2019"
+    }
+  
+- label: boulet2019a
+  tag: article
+  title: "Approximate self-energy for Fermi systems with large s-wave scattering length: a step towards density functional theory"
+  year: 2019
+  authors: <u>A. Boulet</u> and D. Lacroix,
+  journal: "J. Phys. G: Nucl. Part. Phys."
+  number: 46
+  page: 105104
+  abstract: In the present work, we start from a minimal Hamiltonian for Fermi systems where the $s$-wave scattering is the only low energy constant (LEC) at play. The many-body perturbative approach that is usually valid at rather low density is first discussed. We then use the resummation technique with the ladder approximation to obtain compact expressions for both the energy and/or the on-shell self-energy in infinite spin-degenerated systems. The diagrammatic resummation technique has the advantage in general to be predictive in a region of density larger compared to many-body perturbation theory. It also leads to a non-diverging limit as $|a_sk_F|\to\infty$. Still, the obtained expressions are a rather complex function of the Fermi momentum $k_F$. We introduce the full phase-space or the partial phase-space approximations respectively applied to the energy or to the self-energy to simplify their dependences in terms of $(a_sk_F)$ while keeping the correct limit at low density and the non-diverging property at large $|a_sk_F|$. Quasi-particle properties of the Fermi system in various regimes of density and scattering length are then illustrated. Our conclusion is that such simplified expressions where the direct link is made with the LEC without fine-tuning can provide a clear guidance to obtain density functional theory (DFT) beyond the perturbative regime. However, quasi-particle properties close or near unitarity cannot be reproduced unless this limit is explicitly used as a constraint. We finally discuss how such approximate treatment of quasi-particles can guide the development of DFT for strongly interacting Fermi systems.
+  arXiv: 1902.05477
+  doi: 10.1088/1361-6471/ab2f0b
+  bibtex: > #
+    @article{Boulet:2019wfd,
+      author = "Boulet, Antoine and Lacroix, Denis",
+      title = "{Approximate self-energy for Fermi systems with large s-wave scattering length: a step towards density functional theory}",
+      eprint = "1902.05477",
+      archivePrefix = "arXiv",
+      primaryClass = "nucl-th",
+      doi = "10.1088/1361-6471/ab2f0b",
+      journal = "J. Phys. G",
+      volume = "46",
+      number = "10",
+      pages = "105104",
+      year = "2019"
+    }
+---

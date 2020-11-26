@@ -1,0 +1,293 @@
+---
+- field: "Insight into physics"
+  topic:
+  rate: 1
+  title: "Lectures on Physics"
+  authors: "Feynman" 
+  volumes:
+   - Mainly Mechanics, Radiation, and Heat
+   - Mainly Electromagnetism and Matter
+   - Quantum Mechanics
+  comment: 
+
+- field: "Classical Mechanics"
+  topic:
+  title: "Classical Mechanics"
+  authors: "Taylor" 
+  volumes:
+  comment: "Great for self study and contains a nice chapter on SR"
+  
+- field: "Classical Mechanics"
+  topic:
+  title: "Classical Mechanics"
+  authors: "Gregory" 
+  volumes:
+  comment: "More to the point than Taylor"
+
+- field: "Classical Mechanics"
+  topic:
+  title: "Introduction to Analytical Dynamics"
+  authors: "Woodhouse" 
+  volumes:
+  comment: "Mathematical oriented complement to the above"
+
+- field: "Special Relativity (SR)"
+  topic:
+  title: "Spacetime Physics: Introduction to Special Relativity"
+  authors: "Taylor and Wheeler" 
+  volumes:
+  comment: "Low level but good for conceptual understanding"
+
+- field: "Special Relativity (SR)"
+  topic:
+  title: "Special Relativity"
+  authors: "Woodhouse" 
+  volumes:
+  comment: "Nice brisk mathematical treatment of SR. See also Woodhouse’s GR book for a continuation"
+
+- field: "Special Relativity (SR)"
+  topic:
+  title: "Introduction to Special Relativity"
+  authors: "Rindler" 
+  volumes:
+  comment: "See also Rindler’s GR book for a continuation"
+
+- field: "Electrodynamics"
+  topic:
+  title: "Introduction to Electrodynamics"
+  authors: "Griffiths" 
+  volumes:
+  comment: "The standard at most universities"
+
+- field: "Electrodynamics"
+  topic:
+  title: "Electromagnetic Fields"
+  authors: "Wangsness" 
+  volumes:
+  comment: "An alternative to Griffiths and a good transition to Jackson"
+
+- field: "Electrodynamics"
+  topic:
+  title: "The Electromagnetic Field"
+  authors: "Shadowitz" 
+  volumes:
+  comment: "A cheap alternative and/or supplement to Griffiths, it does electricity and magnetism side by side rather than segregating them"
+  
+- field: "Electrodynamics"
+  topic:
+  title: "Principles of Electrodynamics"
+  authors: "Schwarz" 
+  volumes:
+  comment: "Another cheap supplement to Griffiths, it’s a tad more advanced and mathematical and with an emphasis on SR"
+  
+- field: "Thermal Physics"
+  topic:
+  title: "An Introduction to Thermal Physics"
+  authors: "Schroeder" 
+  volumes:
+  comment:
+
+- field: "Thermal Physics"
+  topic:
+  title: "Introduction to Thermal Physics"
+  authors: "Kittel & Kroemer" 
+  volumes:
+  comment:
+
+- field: "Thermal Physics"
+  topic:
+  title: "Fundamentals of Statistical and Thermal Physics"
+  authors: "Reif" 
+  volumes:
+  comment:
+
+- field: "Quantum Mechanics (QM)"
+  topic:
+  title: "Introduction to Quantum Mechanics"
+  authors: "Griffiths" 
+  volumes:
+  comment: "Better for students with little exposure to QM"
+
+- field: "Quantum Mechanics (QM)"
+  topic:
+  title: "A Modern Approach to Quantum Mechanics"
+  authors: "Townsend" 
+  volumes:
+  comment: "Undergrad version of Sakurai"
+
+- field: "Quantum Mechanics (QM)"
+  topic:
+  title: "Principles of Quantum Mechanics"
+  authors: "Shankar" 
+  volumes:
+  comment: "Better for students with stronger preparation"
+
+- field: "Quantum Mechanics (QM)"
+  topic:
+  title: "Quantum Processes, Systems, and Information"
+  authors: "Schumacher & Westmoreland" 
+  volumes:
+  comment:
+
+- field: "Quantum Mechanics (QM)"
+  rate: 1
+  topic:
+  title: "Quantum Theory"
+  authors: "Bohm" 
+  volumes:
+  comment: "Sadly no Bohmian Mechanics, does a great job linking the development of quantum mechanics from classical mechanics"
+
+- field: "Quantum Mechanics (QM)"
+  topic:
+  title: "Quantum Theory: Concepts and Methods"
+  authors: "Peres" 
+  volumes:
+  comment:
+
+- field: "Quantum Mechanics (QM)"
+  topic:
+  title: "Speakable and Unspeakable in Quantum Mechanics: Collected Papers on Quantum Philosophy"
+  authors: "Bell" 
+  volumes:
+  comment:
+
+- field: "Special Topics"
+  topic: "Optics"
+  title: "Introduction to Modern Optics"
+  authors: "Fowles" 
+  volumes:
+  comment:
+
+- field: "Special Topics"
+  topic: "Fluid Mechanics"
+  title: "An Introduction to Fluid Dynamics"
+  authors: "Batchelor" 
+  volumes:
+  comment:
+
+- field: "Special Topics"
+  topic: "Fluid Mechanics"
+  title: "Elementary Fluid Dynamics"
+  authors: "Acheson" 
+  volumes:
+  comment:
+
+- field: "Special Topics"
+  topic: "Acoustics"
+  title: "Fundamentals of Acoustics"
+  authors: "Kinsler" 
+  volumes:
+  comment:
+
+- field: "Special Topics"
+  topic: "Solid State"
+  title: "The Oxford Solid State Basics"
+  authors: "Simon" 
+  volumes:
+  comment:
+
+- field: "Special Topics"
+  topic: "Solid State"
+  title: "Solid State Theory"
+  authors: "Harrison" 
+  volumes:
+  comment:
+  
+- field: "Special Topics"
+  topic: "Solid State"
+  title: "Solid State Physics"
+  authors: "Ashcroft & Mermins" 
+  volumes:
+  comment:
+
+- field: "Special Topics"
+  topic: "Solid State"
+  title: "Principles of the Theory of Solids"
+  authors: "Ziman" 
+  volumes:
+  comment:
+
+- field: "Special Topics"
+  topic: "Atomic Physics"
+  title: "Physics of Atoms and Molecules"
+  authors: "Bransden & Joachain" 
+  volumes:
+  comment:
+
+- field: "Special Topics"
+  topic: "Atomic Physics"
+  title: "The Physics of Atoms and Quanta: Introduction to Experiments and Theory"
+  authors: "Haken & Wolf" 
+  volumes:
+  comment:
+
+- field: "Special Topics"
+  topic: "Nuclear Physics"
+  title: "Introductory Nuclear Physics"
+  authors: "Krane" 
+  volumes:
+  comment:
+
+- field: "Special Topics"
+  topic: "Particle Physics"
+  title: "Introduction to Elementary Particles"
+  authors: "Griffiths" 
+  volumes:
+  comment:
+  
+- field: "Special Topics"
+  topic: "Particle Physics"
+  title: "Modern Particle Physics"
+  authors: "Thomson" 
+  volumes:
+  comment:
+  
+- field: "Special Topics"
+  topic: "Particle Physics"
+  title: "Introduction to Elementary Particle Physics"
+  authors: "Bettini" 
+  volumes:
+  comment:
+
+- field: "Special Topics"
+  topic: "Astrophysics"
+  title: "An Introduction to Modern Astrophysics"
+  authors: "Carroll & Ostlie" 
+  volumes:
+  comment:
+
+- field: "Special Topics"
+  topic: "Astrophysics"
+  title: "Introduction to Cosmology"
+  authors: "Ryden" 
+  volumes:
+  comment:
+
+- field: "Special Topics"
+  topic: "Astrophysics"
+  title: "Astrophysics for Physicists"
+  authors: "Choudhuri" 
+  volumes:
+  comment:
+
+- field: "Special Topics"
+  topic: "General Relativity (GR)"
+  title: "A First Course in General Relativity"
+  authors: "Schutz" 
+  volumes:
+  comment:
+
+- field: "Special Topics"
+  topic: "General Relativity (GR)"
+  title: "Foundations of Tensor Analysis for Students of Physics and Engineering With an Introduction to the Theory of Relativity"
+  authors: "Kolecki" 
+  volumes:
+  comment:
+
+- field: "Special Topics"
+  topic: "General Relativity (GR)"
+  title: "Relativity"
+  authors: "Rindler" 
+  volumes:
+  comment:
+---

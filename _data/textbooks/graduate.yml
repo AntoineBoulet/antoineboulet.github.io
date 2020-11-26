@@ -1,0 +1,431 @@
+---
+- field: "Insight into physics"
+  rate: 1
+  title: "Course of Theoretical Physics"
+  authors: "Landau & Lifshitz" 
+  volumes:
+   - "Mechanics"
+   - "The Classical Theory of Fields"
+   - "Quantum Mechanics: Non-Relativistic Theory"
+   - "Quantum Electrodynamics"
+   - "Statistical Physics I"
+   - "Fluid Mechanics"
+   - "Theory of Elasticity"
+   - "Electrodynamics of Continuous Media"
+   - "Statistical Physics II: Theory of the Condensed State"
+   - "Physical Kinetics"
+  comment:
+  
+- field: "Insight into physics"
+  title: "Lectures on Physics"
+  authors: "Pauli" 
+  volumes:
+   - "Electrodynamics"
+   - "Optics and the Theory of Electrons"
+   - "Thermodynamics and the Kinetic Theory of Gases"
+   - "Statistical Mechanics"
+   - "Wave Mechanics"
+   - "Selected Topics in Field Quantization"
+  comment:
+  
+- field: "Analytical Mechanics"
+  title: "Classical Mechanics"
+  authors: "Goldstein" 
+  volumes:
+  comment:
+
+  
+- field: "Analytical Mechanics"
+  title: "Classical Mechanics"
+  authors: "Corben & Stehle" 
+  volumes:
+  comment: 
+  
+- field: "Analytical Mechanics"
+  title: "Mathematical Methods of Classical Mechanics"
+  authors: "Arnold" 
+  volumes:
+  comment: 
+  
+- field: "Analytical Mechanics"
+  rate: 1
+  title: "Foundations of Mechanics"
+  authors: "Abraham & Marsden" 
+  volumes:
+  comment: "Very advanced"
+  
+- field: "Analytical Mechanics"
+  rate: 1
+  title: "A Treatise on the Analytical Dynamics of Particles and Rigid Bodies"
+  authors: "Whittaker" 
+  volumes:
+  comment: "Classic reference"
+
+- field: "Classical Electrodynamics"
+  rate: 1
+  title: "Classical Electrodynamics"
+  authors: "Jackson" 
+  volumes:
+  comment: "Classic, rigorous, and complete"
+
+- field: "Classical Electrodynamics"
+  title: "Classical Electricity and Magnetism"
+  authors: "Panofsky & Phillips" 
+  volumes:
+  comment:
+
+- field: "Classical Electrodynamics"
+  title: "Static And Dynamic Electricity"
+  authors: "Smythe" 
+  volumes:
+  comment: "Harder than Jackson"
+
+- field: "Classical Electrodynamics"
+  title: "Classical Electrodynamics"
+  authors: "Schwinger" 
+  volumes:
+  comment:
+
+- field: "Classical Electrodynamics"
+  title: "Modern Electrodynamics"
+  authors: "Zangwill" 
+  volumes:
+  comment:
+
+- field: "Statistical Mechanics"
+  title: "A Modern Course in Statistical Physics"
+  authors: "Reichl" 
+  volumes:
+  comment:
+
+- field: "Statistical Mechanics"
+  rate: 1
+  title: "Statistical Mechanics"
+  authors: "Pathria & Beale" 
+  volumes:
+  comment:
+
+- field: "Statistical Mechanics"
+  rate: 1
+  title: "Statistical Physics of Particles"
+  authors: "Kardar" 
+  volumes:
+  comment:
+ 
+- field: "Statistical Field Theory"
+  rate: 1
+  title: "Statistical Physics of Fields"
+  authors: "Kardar" 
+  volumes:
+  comment:
+
+- field: "Statistical Field Theory"
+  title: "Statistical Field Theory: An Introduction to Exactly Solved Models in Statistical Physics"
+  authors: "Mussardo" 
+  volumes:
+  comment:
+
+- field: "Statistical Field Theory"
+  title: "Statistical Field Theory"
+  authors: "Parisi" 
+  volumes:
+  comment:
+  
+- field: "Phase Transitions"
+  rate: 1
+  title: "Phase Transitions and Renormalization Group"
+  authors: "Zinn-Justin" 
+  volumes:
+  comment:
+  
+- field: "Computational Statistical Mechanics"
+  title: "Statistical Mechanics: Theory and Molecular Simulation"
+  authors: "Tuckerman" 
+  volumes:
+  comment:
+  
+- field: "Computational Statistical Mechanics"
+  title: "Statistical Mechanics: Algorithms and Computations"
+  authors: "Krauth" 
+  volumes:
+  comment:
+  
+- field: "Quantum Theory"
+  title: "Modern Quantum Mechanics"
+  authors: "Sakurai" 
+  volumes:
+  comment:
+
+- field: "Quantum Theory"
+  title: "Advanced Quantum Mechanics"
+  authors: "Sakurai" 
+  volumes:
+  comment: "Dated but useful to bridge QM to QFT"
+  
+- field: "Quantum Theory"
+  rate: 1
+  title: "Quantum Mechanics: Fundamentals"
+  authors: "Gottfried & Yan" 
+  volumes:
+  comment: "Modern, rigorous, and complete"
+
+- field: "Quantum Theory"
+  rate: 1
+  title: "Quantum Mechanics: A Modern Development"
+  authors: "Ballentine" 
+  volumes:
+  comment: "Uses the Ensemble interpretation rather than the Copenhagen interpretation"
+
+- field: "Quantum Theory"
+  title: "Lectures on Quantum Mechanics"
+  authors: "Weinberg" 
+  volumes:
+  comment:
+
+- field: "Quantum Theory"
+  title: "Quantum Mechanics"
+  authors: "Messiah" 
+  volumes:
+  comment:
+
+- field: "Quantum Theory"
+  title: "The Principles Of Quantum Mechanics"
+  authors: "Dirac" 
+  volumes:
+  comment: "Classic"
+
+- field: "Quantum Theory"
+  rate: 1
+  title: "Quantum Mechanics"
+  authors: "Cohen-Tannoudji, Diu & Laloë" 
+  volumes:
+   - "Volume 1"
+   - "Volume 2"
+  comment:
+
+- field: "Quantum Theory"
+  title: "Advanced Quantum Mechanics"
+  authors: "Schwabl" 
+  volumes:
+  comment: 
+
+- field: "Quantum Electrodynamics"
+  rate: 1
+  title: "Photons and Atoms: Introduction to Quantum Electrodynamics"
+  authors: "Cohen-Tannoudji, Dupont-Roc & Grynberg" 
+  volumes:
+  comment:
+
+- field: "Quantum Electrodynamics"
+  rate: 1
+  title: "Atom-photon interactions: basic processes and applications"
+  authors: "Cohen-Tannoudji, Dupont-Roc & Grynberg" 
+  volumes:
+  comment:
+  
+- field: "Quantum Electrodynamics"
+  title: "Introduction to Quantum Optics: From the Semi-classical Approach to Quantized Light"
+  authors: "Grynberg, Aspect & Fabre" 
+  volumes:
+  comment:
+
+- field: "Quantum Electrodynamics"
+  title: "Exploring the Quantum: Atoms, Cavities, and Photons"
+  authors: "Haroche & Raimond" 
+  volumes:
+  comment:
+
+- field: "Path Integrals"
+  title: "Quantum Mechanics and Path Integrals"
+  authors: "Feynman, Hibbs & Styer" 
+  volumes:
+  comment:
+
+- field: "Path Integrals"
+  title: "Techniques and Applications of Path Integration"
+  authors: "Schulman" 
+  volumes:
+  comment:
+  
+- field: "Path Integrals"
+  title: "Path Integrals in Quantum Mechanics, Statistics, Polymer Physics, and Financial Markets"
+  authors: "Kleinert" 
+  volumes:
+  comment:
+ 
+- field: "Quantum Field Theories"
+  title: "An Introduction to Quantum Field Theory"
+  authors: "Peskin & Schroeder" 
+  volumes:
+  comment:
+
+- field: "Quantum Field Theories"
+  title: "Quantum Field Theory and the Standard Model"
+  authors: "Schwartz" 
+  volumes:
+  comment: 
+  
+- field: "Quantum Field Theories"
+  title: "Quantum Field Theory"
+  authors: "Srednicki" 
+  volumes:
+  comment:
+
+- field: "Quantum Field Theories"
+  rate: 1
+  title: "The Quantum Theory of Fields"
+  authors: "Weinberg" 
+  volumes:
+   - "Foundations"
+   - "Modern Applications"
+   - "Supersymmetry"
+  comment: 
+
+- field: "Many-Body Physics"
+  rate: 1
+  title: "Quantum Theory of Many-Particle Systems"
+  authors: "Fetter & Walecka" 
+  volumes:
+  comment: 
+ 
+- field: "Many-Body Physics"
+  rate: 1
+  title: "Quantum Many-particle Systems"
+  authors: "Negele & Orland" 
+  volumes:
+  comment: 
+
+- field: "Many-Body Physics"
+  rate: 1
+  title: "Many-Particle Physics"
+  authors: "Mahan" 
+  volumes:
+  comment: 
+
+- field: "Many-Body Physics"
+  title: "Introduction to Many-Body Physics"
+  authors: "Coleman" 
+  volumes:
+  comment: 
+
+- field: "Many-Body Physics"
+  rate: 1
+  title: "Condensed Matter Field Theory"
+  authors: "Altland & Simons" 
+  volumes:
+  comment: 
+
+- field: "Many-Body Physics"
+  title: "Many-Body Quantum Theory in Condensed Matter Physics: An Introduction"
+  authors: "Bruus & Flensberg" 
+  volumes:
+  comment: 
+
+- field: "Many-Body Physics"
+  title: "The Nuclear Many-Body Problem"
+  authors: "Ring & Schuck" 
+  volumes:
+  comment: 
+
+- field: "General Relativity (GR)"
+  title: "Geometrical Methods of Mathematical Physics"
+  authors: "Schutz" 
+  volumes:
+  comment:
+
+- field: "General Relativity (GR)"
+  title: "General Relativity"
+  authors: "Wald" 
+  volumes:
+  comment:
+
+- field: "General Relativity (GR)"
+  rate: 1
+  title: "Gravitation"
+  authors: "Misner, Thorne & Wheeler" 
+  volumes:
+  comment:
+  
+- field: "Mathematics"
+  title: "Mathematical Physics: A Modern Introduction to Its Foundations"
+  authors: "Hassani" 
+  volumes:
+  comment:
+
+- field: "Mathematics"
+  title: "A Course in Modern Mathematical Physics: Groups, Hilbert Space and Differential Geometry"
+  authors: "Szekeres" 
+  volumes:
+  comment:
+
+- field: "Mathematics"
+  title: "Geometry, Topology and Physics"
+  authors: "Nakahara" 
+  volumes:
+  comment:
+
+- field: "Mathematics"
+  title: "The Geometry of Physics"
+  authors: "Frankel" 
+  volumes:
+  comment:
+  
+- field: "Mathematics"
+  title: "Methods of Modern Mathematical Physics"
+  authors: "Reed & Simon" 
+  volumes:
+   - "Functional Analysis"
+   - "Fourier Analysis, Self-Adjointness"
+   - "Scattering Theory"
+   - "Analysis of Operators"
+  comment:
+
+- field: "Mathematics"
+  rate: 1
+  title: "Mathematics for Physics and Physicists"
+  authors: "Appel" 
+  volumes:
+  comment:
+  
+- field: "Quantum Field Theory in Curved Spacetime"
+  title: "Introduction to Quantum Effects in Gravity"
+  authors: "Mukhanov & Winitzki" 
+  volumes:
+  comment:
+
+- field: "Quantum Field Theory in Curved Spacetime"
+  title: "Quantum Fields in Curved Space"
+  authors: "Birrell & Davies" 
+  volumes:
+  comment: 
+
+- field: "Quantum Field Theory in Curved Spacetime"
+  title: "Quantum Field Theory in Curved Spacetime: Quantized Fields and Gravity"
+  authors: "Parker & Toms" 
+  volumes:
+  comment:
+  
+- field: "String Theory"
+  title: "String Theory and M-Theory: A Modern Introduction"
+  authors: "Becker, Becker & Schwarz" 
+  volumes:
+  comment:
+
+- field: "String Theory"
+  rate: 1
+  title: "String Theory"
+  authors: "Polchinski" 
+  volumes:
+   - "An Introduction to the Bosonic String"
+   - "Superstring Theory and Beyond"
+  comment: 
+
+- field: "Cosmology"
+  title: "Cosmology"
+  authors: "Weinberg" 
+  volumes:
+  comment:
+---
+
+
+

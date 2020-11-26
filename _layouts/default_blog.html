@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+
+  
+  
+  
+
+
+  <head>
+    {% include head.html %}
+    
+    <script>
+    MathJax = {
+     tex: {
+     inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+     fontCache: 'global'
+    }
+    };
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>    
+  </head>
+
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+
+    <!-- Header -->
+
+    {% include header.html %}
+    
+ <style>
+/* unvisited link */
+a:link {
+  text-decoration: none;
+  color: #0076df;
+}
+
+/* visited link */
+a:visited {
+  color: #0076df;
+}
+
+/* mouse over link */
+a:hover {
+  color: #00369f;
+}
+
+/* selected link */
+a:active {
+  color: #00369f;
+}
+</style>
+  
+    
+    
+<style>
+.filterDiv {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 7px 12px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  border-radius: 50px;
+  text-transform:lowercase;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+
+    <!-- Content -->
+
+    <div class="container mt-5" style="text-align:justify; text-justify:auto;">
+      {{ content }}
+    </div>
+
+    
+    
+
+<script>
+filterSelection("general")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("btn active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+    
+    <!-- Footer -->
+
+    {% include footer.html %}
+
+    
+    
+ 
+    
+    
+    
+  </body>
+
+  {% include hemline.html %}
+
+  
+  
+</html>

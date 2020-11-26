@@ -1,0 +1,60 @@
+---
+layout: default_blog
+---
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.pagination.js/0.1.1/list.pagination.min.js"></script>
+
+
+
+
+
+
+ 
+ 
+
+
+<div class="post">
+
+  <div class="header-bar">
+    <h1>{{ site.blog_name }}</h1>
+    <h2>{{ site.blog_description }}</h2>
+  </div>
+	
+<br> 
+	
+<div id="myBtnContainer">
+<div id='tag_cloud' class="tags tags-sup js-tags">
+	
+	<button class="btn active" onclick="filterSelection('general')" data-encode="">
+		Show All
+		<sup>{{site.posts.size}}</sup>
+	</button>
+
+
+	{% capture tags %}
+	{% for tag in site.tags %}
+	<button class="btn" onclick="filterSelection('{{ tag[0] }}')" data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}"
+		data-encode="{{ tag[0] | strip | url_encode }}"
+		class="tag-button"
+		title="{{ tag[0] }}" rel="{{ tag[1].size }}">
+		{{ tag[0] }}
+		<sup>{{tag[1].size}}</sup>
+	</button>__SEPERATOR__
+	{% endfor %}
+	{% endcapture %}
+        {{ tags | split:'__SEPERATOR__' | sort }}
+</div>
+</div>	
+	
+
+{{ content }}	
+
+
+</div>
+
+
+
+
+
+
+

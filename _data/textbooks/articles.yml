@@ -1,0 +1,796 @@
+---
+- title: "Significance of Electromagnetic Potentials in the Quantum Theory"
+  rate: 1
+  authors: "Y. Aharonov and D. Bohm"
+  revue: "Phys. Rev."
+  volume: 115
+  page: 485
+  year: 1959
+  field: "Quantum Theory"
+  topic: "QED"
+  comment:
+
+- title: "Time in the Quantum Theory and the Uncertainty Relation for Time and Energy"
+  authors: "Y. Aharonov and D. Bohm"
+  revue: "Phys. Rev."
+  volume: 122
+  page: 1649
+  year: 1961
+  field: "Quantum Theory"
+  topic: "Uncertainty Relation"
+  comment:
+
+- title: "Time Symmetry in the Quantum Process of Measurement"
+  authors: "Y. Aharonov, P. G. Bergmann, and J. L. Lebowitz"
+  revue: "Phys. Rev."
+  volume: 134
+  page: B1410
+  year: 1964
+  field: "Quantum Theory"
+  topic: "Measurement"
+  comment:
+
+- title: "States and observables in relativistic quantum field theories"
+  authors: "Y. Aharonov and D. Z. Albert"
+  revue: "Phys. Rev. D"
+  volume: 21
+  page: 3316
+  year: 1980
+  field: "Quantum Theory"
+  topic: "Relativistic"
+  comment:
+
+- title: "Can we make sense out of the measurement process in relativistic quantum mechanics?"
+  authors: "Y. Aharonov and D. Z. Albert"
+  revue: "Phys. Rev. D"
+  volume: 24
+  page: 359
+  year: 1981
+  field: "Quantum Theory"
+  topic: "Relativistic"
+  comment:
+
+- title: "More Is Different"
+  rate: 1
+  authors: "P. W. Anderson"
+  revue: "Science"
+  volume: 177
+  page: 393
+  year: 1972
+  field: "General"
+  topic:
+  comment:
+
+- title: "Experimental Realization of Einstein-Podolsky-Rosen-Bohm Gedankenexperiment: A New Violation of Bell’s Inequalities"
+  authors: "A. Aspect, P. Grangier, and G. Roger"
+  revue: "Phys. Rev. Lett."
+  volume: 49
+  page: 91
+  year: 1982
+  field: "Quantum Theory"
+  topic: "EPR"
+  comment:
+
+- title: "Experimental Test of Bell’s Inequalities Using Time-Varying Analyzers"
+  authors: "A. Aspect, J. Dalibard, and G. Roger"
+  revue: Phys. Rev. Lett.
+  volume: 49
+  page: 1804
+  year: 1982
+  field: "Quantum Theory"
+  topic: "EPR"
+  comment:
+
+- title: "On the Constitution of Atoms and Molecules"
+  authors: "N. Bohr"
+  revue: "Phil. Mag."
+  volume: 26
+  page: 1
+  year: 1913
+  field: "Quantum Theory"
+  topic: "Atomic Theory"
+  comment:
+
+- title: "On the Spectrum of Hydrogen"
+  authors: "N. Bohr"
+  revue: "Fysisk Tidsskrift"
+  volume: 12
+  page: 97
+  year: 1914
+  field: "Quantum Theory"
+  topic: "Atomic Theory"
+  comment:
+
+- title: "Atomic Structure"
+  authors: "N. Bohr"
+  revue: "Nature"
+  volume: 108
+  page: 208
+  year: 1921
+  field: "Quantum Theory"
+  topic: "Atomic Theory"
+  comment:
+
+- title: "The Structure of the Atom and the Physical and Chemical Properties of the Elements"
+  authors: "N. Bohr"
+  revue: "Fysisk Tidsskrift"
+  volume: 19
+  page: 153
+  year: 1921
+  field: "Quantum Theory"
+  topic: "Atomic Theory"
+  comment:
+
+- title: "Can quantum-mechanical description of physical reality be considered complete?"
+  rate: 1
+  authors: "N. Bohr"
+  revue: "Phys. Rev."
+  volume: 48
+  page: 696
+  year: 1935
+  field: "Quantum Theory"
+  topic: "EPR"
+  comment:
+
+- title: "Field and Charge Measurements in Quantum Electrodynamics"
+  authors: "N. Bohr and L. Rosenfeld"
+  revue: "Phys. Rev."
+  volume: 78
+  page: 794
+  year: 1950
+  field: "Quantum Theory"
+  topic: "QED"
+  comment:
+
+- title: "A suggested Interpretation of the Quantum Theory in Terms of “Hidden” Variables. I"
+  rate: 1
+  authors: "D. Bohm"
+  revue: "Phys. Rev."
+  volume: 85
+  page: 166
+  year: 1952
+  field: "Quantum Theory"
+  topic: "EPR"
+  comment:
+
+- title: "A suggested Interpretation of the Quantum Theory in Terms of “Hidden” Variables. II"
+  rate: 1
+  authors: "D. Bohm"
+  revue: "Phys. Rev."
+  volume: 85
+  page: 180
+  year: 1952
+  field: "Quantum Theory"
+  topic: "EPR"
+  comment:
+
+- title: "Proof That Probability Density Approaches |ψ|2 in Causal Interpretation of the Quantum Theory"
+  authors: "D. Bohm"
+  revue: "Phys. Rev."
+  volume: 89
+  page: 458
+  year: 1953
+  field: "Quantum Theory"
+  topic:
+  comment:
+
+- title: "Discussion of Experimental Proof for the Paradox of Einstein, Rosen, and Podolsky"
+  authors: "D. Bohm and Y. Aharonov"
+  revue: "Phys. Rev."
+  volume: 108
+  page: 1070
+  year: 1957
+  field: "Quantum Theory"
+  topic: "EPR"
+  comment:
+
+- title: "On Quantum Mechanics"
+  rate: 1
+  authors: "M. Born"
+  revue: "Z. Phys."
+  volume: 34
+  page: 858
+  year: 1925
+  field: "Quantum Theory"
+  topic:
+  comment:
+
+- title: "On Quantum Mechanics II" 
+  rate: 1
+  authors: "M. Born"
+  revue: "Z. Phys."
+  volume: 35
+  page: 557
+  year: 1926
+  field: "Quantum Theory"
+  topic:
+  comment:
+
+- title: "Foundations of the New Field Theory"
+  authors: "M. Born and L. Infeld"
+  revue: "Proc. Roy. Soc. A"
+  volume: 144
+  page: 425
+  year: 1934
+  field: "Quantum Theory"
+  topic:
+  comment:
+
+- title: "The Quantum Theory of the Emission and Absorption of Radiation"
+  authors: "P. A. M. Dirac"
+  revue: "Proc. Roy. Soc. A"
+  volume: 114
+  page: 243
+  year: 1927
+  field: "Quantum Theory"
+  topic: "Atomic Theory"
+  comment:
+
+- title: "The quantum theory of the elektron"
+  authors: "P. A. M. Dirac"
+  revue: "Proc. Roy. Soc. A"
+  volume: 117
+  page: 610
+  year: 1928
+  field: "Quantum Theory"
+  topic: "Particle Physics"
+  comment:
+
+- title: "A Theory of Electrons and Protons"
+  authors: "P. A. M. Dirac"
+  revue: "Proc. Roy. Soc. A"
+  volume: 126
+  page: 360
+  year: 1929
+  field: "Quantum Theory"
+  topic: "Particle Physics"
+  comment:
+
+- title: "Classical Theory of Radiating Electrons"
+  authors: "P. A. M. Dirac"
+  revue: "Proc. Roy. Soc. A"
+  volume: 167
+  page: 148
+  year: 1938
+  field: "Quantum Theory"
+  topic: "Particle Physics"
+  comment:
+
+- title: "Quantised Singularities in the Electromagnetic Field"
+  authors: "P. A. M. Dirac"
+  revue: "Proc. Roy. Soc. A"
+  volume: 133
+  page: 610
+  year: 1931
+  field: "Quantum Theory"
+  topic: "QED"
+  comment:
+
+- title: "The Theory of Magnetic Poles"
+  rate: 1
+  authors: "P. A. M. Dirac"
+  revue: "Phys. Rev."
+  volume: 74
+  page: 817
+  year: 1948
+  field: "Quantum Theory"
+  topic:
+  comment:
+
+- title: "Forms of Relativistic Dynamics"
+  authors: "P. A. M. Dirac"
+  revue: "Rev. Mod. Phys."
+  volume: 21
+  page: 392
+  year: 1949
+  field: "Quantum Theory"
+  topic: "Relativistic"
+  comment:
+
+- title: "A new classical theory of electrons"
+  authors: "P. A. M. Dirac"
+  revue: "Proc. Roy. Soc. A"
+  volume: 209
+  page: 291
+  year: 1951
+  field: "Quantum Theory"
+  topic: "Particle Physics"
+  comment:
+
+- title: "Is there an Æther?"
+  authors: "P. A. M. Dirac"
+  revue: "Nature"
+  volume: 169
+  page: 146
+  year: 1952
+  field: "General"
+  topic:
+  comment:
+
+- title: "Is there an Æther?"
+  authors: "P. A. M. Dirac"
+  revue: "Nature"
+  volume: 169
+  page: 702
+  year: 1952
+  field: "General"
+  topic: 
+  comment:
+
+- title: "An extensible model of the electron"
+  authors: "P. A. M. Dirac"
+  revue: "Proc. Roy. Soc. A"
+  volume: 268
+  page: 57
+  year: 1962
+  field: "Quantum Theory"
+  topic: "Particle Physics"
+  comment:
+  
+- title: "Knowledge of past and future in quantum mechanics"
+  rate: 1
+  authors: "A. Einstein, R. C. Tolman, and B. Podolsky"
+  revue: "Phys. Rev."
+  volume: 37
+  page: 780
+  year: 1931
+  field: "Quantum Theory"
+  topic:
+  comment:
+
+- title: "Can quantum-mechanical description of physical realitybe considered complete?"
+  rate: 1
+  authors: "A. Einstein, B. Podolsky, and N. Rosen"
+  revue: "Phys. Rev."
+  volume: 47
+  page: 777
+  year: 1935
+  field: "Quantum Theory"
+  topic: "EPR"
+  comment:
+
+- title: "Elementary derivation of the equivalence of mass and energy"
+  rate: 1
+  authors: "A. Einstein"
+  revue: "Bull. Am. Math. Soc."
+  volume: 41
+  page: 223
+  year: 1935
+  field: "Special/General Relativity"
+  topic:
+  comment:
+
+- title: "A Comment on a Criticism of Unified Field Theory"
+  rate: 1
+  authors: "A. Einstein"
+  revue: "Phys. Rev."
+  volume: 89
+  page: 321
+  year: 1953
+  field: "General"
+  topic:
+  comment:
+
+- title: "A Generalized Theory of Gravitation"
+  rate: 1
+  authors: "A. Einstein"
+  revue: "Rev. Mod. Phys."
+  volume: 20
+  page: 35
+  year: 1948
+  field: "Special/General Relativity"
+  topic:
+  comment:
+
+- title: "The Influence of the Expansion of Space on the Gravitation Fields Surrounding the Individual Stars"
+  authors: "A. Einstein and E. G. Straus"
+  revue: "Rev. Mod. Phys."
+  volume: 17
+  page: 120
+  year: 1945
+  field: "Special/General Relativity"
+  topic:
+  comment:
+
+- title: "Corrections and Additional Remarks to our Paper: The Influence of the Expansion of Space on the Gravitation Fields Surrounding the Individual Stars"
+  authors: "A. Einstein and E. G. Straus"
+  revue: "Rev. Mod. Phys."
+  volume: 18
+  page: 148
+  year: 1946
+  field: "Special/General Relativity"
+  topic:
+  comment:
+
+- title: "Two-Body Problem in General Relativity Theory"
+  rate: 1
+  authors: "A. Einstein and N. Rosen"
+  revue: "Phys. Rev."
+  volume: 49
+  page: 404
+  year: 1936
+  field: "Special/General Relativity"
+  topic:
+  comment:
+
+- title: "The Particle Problem in the General Theory of Relativity"
+  rate: 1
+  authors: "A. Einstein and N. Rosen"
+  revue: "Phys. Rev."
+  volume: 48
+  page: 73
+  year: 1935
+  field: "Special/General Relativity"
+  topic:
+  comment:
+
+- title: "Space-Time Approach to Non-Relativistic Quantum Mechanics"
+  rate: 1
+  authors: "R. P. Feynman"
+  revue: "Rev. Mod. Phys."
+  volume: 20
+  page: 367
+  year: 1948
+  field: "Quantum Theory"
+  topic:
+  comment:
+
+- title: "Spinning Electrons and the Structure of Spectra"
+  authors: "S. Goudsmit and G. E. Uhlenbeck"
+  revue: "Nature"
+  volume: 117
+  page: 264
+  year: 1926
+  field: "Quantum Theory"
+  topic: "Atomic Theory"
+  comment:
+
+- title: "Particle Creation by Black Holes"
+  rate: 1
+  authors: "S. W. Hawking" 
+  revue: "Commun. Math. Phys."
+  volume: 43
+  page: 199
+  year: 1975
+  field: "Special/General Relativity"
+  topic:
+  comment:
+
+- title: "Black holes and thermodynamics"
+  rate: 1
+  authors: "S. W. Hawking"
+  revue: "Phys. Rev. D"
+  volume: 13
+  page: 191
+  year: 1976
+  field: "Special/General Relativity"
+  topic:
+  comment:
+
+- title: "On the Connexion between the Completion of Electron Groups in an Atom with the Complex Structure of Spectra"
+  authors: "W. Pauli"
+  revue: "Zeit. Phys."
+  volume: 31
+  page: 765
+  year: 1925
+  field: "Quantum Theory"
+  topic: "Atomic Theory"
+  comment:
+
+- title: "The connection between spin and statistics"
+  rate: 1
+  authors: "W. Pauli"
+  revue: "Phys. Rev."
+  volume: 58
+  page: 716
+  year: 1940
+  field: "Quantum Theory"
+  topic:
+  comment:
+
+- title: "The Scattering of a and bParticles by Matter and the Structure of the Atom"
+  authors: "E. Rutherford"
+  revue: "Phil. Mag."
+  volume: 21
+  page: 669
+  year: 1911
+  field: "Quantum Theory"
+  topic: "Particle Physics"
+  comment:
+
+- title: "The Structure of the Atom"
+  authors: "E. Rutherford"
+  revue: "Phil. Mag."
+  volume: 27
+  page: 488
+  year: 1914
+  field: "Quantum Theory"
+  topic: "Nuclear Theory"
+  comment:
+
+- title: "Nuclear Constitution of Atoms"
+  authors: "E. Rutherford"
+  revue: "Proc. Roy. Soc. A"
+  volume: 97
+  page: 374
+  year: 1920
+  field: "Quantum Theory"
+  topic: "Nuclear Theory"
+  comment:
+
+- title: "The Motion of the Spinning Elektron"
+  authors: "L. H. Thomas"
+  revue: "Nature"
+  volume: 117
+  page: 514
+  year: 1926
+  field: "Quantum Theory"
+  topic: "Particle Physics"
+  comment:
+
+- title: "The kinematics of an electron with an axis"
+  authors: "L. H. Thomas"
+  revue: "Fil. Mag. & J. Sci."
+  volume: 7
+  page: 1
+  year: 1927
+  field: "Quantum Theory"
+  topic: "Particle Physics"
+  comment:
+
+- title: "On the Quantum Correction For Thermodynamic Equilibrium"
+  authors: "E. P. Wigner"
+  revue: "Phys. Rev."
+  volume: 40
+  page: 749
+  year: 1932
+  field: "Quantum Theory"
+  topic:
+  comment:
+
+- title: "The Intrinsic Parity of Elementary Particles"
+  rate: 1
+  authors: "G. C. Wick, A. S. Wightman, and E. P. Wigner"
+  revue: "Phys. Rev."
+  volume: 88
+  page: 101
+  year: 1952
+  field: "Quantum Theory"
+  topic: "Particle Physics"
+  comment:
+
+- title: "Quantum Limitations of the Measurement of Space-Time Distances"
+  authors: "H. Salecker and E. P. Wigner"
+  revue: "Phys. Rev."
+  volume: 109
+  page: 571
+  year: 1958
+  field: "Quantum Theory"
+  topic: "Measurement"
+  comment:
+
+- title: "Pointer basis of quantum apparatus: Into what mixture does the wave packet collapse?"
+  authors: "W. H. Zurek"
+  revue: "Phys. Rev. D"
+  volume: 24
+  page: 1516
+  year: 1981
+  field: "Quantum Theory"
+  topic:
+  comment:
+
+- title: "Fine Structure in the Compton Effect"
+  authors: "B. Davis and H. Purks"
+  revue: "Phys. Rev."
+  volume: 34
+  page: 1
+  year: 1926
+  field: "Quantum Theory"
+  topic: "Atomic Theory"
+  comment:
+
+- title: "The Quantum Mechanics of Chemical Reaction"
+  authors: "R. M. Lange"
+  revue: "Phys. Rev."
+  volume: 34
+  page: 92
+  year: 1926
+  field: "Quantum Theory"
+  topic:
+  comment:
+
+- title: "The Uncertainty Principle"
+  authors: "H. P. Robertson"
+  revue: "Phys. Rev."
+  volume: 34
+  page: 163
+  year: 1926
+  field: "Quantum Theory"
+  topic: "Uncertainty Relations"
+  comment:
+
+- title: "Gamma-Radiation and its Relation to Nuclear Structure"
+  authors: "P. G. Kruger"
+  revue: "Phys. Rev."
+  volume: 40
+  page: 727
+  year: 1926
+  field: "Quantum Theory"
+  topic: "Nuclear Theory"
+  comment:
+
+- title: "The Intensity of Infrared Absorption Bands"
+  authors: "L. A. Matheson"
+  revue: "Phys. Rev."
+  volume: 40
+  page: 813
+  year: 1932
+  field: "Quantum Theory"
+  topic:
+  comment:
+
+- title: "Note on the Quantum-Mechanical Theory of Measurement"
+  authors: "W. H. Furry"
+  revue: "Phys. Rev."
+  volume: 49
+  page: 393
+  year: 1936
+  field: "Quantum Theory"
+  topic: "Measurement"
+  comment:
+  
+- title: "Theory of the Approach to Magnetic Saturation"
+  authors: "W. F. Brown"
+  revue: "Phys. Rev."
+  volume: 58
+  page: 736
+  year: 1940
+  field:
+  topic:
+  comment:
+
+- title: "Lifetimes of Nuclear Isomers"
+  authors: "S. A. Moszkowski"
+  revue: "Phys. Rev."
+  volume: 89
+  page: 474
+  year: 1953
+  field: "Quantum Theory"
+  topic: "Nuclear Theory"
+  comment:
+
+- title: "Theory of Measurement in Differential-Space Quantum Theory"
+  authors: "A. Siegel and N. Wiener"
+  revue: "Phys. Rev."
+  volume: 101
+  page: 429
+  year: 1956
+  field: "Quantum Theory"
+  topic: "Measurement"
+  comment:
+
+- title: "Measurement of Quantum Mechanical Operators"
+  authors: "H. Araki and M. M. Yanase"
+  revue: "Phys. Rev."
+  volume: 120
+  page: 622
+  year: 1960
+  field: "Quantum Theory"
+  topic: "Measurement"
+  comment:
+
+- title: "Derivation of the Schrödinger Equation from Newtonian Mechanics"
+  rate: 1
+  authors: "E. Nelson"
+  revue: "Phys. Rev."
+  volume: 150
+  page: 1079
+  year: 1966
+  field: "Quantum Theory"
+  topic:
+  comment:
+
+- title: "Proposed Experiment to Test Local Hidden-Variable Theories"
+  authors: "J. F. Clauser, M. A. Horne, A. Shimony, and R. A. Holt"
+  revue: "Phys. Rev. Lett."
+  volume: 23
+  page: 880
+  year: 1969
+  field: "Quantum Theory"
+  topic: "EPR"
+  comment:
+
+- title: "Experimental Test of Local Hidden-Variable Theories"
+  authors: "S. J. Freedman and J. F. Clauser"
+  revue: "Phys. Rev. Lett."
+  volume: 23
+  page: 938
+  year: 1972
+  field: "Quantum Theory"
+  topic: "EPR"
+  comment:
+
+- title: "Reduction of the state vector by a nonlinear Schrödinger equation"
+  authors: "P. Pearle"
+  revue: "Phys. Rev. D"
+  volume: 13
+  page: 857
+  year: 1976
+  field: "Quantum Theory"
+  topic:
+  comment:
+
+- title: "Quantum mechanics and hidden variables: A test of Bell’s inequality by the measurement of the spin correlation in low-energy proton-proton scattering"
+  authors: "M. Lamehi-Rachti and W. Mittig"
+  revue: "Phys. Rev. D"
+  volume: 14
+  page: 2543
+  year: 1976
+  field: "Quantum Theory"
+  topic: "EPR"
+  comment:
+
+- title: "Can we undo quantum measurements?"
+  authors: "A. Peres"
+  revue: "Phys. Rev. D"
+  volume: 22
+  page: 879
+  year: 1980
+  field: "Quantum Theory"
+  topic: "Measurement"
+  comment:
+
+- title: "Influence of Dissipation on Quantum Tunneling in Macroscopic Systems"
+  authors: "A. O. Caldeira and A. J. Leggett"
+  revue: "Phys. Rev. Lett."
+  volume: 49
+  page: 211
+  year: 1981
+  field: "Quantum Theory"
+  topic:
+  comment:
+
+- title: "Acceleration radiation and the generalized second law of thermodynamics"
+  rate: 1
+  authors: "W. G. Unruh and R. M. Wald"
+  revue: "Phys. Rev. D"
+  volume: 25
+  page: 942
+  year: 1982
+  field: "Special/General Relativity"
+  topic:
+  comment:
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

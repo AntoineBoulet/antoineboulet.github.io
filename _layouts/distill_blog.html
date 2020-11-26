@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% include head.html %}
+  <script src="{{ '/assets/js/distillpub/template.v2.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/distillpub/transforms.v2.js' | relative_url }}"></script>
+  
+    {% if page._styles %}
+    <style type="text/css">
+      {{ page._styles }}
+    </style>
+    {% endif %}
+  
+  
+  <style>.subgrid {
+    grid-column: screen;
+    display: grid;
+    grid-template-columns: inherit;
+    grid-template-rows: inherit;
+    grid-column-gap: inherit;
+    grid-row-gap: inherit;
+}
+
+
+
+/* TOC */
+
+#contents nav a {
+    color: rgba(0, 0, 0, 0.8);
+    border-bottom: none;
+    text-decoration: none;
+}
+
+#contents nav ul li {
+    margin-bottom: .25em;
+}
+
+#contents nav a:hover {
+    text-decoration: underline solid rgba(0, 0, 0, 0.6);
+}
+
+#contents nav details ul {
+    margin-top: 0;
+}
+
+#contents nav details > a {
+    margin-left: 1.06em;
+}
+
+#contents nav summary,
+#contents nav > div,
+#contents nav details > a {
+    display: block;
+    outline: none;
+    margin-bottom: 0.5em;
+}
+
+#contents nav > div {
+    margin-left: 1.06em;
+}
+
+#contents nav summary {
+    cursor: context-menu;
+}
+
+#contents nav summary,
+#contents nav > div > a {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+a.figure-number,
+a.section-number {
+    border-bottom-color: hsla(206, 90%, 20%, 0.3);
+    text-transform: uppercase;
+    font-size: .85em;
+    color: hsla(206, 90%, 20%, 0.7);
+}
+a.figure-number::before {
+    content: "Figure ";
+}
+a.figure-number:hover,
+a.section-number:hover {
+    border-bottom-color: hsla(206, 90%, 20%, 0.6);
+}
+</style>
+
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        TeX: { equationNumbers: { autoNumber: "AMS" } }
+      });
+    </script>
+    
+    <script>
+    MathJax = {
+     tex: {
+     inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+     fontCache: 'global'
+    }
+    };
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+  
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+</script>  
+  
+  
+
+  
+  
+  
+  
+  
+</head>
+  
+  
+<body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+
+    <!-- Header -->
+    {% include header_blog.html %}
+
+<d-front-matter>
+  <script type="text/json">{
+      "title": "{{ page.title }}",
+      "description": "{{ page.description }}",
+      "published": "{{ page.date }}",
+      "authors": [
+        {% for author in page.authors %}
+        {
+          "author": "{{ author.name }}",
+          "authorURL": "{{ author.url }}",
+          "affiliations": [
+            {
+              "name": "{{ author.affiliations.name }}",
+              "url": "{{ author.affiliations.url }}"
+            }
+          ]
+        }{% if forloop.last == false %},{% endif %}
+        {% endfor %}
+      ],
+  "katex": {
+    "delimiters": [
+      {"left": "$", "right": "$", "display": false},
+      {"left": "$$", "right": "$$", "display": true}
+    ]
+  }
+  }</script>
+  
+  
+  
+
+  
+  
+
+</d-front-matter>
+
+  
+  
+<div class="post distill">
+  
+<d-title style="font-family: Georgia, Times, serif ;">
+  <div class="l-page">
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.description }}</p>
+  </div>
+</d-title>
+  
+  
+  <d-byline></d-byline>
+  
+  
+ {% if page.toc %}
+ <div w3-include-html="{{ page.toc | prepend: '/assets/contents/' | relative_url }}"></div>
+ {% endif %}
+
+  
+  
+<d-article style="font-family: Georgia, Times, serif ; text-align:justify; text-justify:auto;"> <!--text-align:justify; text-justify:auto;-->
+
+
+  <div class="l-page">
+  {{ content }}
+  </div>
+
+  <div style="display: none;">
+   <d-footnote-list style="text-align:justify; text-justify:auto; font-family: Georgia, Times, serif ;"></d-footnote-list>
+  </div>                                                                                                
+
+</d-article>
+
+
+
+<d-appendix>
+  <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
+  <d-citation-list></d-citation-list>
+    
+</d-appendix>
+
+</div>  
+  
+    <!-- Footer -->
+
+    {% include footer.html %}  
+
+<script>
+includeHTML();
+</script>  
+
+  
+</body>
+</html>

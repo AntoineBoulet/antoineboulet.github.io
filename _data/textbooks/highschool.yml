@@ -1,0 +1,57 @@
+---
+- field: 
+  topics:
+  title: "University Physics with Modern Physics"
+  authors: "Young & Freedman" 
+  volumes:
+  comment: 
+  
+- field: 
+  topics:
+  title: "An Introduction to Mechanics"
+  authors: "Kleppner & Kolenkow " 
+  volumes:
+  comment: 
+
+- field: 
+  topics:
+  title: "Electricity and Magnetism"
+  authors: "Purcell & Morin" 
+  volumes:
+  comment: 
+  
+- field: 
+  topics:
+  title: "The Physics of Waves"
+  authors: "Georgi" 
+  volumes:
+  comment: 
+  
+- field: 
+  topics:
+  title: "Thermodynamics"
+  authors: "Fermi" 
+  volumes:
+  comment: 
+  
+- field: 
+  topics:
+  title: "Quantum Physics of Atoms, Molecules, Solids, Nuclei, and Particles"
+  authors: "Eisberg & Resnick" 
+  volumes:
+  comment: 
+  
+- field: 
+  topics:
+  rate: 1
+  title: "Motion Mountain: The Adventure of Physics"
+  authors: "Schieller" 
+  volumes:
+   - "Fall, Flow and Heat"
+   - "Relativity and Cosmology"
+   - "Light, Charges and Brains"
+   - "The Quantum of Change"
+   - "Motion inside Matter – Pleasure, Technology and Stars"
+   - "The Strand Model – A Speculation on Unification"
+  comment: 
+---

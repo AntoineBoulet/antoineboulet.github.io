@@ -1,0 +1,29 @@
+---
+layout: blog_index
+---
+
+	
+  <ul class="post-list">	  
+    {% for post in site.posts %}
+    {% if post.published %} 
+	  {% assign tagslist = post.tags %}
+      {% for selecttag in tagslist %}
+      <div class="filterDiv {{ selecttag }}">  
+      <li>
+        <h3><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+        <p>{{ post.description }}</p>
+      </li>
+      </div>
+      {% endfor %}
+      <div class="filterDiv general">  
+      <li>
+        <h3><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+        <p>{{ post.description }}</p>
+      </li>
+      </div>
+    {% endif %}
+    {% endfor %}
+  </ul>
+
+	
+

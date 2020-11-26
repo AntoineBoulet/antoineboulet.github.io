@@ -1,0 +1,13 @@
+---
+- event: "Nuclear Theory Group [visio-]seminar"
+  tag: seminar
+  title: "Density Functional Theory for Fermi systems with large s-wave scattering length: application to nuclear and atomic physics"
+  year: 2020
+  place:  Warsaw University of Technology, Warsaw, Poland
+  
+- event: "Group [visio-]research discussion"
+  tag: seminar
+  title: "Variational Perturbation Theory for Density Functional Theory: Towards a systematic improvement of the Hartree-Fock-Bogoliubov approximation"
+  year: 2020
+  place: FRIB/NSCL, Michigan State University, East Lansing, MI USA
+---

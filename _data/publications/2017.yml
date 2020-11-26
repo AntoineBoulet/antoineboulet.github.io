@@ -1,0 +1,27 @@
+---
+- label: boulet2017a
+  tag: article
+  title: "From bare interactions, low-energy constants, and unitary gas to nuclear density functionals without free parameters: Application to neutron matter"
+  year: 2017
+  authors: D. Lacroix, <u>A. Boulet</u>, M. Grasso, and C.-J. Yang,
+  journal: Phys. Rev. C
+  number: 95
+  page: 054306
+  abstract: We further progress along the line of Ref. [D. Lacroix, <a href="https://doi.org/10.1103/PhysRevA.94.043614">Phys. Rev. A <strong>94</strong>, 043614</a> (2016)] where a functional for Fermi systems with anomalously large $s$-wave scattering length $a_s$ was proposed that has no free parameters. The functional is designed to correctly reproduce the unitary limit in Fermi gases together with the leading-order contributions in the $s$- and $p$-wave channels at low density. The functional is shown to be predictive up to densities $\sim 0.01~\text{fm}^{-3}$ that is much higher densities compared to the Lee-Yang functional, valid for $\rho < 10^{-6}~\text{fm}^{-3}$. The form of the functional retained in this work is further motivated. It is shown that the new functional corresponds to an expansion of the energy in $(a_sk_F)$ and $(r_ek_F)$ to all orders, where $r_e$ is the effective range and $k_F$ is the Fermi momentum. One conclusion from the present work is that, except in the extremely low-density regime, nuclear systems can be treated perturbatively in $-(a_sk_F)^{-1}$ with respect to the unitary limit. Starting from the functional, we introduce density-dependent scales and show that scales associated with the bare interaction are strongly renormalized by medium effects. As a consequence, some of the scales at play around saturation are dominated by the unitary gas properties and not directly by low-energy constants. For instance, we show that the scale in the $s$-wave channel around saturation is proportional to the so-called Bertsch parameter $\xi_0$ and becomes independent of $a_s$. We also point out that these scales are of the same order of magnitude than those empirically obtained in the Skyrme energy density functional. We finally propose a slight modification of the functional such that it becomes accurate up to the saturation density $\rho \sim 0.16~\text{fm}^{-3}$.
+  arXiv: 1704.08454
+  doi: 10.1103/PhysRevC.95.054306
+  bibtex: > #
+    @article{Lacroix:2017whm,
+      author = "Lacroix, Denis and Boulet, Antoine and Grasso, Marcella and Yang, C.-J.",
+      title = "{From bare interactions, low-energy constants, and unitary gas to nuclear density functionals without free parameters: Application to neutron matter}",
+      eprint = "1704.08454",
+      archivePrefix = "arXiv",
+      primaryClass = "nucl-th",
+      doi = "10.1103/PhysRevC.95.054306",
+      journal = "Phys. Rev. C",
+      volume = "95",
+      number = "5",
+      pages = "054306",
+      year = "2017"
+    }
+---
