@@ -2,7 +2,7 @@
 layout: page
 permalink: /research/
 title: research interests
-description: #
+description: towards a universal formulation of the density functional theory from first principles
 author: A. Boulet
 nav: false
 ---
