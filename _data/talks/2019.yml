@@ -6,12 +6,12 @@
   place: IPN Orsay, Paris-Sud University, Orsay, France
   date: September 19, 2019
 
-- event: "Nuclear Structure at the Crossroads (INT program; July 1 - August 2, 2019)"
+- event: "Nuclear Structure at the Crossroads (INT program)"
   tag: conference
   title: "Approximate self-energy for Fermi systems with large s-wave scattering length: A step towards density functional theory"
   year: 2019
   place: INT, University of Washington, Seattle, WA USA
-  date: July 15, 2019
+  date: July 1 - August 2, 2019 (talk given on July 15, 2019)
 
 - event: "Theory Group seminar"
   tag: seminar
@@ -20,12 +20,12 @@
   place: IPN Orsay, Paris-Sud University, Orsay, France
   date: June 6, 2019
 
-- event: "Nuclear Structure and Reactions: The Next Significant Breakthroughs (GANIL symposium; March 18-22, 2019)" 
+- event: "Nuclear Structure and Reactions: The Next Significant Breakthroughs (GANIL symposium)" 
   tag: conference
   title: "Quasi-particle properties of Fermi gas from low density to unitary limits"
   year: 2019
   place: GANIL, Caen, France
-  date: March 19, 2019
+  date: March 18-22, 2019 (talk given on March 19, 2019)
 
 - event: "SNIF meeting"
   tag: workshop
