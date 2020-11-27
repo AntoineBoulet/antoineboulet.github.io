@@ -1,5 +1,5 @@
 ---
-layout: distill_blog
+layout: distill
 title: Formulations of Quantum Mechanics
 description: Review on the formulations of nonrelativistic Quantum Mechanics 
 date: 08-03-2020
