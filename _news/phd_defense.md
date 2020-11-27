@@ -1,7 +1,7 @@
 ---
 layout: distill_none
 title: Ph.D. defense @ IPN Orsay
-description: <p><i class="far fa-clock"></i>&nbsp;10am-11am&nbsp; <i class="far fa-calendar-alt"></i>&nbsp;September 19th, 2019 <br> <i class="fas fa-location-arrow"></i>&nbsp;Auditorium Irène Joliot-Curie <br> <br> <i class="fas fa-user-alt"></i>&nbsp;Antoine Boulet</p>
+description: <p><i class="far fa-clock"></i>&nbsp;10am-11am&nbsp; <i class="far fa-calendar-alt"></i>&nbsp;September 19th, 2019 <br> <i class="fas fa-location-arrow"></i>&nbsp;<a href="https://www.google.com/maps/place/IJCLab+-+Bat+100A,+Domaine+de+l'Université+de+Paris+Sud,+Orsay,+France/@48.6979635,2.1769555,19.23z/data=!4m8!1m2!2m1!1sIJCLab+bat+100!3m4!1s0x0:0x2afa43ef2ac1ffdc!8m2!3d48.6983027!4d2.1768865" target="_blank">Auditorium Irène Joliot-Curie</a> <br> <br> <i class="fas fa-user-alt"></i>&nbsp;Antoine Boulet</p>
 
 date: 2019-09-19
 
