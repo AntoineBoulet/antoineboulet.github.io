@@ -4,12 +4,14 @@
   title: "Density Functional Theory for Fermi systems with large s−wave scattering length: application to nuclear and atomic physics"
   year: 2019
   place: IPN Orsay, Paris-Sud University, Orsay, France
+  date: September 19, 2019
 
-- event: "Nuclear Structure at the Crossroads (INT program)"
+- event: "Nuclear Structure at the Crossroads (INT program; July 1 - August 2, 2019)"
   tag: conference
   title: "Approximate self-energy for Fermi systems with large s-wave scattering length: A step towards density functional theory"
   year: 2019
   place: INT, University of Washington, Seattle, WA USA
+  date: July 15, 2019
   
 - event: "Nuclear Structure and Reactions: The Next Significant Breakthroughs (GANIL symposium)" 
   tag: conference
@@ -22,6 +24,7 @@
   title: "Connecting EFT to DFT for strongly interacting fermions"
   year: 2019
   place: DPhN/IRFU, CEA Saclay, Orme des Merisiers, France
+  date: March 7, 2019 
   
 - event: "Theory Group seminar"
   tag: seminar
