@@ -12,23 +12,25 @@
   year: 2019
   place: INT, University of Washington, Seattle, WA USA
   date: July 15, 2019
-  
-- event: "Nuclear Structure and Reactions: The Next Significant Breakthroughs (GANIL symposium)" 
+
+- event: "Theory Group seminar"
+  tag: seminar
+  title: "Quasi-particle properties of Fermi gas from low density to unitary limits"
+  year: 2019
+  place: IPN Orsay, Paris-Sud University, Orsay, France
+  date: June 6, 2019
+
+- event: "Nuclear Structure and Reactions: The Next Significant Breakthroughs (GANIL symposium; March 18-22, 2019)" 
   tag: conference
   title: "Quasi-particle properties of Fermi gas from low density to unitary limits"
   year: 2019
   place: GANIL, Caen, France
-  
+  date: March 19, 2019
+
 - event: "SNIF meeting"
   tag: workshop
   title: "Connecting EFT to DFT for strongly interacting fermions"
   year: 2019
   place: DPhN/IRFU, CEA Saclay, Orme des Merisiers, France
   date: March 7, 2019 
-  
-- event: "Theory Group seminar"
-  tag: seminar
-  title: "Quasi-particle properties of Fermi gas from low density to unitary limits"
-  year: 2019
-  place: IPN Orsay, Paris-Sud University, Orsay, France
 ---
