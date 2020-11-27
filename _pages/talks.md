@@ -37,7 +37,8 @@ nav: true
   <!--  <div class="col-sm-1 abbr"> <abbr class="badge"> member.tag </abbr>  </div> -->
   <div class="col-sm-10">
       <span class="title"> {{member.event}}<br></span>
-      <span class="periodical">{{member.place}}</span>
+      <span class="periodical"><i class="fas fa-location-arrow"></i>&nbsp;{{member.place}}</span>
+      <span class="periodical"><i class="far fa-calendar-alt"></i>&nbsp;{{member.place}}</span>
       <ul style="list-style-type: none;"><li><em>{{member.title}}</em></li></ul>
   </div></div>
   </li>
