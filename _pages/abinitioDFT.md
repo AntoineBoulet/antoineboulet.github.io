@@ -17,6 +17,6 @@ The formal development of *ab initio* DFT is a challenging and important problem
 - better accuracy across a wide set of observables;
 - reliable predictions for properties that strongly depend on the parameters that have not been
 adjusted;
-- a universal description of phenomena, e.g. phase transitions,occurring in many-body systems.
+- a universal description of phenomena, e.g. phase transitions, occurring in many-body systems.
 
 The pivotal period of theoretical physics as we know it today, due in particular to the increasing power of supercomputers and experimental facilities, suggests new opportunities for understanding the many-body problem. The *ab initio* methods, though knowing important progress, are extremely complex compared to the DFT approach. The latter remains even today the only microscopic approach able to treat in a unified framework a large variety of collective phenomena occurring in many-body systems. In this context, the development of universal *ab initio* DFT is a timely problem which remains to be accomplished as much from a formal point of view in order to have a better understanding of the many-body problem than practical study of many-body systems in condensed matter physics, quantum chemistry, atomic physics, and nuclear physics.
