@@ -27,7 +27,7 @@ I am research associate in the Theory Nuclear Science Department at FRIB/NSCL (M
 I am currently working on the development of microscopically motivated density functional theories.
 
 **[Research Interests](research.md)**   
-My research interests as theoretical physicist are focused on the quantum many body problem (infinite and finite systems) and the development of non-empirical, <em>ab initio</em> and/or beyond-mean-field density functional theories (mainly for nuclear and ultracold atomic systems) from first principles using:  
+My research interests as theoretical physicist are focused on the quantum many body problem (infinite and finite systems) and the development of [<em>ab initio</em> density functional theory](abinitioDFT.md) (mainly for nuclear and ultracold atomic systems) from first principles using:  
 - path integral and effective action in quantum field theory   
 - effective field theory 
 - resummation of many-body diagrams   
