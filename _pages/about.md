@@ -30,7 +30,7 @@ I am currently working on the development of microscopically motivated density f
 My research interests as theoretical physicist are focused on the quantum many body problem (infinite and finite systems) and the development of [<em>ab initio</em> density functional theory](abinitioDFT.md) (mainly for nuclear and ultracold atomic systems) from first principles using:  
 - path integral and effective action in quantum field theory   
 - effective field theory 
-- resummation of many-body diagrams   
+- [resummation of many-body diagrams](resummation.md)
 
 **Previously** ([curriculum vit&aelig;](cv.md))    
 I hold my Ph.D. in theoretical physics from Paris-Saclay University where I worked with Denis Lacroix at IPN Orsay (now IJCLab) on the development of new generation of non-empirical density functional theory for ultracold atomic and nuclear systems. Before that I studied fundamental physics at Paris-Saclay/Paris-Sud University.
