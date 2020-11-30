@@ -2,7 +2,7 @@
 layout: page
 permalink: /resummation-of-diagrams/
 title: semi-analytical resummation of many-body diagrams
-description: non-empirical density functional theory
+description: non-empirical density functional theory for nuclear and atomic physics
 author: A. Boulet
 nav: false
 ---
