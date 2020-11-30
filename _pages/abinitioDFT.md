@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /abinitioDFT/
-title: *ab initio* density functional theory
+title: <em>ab initio</em> density functional theory
 description: towards a universal formulation of the density functional theory from first principles
 author: A. Boulet
 nav: false
