@@ -15,9 +15,17 @@ nav: true
                 <ol class="bibliography">
                 <li>
                   <div class="row">
+                    <div class="col-sm-2 abbr"><abbr class="badge">2020 — XXXX</abbr></div>
+                  <div id="msu" class="col-sm-8">
+                  <span class="title">Research associate (starting on January 2020)</span><br>
+                  <span class="author">Nuclear Theory Group, Warsaw University of Technology</span>
+                  </div></div>
+                </li>
+                <li>
+                  <div class="row">
                     <div class="col-sm-2 abbr"><abbr class="badge">2019 — 2020</abbr></div>
                   <div id="msu" class="col-sm-8">
-                  <span class="title">Research associate</span><br>
+                  <span class="title">Research associate (November 2019 - November 2020)</span><br>
                   <span class="author">FRIB/NSCL, Michigan State University</span>
                   </div></div>
                 </li>
@@ -25,7 +33,7 @@ nav: true
                   <div class="row">
                     <div class="col-sm-2 abbr"><abbr class="badge">2016 — 2019</abbr></div>
                   <div id="ipn" class="col-sm-8">
-                  <span class="title">Ph.D. student</span><br>
+                  <span class="title">Ph.D. student (October 2016 - September 2019)</span><br>
                   <span class="author">IPN Orsay, Paris-Sud University</span>
                   </div></div>
                 </li>
