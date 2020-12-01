@@ -17,6 +17,46 @@ nav: true
 ---
  
 <style>
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+ 
+<style>
 /* Style the buttons */
 .btn {
   border: none;
@@ -81,7 +121,13 @@ nav: true
       </p>
       </div>
       <div class="bibtex hidden">
-        <pre style="padding: 5px; margin-top: -0em; margin-bottom: -0em;"><code>{{member.bibtex}}</code></pre>
+        <pre style="padding: 5px; margin-top: -0em; margin-bottom: -0em;"><code><input type="text" value="{{member.bibtex}}" id="myInput"></code></pre>
+        <div class="tooltip">
+          <button onclick="myFunction()" onmouseout="outFunc()">
+          <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+          Copy text
+          </button>
+        </div>
       </div>
           </span></li>
         </ul></span>
@@ -94,3 +140,21 @@ nav: true
 {% endfor %}
  
 </div>
+
+
+<script>
+function myFunction() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copy to clipboard";
+}
+</script>
