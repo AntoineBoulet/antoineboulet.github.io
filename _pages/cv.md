@@ -15,9 +15,9 @@ nav: true
                 <ol class="bibliography">
                 <li>
                   <div class="row">
-                    <div class="col-sm-2 abbr"><abbr class="badge">2020 — XXXX</abbr></div>
+                    <div class="col-sm-2 abbr"><abbr class="badge">2021 — XXXX</abbr></div>
                   <div id="msu" class="col-sm-8">
-                  <span class="title">Research associate (starting on January 2020)</span><br>
+                  <span class="title">Research associate (starting on January 2021)</span><br>
                   <span class="author">Nuclear Theory Group, Warsaw University of Technology</span>
                   </div></div>
                 </li>
