@@ -1,12 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - AntoineBoulet
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - AntoineBoulet/Hamilton-Jacobi-equation-solver
+  - AntoineBoulet/Euler-Lagrange-equation-solver
+  - AntoineBoulet/Navier-Stokes-equations-solver
+  - AntoineBoulet/Schroedinger-equation-solver
+  - AntoineBoulet/Maxwell-equations-solver
+  - AntoineBoulet/Dirac-equation-solver
+  - AntoineBoulet/Black-Scholes-equation-solver
+  - AntoineBoulet/Einstein-field-equations-solver
+  - AntoineBoulet/Ginzburg-Landau-equation-solver
+  - AntoineBoulet/Hartree-Fock-Bogoliubov-equations-solver

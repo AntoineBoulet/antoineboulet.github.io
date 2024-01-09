@@ -1,6 +1,6 @@
 ---
 layout: about
-title:
+title: 
 permalink: /
 subtitle: associate professor • theoretical physicist
 
@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>ISMANS CESI</p>
-    <p>room 51 (1th floor)</p>
+    <p>Room 52 (1th floor)</p>
     <p>44 avenue Frédéric Auguste Bartholdi</p>
     <p>72000 Le Mans, France</p>
 
