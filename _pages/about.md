@@ -1,17 +1,18 @@
 ---
 layout: about
-title: about
+title:
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: associate professor • theoretical physicist
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_picture.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>ISMANS CESI</p>
+    <p>room 51 (1th floor)</p>
+    <p>44 avenue Frédéric Auguste Bartholdi</p>
+    <p>72000 Le Mans, France</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -19,8 +20,19 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+**Research**  
+As a theoretical physicist, my research interests are primarily focused on quantum many-body problems and development of *ab initio*, i.e. from first principle, density functional theories with applications to nuclear, atomic, chemistry, and condensed matter physics.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+**Currently**  
+I am associate professor in physics at the ISMANS CESI engineering school in Le Mans (France) for the integrated preparatory cycle (undergraduate) and for the engineering cycle (graduate).
+The subjects I teach are physics, chemistry, mathematics and programming.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**Previously**  
+- NTG @ Warsaw University of Technology <br>
+  with [Gabriel Wlazłowski](http://wlazlowski.fizyka.pw.edu.pl/) and [Piotr Magierski](http://www.if.pw.edu.pl/~magiersk)
+- FRIB/NSCL @ Michigan State University <br>
+  with [Scott Bogner](https://nscl.msu.edu/directory/bogner.html) and [Witek Nazarewicz](https://nscl.msu.edu/directory/witek.html)
+- IPNO @ University of Paris-Saclay <br>
+  with [Denis Lacroix](https://sites.google.com/view/lacroixhomepage)
+
+(for more informations, [check out my curriculum vitæ](cv))  
