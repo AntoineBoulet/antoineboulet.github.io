@@ -2,7 +2,7 @@
 layout: about
 title: 
 permalink: /
-subtitle: associate professor • theoretical physicist
+subtitle: higher education teacher • theoretical physicist
 
 profile:
   align: right
@@ -24,7 +24,7 @@ social: true  # includes social icons at the bottom of the page
 As a theoretical physicist, my research interests are primarily focused on quantum many-body problems and development of *ab initio*, i.e. from first principle, density functional theories with applications to nuclear, atomic, chemistry, and condensed matter physics.
 
 **Currently**  
-I am associate professor in physics at the ISMANS CESI engineering school in Le Mans (France) for the integrated preparatory cycle (undergraduate) and for the engineering cycle (graduate).
+I am higher education teacher at the ISMANS CESI engineering school in Le Mans (France) for the integrated preparatory cycle (undergraduate) and for the engineering cycle (graduate).
 The subjects I teach are physics, chemistry, mathematics and programming.
 
 **Previously**  
