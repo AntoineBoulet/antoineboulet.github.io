@@ -1,0 +1,12 @@
+# _quarto-en.yml
+website:
+  title: "Antoine Boulet"
+  navbar:
+    left:
+      - href: en/research/index.qmd
+        text: Research
+      - href: en/teaching/index.qmd
+        text: Teaching
+    right:
+      - text: FR
+        href: fr/index.qmd

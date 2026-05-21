@@ -1,0 +1,17 @@
+---
+title: "Prénom NOM"
+about:
+  template: jolla          # ou trestles, solana, marquee, broadside
+  #image: photo.jpg
+  links:
+    - icon: envelope
+      href: mailto:vous@univ.fr
+    - icon: google-scholar
+      href: https://scholar.google.com/...
+    - icon: github
+      href: https://github.com/...
+    - icon: orcid
+      href: https://orcid.org/...
+---
+
+INDEX EN

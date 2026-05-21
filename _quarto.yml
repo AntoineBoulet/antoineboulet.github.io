@@ -1,0 +1,10 @@
+# _quarto.yml
+project:
+  type: website
+  output-dir: _site
+
+format:
+  html:
+    theme: cosmo
+    math: mathjax
+    toc: true
