@@ -15,12 +15,23 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render FR
-        run: quarto render --profile fr
+        run: |
+          quarto render --profile fr
+          mv _site _site_fr
 
       - name: Render EN
-        run: quarto render --profile en
+        run: |
+          quarto render --profile en
+          mv _site _site_en
 
-      - name: Deploy to GitHub Pages
+      - name: Merge
+        run: |
+          mkdir -p _site
+          cp -r _site_fr/* _site/
+          cp -r _site_en/en _site/en
+          rm -rf _site_fr _site_en
+
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

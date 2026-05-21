@@ -4,7 +4,7 @@ project:
   render:
     - fr/**/*.qmd
     - index.qmd
-  #output-dir: _site        # ← fr/ va dans _site/fr/
+  output-dir: _site        # ← fr/ va dans _site/fr/
 
 website:
   title: "Antoine Boulet"
