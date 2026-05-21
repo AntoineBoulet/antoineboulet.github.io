@@ -12,7 +12,7 @@ about:
       href: https://github.com/...
     - icon: orcid
       href: https://orcid.org/...
-#navbar: false
+navbar: false
 ---
 
 
