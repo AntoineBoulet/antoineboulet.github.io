@@ -1,4 +1,8 @@
 # _quarto-en.yml
+project:
+  render:
+    - en/**/*.qmd
+
 website:
   title: "Antoine Boulet"
   navbar:

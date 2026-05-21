@@ -1,4 +1,9 @@
 # _quarto-fr.yml
+
+render:
+    - fr/**/*.qmd
+    - index.qmd
+    
 website:
   title: "Antoine Boulet"
   navbar:
