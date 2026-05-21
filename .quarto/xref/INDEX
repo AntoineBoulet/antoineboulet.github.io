@@ -22,5 +22,11 @@
   },
   "fr/research/index.qmd": {
     "index.html": "3b36ecd1"
+  },
+  "en/about/index.qmd": {
+    "index.html": "8a1b26c2"
+  },
+  "fr/about/index.qmd": {
+    "index.html": "f273547a"
   }
 }
