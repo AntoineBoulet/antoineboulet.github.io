@@ -2,6 +2,7 @@
 project:
   render:
     - en/**/*.qmd
+  #output-dir: _site        # ← en/ va dans _site/en/
 
 website:
   title: "Antoine Boulet"
