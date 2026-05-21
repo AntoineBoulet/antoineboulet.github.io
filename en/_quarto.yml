@@ -1,0 +1,22 @@
+# _quarto.yml
+project:
+  type: website
+  output-dir: ../_site/en
+
+website:
+  title: "Antoine Boulet"
+  navbar:
+    left:
+      - href: research/index.qmd
+        text: Research
+      - href: teaching/index.qmd
+        text: Teaching
+    right:
+      - text: FR
+        href: /fr/index.qmd
+
+format:
+  html:
+    theme: cosmo
+    math: mathjax
+    toc: true
