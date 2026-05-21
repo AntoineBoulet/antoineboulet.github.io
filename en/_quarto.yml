@@ -18,5 +18,6 @@ website:
 format:
   html:
     theme: cosmo
+    lang: en
     math: mathjax
     toc: true

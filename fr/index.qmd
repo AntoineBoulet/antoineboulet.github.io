@@ -12,6 +12,10 @@ about:
       href: https://github.com/...
     - icon: orcid
       href: https://orcid.org/...
+#navbar: false
 ---
+
+[FR](../fr/about/index.html)
+[EN](../en/about/index.html)
 
 INDEX FR
