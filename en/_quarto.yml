@@ -13,7 +13,7 @@ website:
         text: Teaching
     right:
       - text: FR
-        url: "https://antoineboulet.github.io/fr/"
+        url: "https://antoineboulet.github.io/fr/index.html"
 
 format:
   html:

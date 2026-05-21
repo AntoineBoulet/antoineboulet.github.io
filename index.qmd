@@ -1,4 +1,1 @@
----
-about:
-  template: jolla          # ou trestles, solana, marquee, broadside
----
+INDEX MAIN
