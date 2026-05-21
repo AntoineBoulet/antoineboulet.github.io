@@ -3,6 +3,15 @@ project:
   type: website
   output-dir: ../_site/
 
+website:
+  title: "Antoine Boulet"
+  navbar:
+    right:
+      - text: EN
+        url: "https://antoineboulet.github.io/en/index.html"
+      - text: FR
+        url: "https://antoineboulet.github.io/fr/index.html"
+
 format:
   html:
     theme: cosmo
