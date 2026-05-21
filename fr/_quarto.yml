@@ -13,7 +13,7 @@ website:
         text: Enseignement
     right:
       - text: EN
-        href: /en/index.qmd
+        href: "../en/index.html"
 
 format:
   html:
