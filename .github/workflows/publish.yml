@@ -12,14 +12,11 @@ jobs:
 
       - uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render FR
-        run: quarto render fr/
-
       - name: Render EN
         run: quarto render en/
 
-      - name: Render
-        run: quarto render
+      - name: Render FR
+        run: quarto render fr/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
