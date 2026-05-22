@@ -1,4 +1,0 @@
----
-aliases: 
-  - "https://antoineboulet.github.io/en/"
----
