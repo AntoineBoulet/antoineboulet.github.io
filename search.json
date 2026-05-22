@@ -1,16 +1,23 @@
 [
   {
-    "objectID": "en/index.html",
-    "href": "en/index.html",
-    "title": "Prénom NOM",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Antoine Boulet",
     "section": "",
-    "text": "INDEX EN"
+    "text": "Un badge de type success: success\nFR EN\nINDEX MAIN"
   },
   {
     "objectID": "fr/index.html",
     "href": "fr/index.html",
     "title": "Prénom NOM",
     "section": "",
-    "text": "INDEX FR"
+    "text": "FR EN\nINDEX FR"
+  },
+  {
+    "objectID": "en/index.html",
+    "href": "en/index.html",
+    "title": "Prénom NOM",
+    "section": "",
+    "text": "FR EN\nINDEX EN"
   }
 ]
