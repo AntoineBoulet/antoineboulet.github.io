@@ -7,13 +7,17 @@ website:
   title: "Antoine Boulet"
   navbar:
     left:
-      - href: research/index.qmd
-        text: Research
-      - href: teaching/index.qmd
-        text: Teaching
+      - text: Research
+        href: research/index.qmd
+      - text: Publications
+      - text: Lectures
+        href: teaching/index.qmd
+      - text: Codes
     right:
-      - text: FR
-        url: "https://antoineboulet.github.io/fr/index.html"
+      - text: "{{< ai cv >}}"
+        href: "https://orcid.org/0000-0003-3839-6090"
+      - text: "{{< fa at >}}"
+        href: mailto:antoine.boulet+research@protonmail.com
 
 format:
   html:

@@ -15,7 +15,5 @@ about:
 navbar: false
 ---
 
-[FR](../fr/about/index.html)
-[EN](../en/about/index.html)
 
 INDEX FR

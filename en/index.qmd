@@ -1,22 +1,17 @@
 ---
-title: "Prénom NOM"
+title: "Homepage"
 about:
   template: jolla          # ou trestles, solana, marquee, broadside
-  #image: photo.jpg
+  image: /assets/profile_picture.jpg
   links:
-    - icon: envelope
-      href: mailto:vous@univ.fr
     - icon: google-scholar
       href: https://scholar.google.com/...
     - icon: github
       href: https://github.com/...
-    - icon: orcid
+    - text: "{{< ai orcid >}}"
       href: https://orcid.org/...
-navbar: false
 ---
 
 
-[FR](../fr/about/index.html)
-[EN](../en/about/index.html)
 
 INDEX EN
