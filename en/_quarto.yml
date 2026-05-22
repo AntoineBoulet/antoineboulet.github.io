@@ -7,12 +7,12 @@ website:
   title: "Antoine Boulet"
   navbar:
     left:
-      - text: Research
+      - text: research
         href: research/index.qmd
-      - text: Publications
-      - text: Lectures
+      - text: publications
+      - text: lectures
         href: teaching/index.qmd
-      - text: Codes
+      - text: codes
     right:
       - text: "{{< ai cv >}}"
         href: "https://orcid.org/0000-0003-3839-6090"
