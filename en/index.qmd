@@ -2,7 +2,7 @@
 title: "Homepage"
 about:
   template: jolla          # ou trestles, solana, marquee, broadside
-  image: ../assets/profile_picture.jpg
+  image: assets/profile_picture.jpg
   links:
     - icon: google-scholar
       href: https://scholar.google.com/...
