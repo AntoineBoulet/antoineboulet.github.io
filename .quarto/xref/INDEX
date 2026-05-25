@@ -49,5 +49,11 @@
   },
   "en/research/talks.qmd": {
     "talks.html": "0b37587d"
+  },
+  "en/nope_index.qmd": {
+    "nope_index.html": "788fd6a4"
+  },
+  "fr/nope_index.qmd": {
+    "nope_index.html": "1e099b82"
   }
 }
