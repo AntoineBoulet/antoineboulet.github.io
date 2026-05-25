@@ -8,7 +8,17 @@ website:
   navbar:
     left:
       - text: research
+        menu: 
+          - text: overview & highlights
+            href: research/overview-highlights.qmd
+          - text: publications & preprints
+            href: research/publications-preprints.qmd
+          - text: talks & lectures
+            href: research/talks-lectures.qmd
+          - text: code & tools
+            href: research/code-tools.qmd
       - text: teaching
+      - text: notebook
     right:
       - text: FR
         href: ../fr

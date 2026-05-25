@@ -55,5 +55,59 @@
   },
   "fr/nope_index.qmd": {
     "nope_index.html": "1e099b82"
+  },
+  "test.qmd": {
+    "test.html": "41b62010"
+  },
+  "research/codes.qmd": {
+    "codes.html": "a76e44c8"
+  },
+  "research/index.qmd": {
+    "index.html": "d155ded6"
+  },
+  "research/overview.qmd": {
+    "overview.html": "306f3df8"
+  },
+  "research/publications.qmd": {
+    "publications.html": "795b3045"
+  },
+  "research/talks.qmd": {
+    "talks.html": "0545ac74"
+  },
+  "teaching/index.qmd": {
+    "index.html": "d47176f4"
+  },
+  "research/overview&highlights.qmd": {
+    "overview&highlights.html": "663c18f0"
+  },
+  "research/overview_highlights.qmd": {
+    "overview_highlights.html": "83c9f743"
+  },
+  "research/code-tools.qmd": {
+    "code-tools.html": "c86b39c8"
+  },
+  "research/overview-highlights.qmd": {
+    "overview-highlights.html": "4f0a8c55"
+  },
+  "research/publications-preprints.qmd": {
+    "publications-preprints.html": "a704167c"
+  },
+  "research/talks-lectures.qmd": {
+    "talks-lectures.html": "71dc7c12"
+  },
+  "teaching/differential-equations.qmd": {
+    "differential-equations.html": "fd642ec5"
+  },
+  "teaching/general-physics.qmd": {
+    "general-physics.html": "ac804399"
+  },
+  "teaching/mathematical-tools.qmd": {
+    "mathematical-tools.html": "977737e1"
+  },
+  "teaching/quantum-mechanics.qmd": {
+    "quantum-mechanics.html": "c8d4ec61"
+  },
+  "teaching/structure-of-matter.qmd": {
+    "structure-of-matter.html": "56f51158"
   }
 }

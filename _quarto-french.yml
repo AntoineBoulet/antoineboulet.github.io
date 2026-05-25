@@ -9,6 +9,21 @@ website:
     left:
       - text: recherche
       - text: enseignement
+        menu:
+          - text: CP A1 & A2
+          - text: physique générale
+            href: teaching/general-physics.qmd
+          - text: CI A3 FISE
+          - text: structure de la matière
+            href: teaching/structure-of-matter.qmd
+          - text: mécanique quantique
+            href: teaching/quantum-mechanics.qmd
+          - text: CI A3 FISA
+          - text: outils mathématiques
+            href: teaching/mathematical-tools.qmd
+          - text: équations différentielles
+            href: teaching/differential-equations.qmd
+      - text: blog
     right:
       - text: EN
         href: ../en
