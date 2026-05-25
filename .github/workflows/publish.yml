@@ -20,9 +20,6 @@ jobs:
 
       - name: Render
         run: quarto render
-        
-      - name: Homepage
-        run: cp index.html _site/index.html
       
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
