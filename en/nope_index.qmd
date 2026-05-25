@@ -3,18 +3,10 @@ title: "Antoine Boulet"
 subtitle: |
   | theoretical physicist
   | lecturer @ISMANS engineering school
-image: assets/profile_picture.jpg
+image: ./assets/profile_picture.jpg
 about:
-  template: solana          # jolla ou trestles, solana, marquee, broadside
+  template: solana # jolla, trestles, solana, marquee, broadside
   links:
-    #- text: "{{< ai arxiv >}} arXiv"
-    #  href: https://arxiv.org/search/?query=Boulet%2C+Antoine&searchtype=author&abstracts=show&order=-announced_date_first&size=50
-    #- icon: google-scholar
-    #  href: https://scholar.google.com/...
-    #- icon: github
-    #  href: https://github.com/...
-    #- text: "{{< ai orcid >}} orcid"
-    #  href: https://orcid.org/...
     - text: "{{< fa book >}} Teaching Portfolio (French)"
       href: https://antoineboulet.github.io/fr
 ---

@@ -1,0 +1,45 @@
+---
+title: "Antoine Boulet"
+subtitle: |
+  | theoretical physicist
+  | lecturer @ISMANS engineering school
+image: assets/profile_picture.jpg
+about:
+  template: solana # jolla, trestles, solana, marquee, broadside
+  links:
+    - text: "{{< fa book >}} Teaching Portfolio (French)"
+      href: https://antoineboulet.github.io/fr
+---
+
+::: {.content-visible when-profile="english"}
+EN
+:::
+
+
+::: {.content-visible when-profile="french"}
+FR
+:::
+
+**Research**  
+My research interests are primarily focused on quantum many-body problems and development of *ab initio*, i.e. from first principle, density functional theories with applications to nuclear, atomic, chemistry, and condensed matter physics.
+
+*For more informations, check out my research page.*
+
+
+**Currently**  
+I am lecturer in fundamental science at the ISMANS CESI engineering school in Le Mans (France) from 2022. 
+The subjects I teach at undergraduate and graduate levels are physics, chemistry, mathematics and programming.
+
+*For more informations, check out my lectures pages.*
+
+**Previously**  
+
+   |   |
+---|---|---:
+2020 - 2022 | research associate @NTG       | (Warsaw University of Technology) 
+2019 - 2020 | research associate @FRIB/NSCL | (Michigan State University)  
+2016 - 2019 | Ph.D. student  @IPNO          | (University of Paris-Saclay)
+
+  
+*For more informations, check out my curriculum vitæ.*
+

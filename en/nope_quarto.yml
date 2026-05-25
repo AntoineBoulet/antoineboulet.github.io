@@ -1,0 +1,32 @@
+# _quarto.yml
+project:
+  type: website
+  output-dir: ../_site/en
+
+website:
+  title: "Antoine Boulet"
+  navbar:
+    left:
+      - text: research
+        menu:
+          - text: overview
+            href: research/overview.qmd
+          - text: publications
+            href: research/publications.qmd
+          - text: talks
+            href: research/talks.qmd
+          - text: codes
+            href: research/codes.qmd
+    right:
+      - text: "{{< ai cv >}}"
+        href: "https://orcid.org/0000-0003-3839-6090"
+      - text: "{{< fa at >}}"
+        href: mailto:antoine.boulet+research@protonmail.com
+
+format:
+  html:
+    theme: cosmo
+      # light: cosmo
+      # dark: cosmo
+    lang: en
+    math: mathjax

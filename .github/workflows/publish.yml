@@ -12,14 +12,8 @@ jobs:
 
       - uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render EN
-        run: quarto render en/
-
-      - name: Render FR
-        run: quarto render fr/
-
-      - name: Homepage
-        run: cp index.html _site/index.html
+      - name: Render
+        run: quarto render
       
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

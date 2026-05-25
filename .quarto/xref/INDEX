@@ -37,5 +37,17 @@
   },
   "fr/blog/index.qmd": {
     "index.html": "ac5cf126"
+  },
+  "en/research/codes.qmd": {
+    "codes.html": "e1181068"
+  },
+  "en/research/overview.qmd": {
+    "overview.html": "557bd9d5"
+  },
+  "en/research/publications.qmd": {
+    "publications.html": "922fc8bf"
+  },
+  "en/research/talks.qmd": {
+    "talks.html": "0b37587d"
   }
 }
