@@ -1,0 +1,70 @@
+- category: Undergraduate, years 1 - 2
+  description: |
+    Teaching at undergraduate level (years 1–2, first and second years of the Preparatory Cycle).
+  tiles:
+    - title: General Physics
+      subtitle: since 2024
+      href: https://antoineboulet.github.io/
+      book: https://antoineboulet.github.io/
+      thumbnail: ../assets/images/teaching/pendulum.jpg
+    - title: Lightning Project
+      subtitle: since 2024
+      href: https://antoineboulet.github.io/
+      thumbnail: ../assets/images/teaching/lightning.jpg
+    - title: Physics for Engineers
+      subtitle: since 2022
+      href: https://antoineboulet.github.io/
+      thumbnail: ../assets/images/teaching/engine.jpg
+    - title: Chemistry for Engineers
+      subtitle: since 2022
+      href: https://antoineboulet.github.io/
+      thumbnail: ../assets/images/teaching/chemistry.jpg
+    - title: Mathematics for Engineers
+      subtitle: since 2022
+      href: https://antoineboulet.github.io/
+      thumbnail: ../assets/images/teaching/pyramid.jpg
+    - title: Programming for Engineers
+      subtitle: since 2022
+      href: https://antoineboulet.github.io/
+      thumbnail: ../assets/images/teaching/programming.jpg
+    
+- category: Undergraduate, year 3
+  description: |
+    Teaching at undergraduate level (year 3, first year of the Engineering Cycle).
+  tiles:
+    - title: Sutructure of Matter 
+      subtitle: since 2025
+      href: https://antoineboulet.github.io/
+      book: https://antoineboulet.github.io/
+      thumbnail: ../assets/images/teaching/crystal.jpg
+    - title: Quantum Mechanics 
+      subtitle: since 2024
+      href: https://antoineboulet.github.io/
+      book: https://antoineboulet.github.io/
+      thumbnail: ../assets/images/teaching/univers.jpg
+    - title: Differential Equations 
+      subtitle: since 2024
+      href: https://antoineboulet.github.io/
+      thumbnail: ../assets/images/teaching/butterfly.jpg
+    - title: Mathematical Tools 
+      subtitle: since 2023
+      href: https://antoineboulet.github.io/
+      thumbnail: ../assets/images/teaching/abacus.jpg
+    - title: Surface Modeling 
+      subtitle: 2023
+      href: https://antoineboulet.github.io/
+      thumbnail: ../assets/images/teaching/mouse.jpg
+    
+
+- category: Graduate, year 1
+  description: |
+    Teaching at graduate level (year 1, second year of the Engineering Cycle).
+  tiles:
+    - title: Fundamental Physics
+      subtitle: 2022 - 2023
+      href: https://antoineboulet.github.io/
+      thumbnail: ../assets/images/teaching/aurora.jpg
+    - title: Finite Element Method
+      subtitle: 2024
+      href: https://antoineboulet.github.io/
+      thumbnail: ../assets/images/teaching/bridge.jpg

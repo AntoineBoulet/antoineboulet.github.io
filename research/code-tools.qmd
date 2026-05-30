@@ -1,0 +1,18 @@
+---
+pagetitle: "Code & Tools"
+listing:
+  - id: gallery
+    template: ../_templates/gallery.ejs
+    contents: ../_data/code.yml
+description: |
+  A gallery of code & tools.
+---
+
+::: {#gallery}
+:::
+
+---
+
+::: {.small .muted}
+{{< include ../assets/images/code/_credits.qmd >}}
+:::

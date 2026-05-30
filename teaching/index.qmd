@@ -1,0 +1,18 @@
+---
+pagetitle: "Teaching"
+listing:
+  - id: gallery
+    template: ../_templates/gallery.ejs
+    contents: ../_data/teaching.yml
+description: |
+  A gallery of teaching courses.
+---
+
+::: {#gallery}
+:::
+
+---
+
+::: {.small .muted}
+{{< include ../assets/images/teaching/_credits.qmd >}}
+:::

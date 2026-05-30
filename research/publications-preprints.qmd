@@ -1,0 +1,20 @@
+---
+pagetitle: "Publications & Preprints"
+listing:
+  - id: publications
+    template: ../_templates/publications.ejs
+    contents: ../_data/publications.yml
+description: |
+  Reference to my publications from 2017.
+format:
+  html:        
+    include-in-header:
+      text: <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons/css/academicons.min.css">    
+---
+
+
+::: {#publications}
+:::
+
+
+

@@ -1,10 +1,9 @@
 # _quarto.yml
 project:
-  title: "ABT-EN"
+  title: "Antoine Boulet"
   output-dir: ./_site/en
 
 website:
-  title: "Antoine Boulet"
   navbar:
     left:
       - text: research
@@ -18,19 +17,20 @@ website:
           - text: code & tools
             href: research/code-tools.qmd
       - text: teaching
+        href: teaching/index.qmd 
       - text: notebook
-    right:
-      - text: FR
+    tools:
+      - icon: file-earmark-person
+        text: "curriculum vitæ (EN)"
+        href: cv.qmd
+      - icon: translate 
+        text: "Toggle in french (FR)"
         href: ../fr
-      - text: "{{< ai cv >}}"
-        href: "https://orcid.org/0000-0003-3839-6090"
-      - text: "{{< fa at >}}"
-        href: mailto:antoine.boulet+research@protonmail.com
+      
 
 lang: en
 
 format:
   html:
-    theme: cosmo
     lang: en-US
-    math: mathjax
+

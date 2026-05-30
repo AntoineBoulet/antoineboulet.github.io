@@ -1,0 +1,16 @@
+**Credits** -- photos via [Pixabay](https://pixabay.com).
+<!--
+crystal : https://pixabay.com/photos/amethyst-crystal-gemstone-purple-7552587/
+lightning.jpg : https://pixabay.com/photos/lightning-thunderstorm-super-cell-2568381/
+mouse.jpg : https://pixabay.com/photos/mouse-technology-desk-computer-4979036/
+bridge.jpg : https://pixabay.com/photos/george-washington-bridge-2098351/
+pendulum.jpg : https://pixabay.com/photos/pendulum-newtons-cradle-silver-3329574/
+butterfly.jpg : https://pixabay.com/illustrations/butterfly-waves-flapping-its-wings-4847628/
+pyramid.jpg : https://pixabay.com/photos/pyramid-egypt-giza-monument-3953370/
+engine.jpg : https://pixabay.com/photos/macro-cogwheel-gear-engine-vintage-1452987/
+programming.jpg : https://pixabay.com/photos/technology-computer-code-javascript-1283624/
+chemistry.jpg : https://pixabay.com/photos/glass-fire-warmth-chemistry-1449943/
+abacus.jpg: https://pixabay.com/photos/abacus-asian-culture-counting-frame-7019994/
+aurora.jpg : https://pixabay.com/photos/northern-lights-aurora-borealis-1197755/
+univers.jpg : https://pixabay.com/photos/milky-way-human-starry-sky-star-4667644/
+-->

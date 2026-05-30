@@ -1,0 +1,135 @@
+```{=html}
+
+<% for (const item of items) { %>
+
+  <h2><%- item.category %></h2>
+
+  <p><%- item.description %></p>
+
+  <div class="list grid" style="--bs-gap: 0;">
+
+    <% for (const tile of item.tiles) { %>
+
+      <div class="g-col-12 g-col-md-2">
+        <span class="badge bg-primary" style="width: 100px;">
+          <% if (tile.abbreviation) { %>
+            <%= tile.abbreviation %>
+          <% } else { %>
+            <%= tile.journal %>
+          <% } %>
+        </span>
+        <span class="muted">
+          <%= tile.year %>
+        </span>
+      </div>
+
+      <div class="g-col-12 g-col-md-10" <%=metadataAttrs(tile) %>>
+        <p>
+          <b><%= tile.title %></b>
+          <br>
+          <% if (tile.type==="article" ) { %>
+            <%= tile.author %>, <%= tile.journal %> <b><%= tile.volume %></b>, <%= tile.pages %> (<%= tile.year %>)
+          <% } %>
+          <% if (tile.type==="thesis" ) { %>
+            <%= tile.author %>, <%= tile.school %>, <%= tile.year %>
+          <% } %>
+                                
+            <div class="list grid" style="--bs-gap: 0;">
+              <div class="g-col-10 g-col-md-6">
+                <% if (tile.pdf) { %>
+                  <a href="<%= tile.pdf %>" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-file-earmark-pdf"></i> .pdf
+                  </a>
+                <% } else { %>
+                  <a href="https://arxiv.org/pdf/<%= tile.arxiv %>" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-file-earmark-pdf"></i> .pdf
+                  </a>
+                <% } %>
+                <% if (tile.arxiv) { %>
+                  <a href="https://arxiv.org/abs/<%= tile.arxiv %>" class="btn btn-outline-secondary btn-sm">
+                    <i class="ai ai-arxiv"></i> arXiv
+                  </a>
+                <% } %>
+                <% if (tile.hal) { %>
+                  <a href="https://hal.science/<%= tile.hal %>" class="btn btn-outline-secondary btn-sm">
+                    <i class="ai ai-hal"></i> hal
+                  </a>
+                <% } %>
+                <% if (tile.url) { %>
+                  <a href="<%= tile.url %>" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-link-45deg"></i> link
+                  </a>
+                <% } else { %>
+                  <a href="https://doi.org/<%= tile.doi %>" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-link-45deg"></i> link
+                  </a>
+                <% } %>
+
+                
+                <% if (tile.abstract && tile.type==="article" ) { %>
+                  <button class="btn btn-outline-secondary btn-sm" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#<%= tile.doi %>"
+                    aria-controls="<%= tile.doi %>">
+                    <i class="bi bi-body-text"></i> abstract
+                  </button>
+                <% } %>
+                <% if (tile.abstract && tile.type==="thesis" ) { %>
+                  <button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#<%= tile.nnt %>">
+                    <i class="bi bi-body-text"></i> abstract
+                  </button>
+                <% } %>
+                
+              </div>
+
+              <div class="g-col-10 g-col-md-4">
+                <% if (tile.type==="article" ) { %>
+                  <a href="https://doi.org/<%= tile.doi %>" style="text-decoration: none;">
+                    <code>doi:<%= tile.doi %></code>
+                  </a>
+                <% } %>
+                <% if (tile.type==="thesis" ) { %>
+                  <a href="https://theses.fr/<%= tile.nnt %>" style="text-decoration: none;">
+                    <code>nnt:<%= tile.nnt %></code>
+                  </a>
+                <% } %>
+              </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+            
+            <% if (tile.type==="article" ) { %>
+              <div class="collapse mt-2" id="<%= tile.doi %>">
+                <div class="small" style="font-family: 'New Computer Modern', serif;">
+                  <%= tile.abstract %>
+                </div>
+              </div>
+            <% } %>
+            <% if (tile.type==="thesis" ) { %>
+              <div class="collapse mt-2" id="<%= tile.nnt %>">
+                <div class="small" style="font-family: 'New Computer Modern', serif;">
+                  <%= tile.abstract %>
+                </div>
+              </div>
+            <% } %>
+            
+        </p>
+
+      </div>
+
+      <% } %>
+
+  </div>
+
+<% } %>
+```

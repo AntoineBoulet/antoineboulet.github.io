@@ -1,0 +1,10 @@
+- category: HPC code
+  description: |
+    High-Performance Computing code to which I contributed.
+  tiles:
+    - title: W-SLDA Toolkit
+      subtitle: HFB solver in C/C++
+      href: https://wslda.fizyka.pw.edu.pl/
+      code: https://gitlab.fizyka.pw.edu.pl/wtools/wslda
+      thumbnail: ../assets/images/code/drop.jpg
+    

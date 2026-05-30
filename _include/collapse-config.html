@@ -1,0 +1,9 @@
+<script>
+    document.querySelectorAll('[data-bs-toggle="collapse"]').forEach(btn => {
+        const targetId = btn.getAttribute('data-bs-target').replace('#', '');
+        const collapse = document.getElementById(targetId);
+        if (!collapse) return;
+        collapse.addEventListener('show.bs.collapse', () => btn.classList.add('active'));
+        collapse.addEventListener('hide.bs.collapse', () => btn.classList.remove('active'));
+    });
+</script>

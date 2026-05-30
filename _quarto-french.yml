@@ -1,10 +1,9 @@
 # _quarto.yml
 project:
-  title: "ABT-FR"
+  title: "Antoine Boulet"
   output-dir: ./_site/fr
 
 website:
-  title: "Antoine Boulet"
   navbar:
     left:
       - text: recherche
@@ -24,18 +23,17 @@ website:
           - text: équations différentielles
             href: teaching/differential-equations.qmd
       - text: blog
-    right:
-      - text: EN
+    tools:
+      - icon: file-earmark-person
+        text: "curriculum vitæ (FR)"
+        href: cv.qmd
+      - icon: translate 
+        text: "Basculer en anglais (EN)"
         href: ../en
-      - text: "{{< ai cv >}}"
-        href: "https://orcid.org/0000-0003-3839-6090"
-      - text: "{{< fa at >}}"
-        href: mailto:antoine.boulet+research@protonmail.com
+  
 
 lang: fr
 
 format:
   html:
-    theme: cosmo
-    lang: fr-CA
-    math: mathjax
+    lang: fr-FR

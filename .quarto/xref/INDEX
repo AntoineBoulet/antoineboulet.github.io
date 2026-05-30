@@ -109,5 +109,20 @@
   },
   "teaching/structure-of-matter.qmd": {
     "structure-of-matter.html": "56f51158"
+  },
+  "none_index.qmd": {
+    "none_index.html": "d5cec936"
+  },
+  "contact.qmd": {
+    "contact.html": "f01389da"
+  },
+  "cv.qmd": {
+    "cv.html": "caaa7be3"
+  },
+  "assets/images/teaching/licence.qmd": {
+    "licence.html": "c1b9b18c"
+  },
+  "assets/images/teaching/credits.qmd": {
+    "credits.html": "3a39bf43"
   }
 }

@@ -5,3 +5,26 @@ project:
 profile:
   default: english
   group: [english, french]
+
+website: 
+  title: "Antoine Boulet"
+  site-url: https://antoineboulet.github.io
+  favicon: assets/favicon.png
+  search: 
+    location: navbar
+    type: textbox
+
+format:
+  html:
+    theme: 
+      light: [cosmo, _theme/theme-light.scss]
+      dark: [cosmo, _theme/theme-dark.scss]
+    css: styles.css
+    math: mathjax
+    email-obfuscation: javascript
+    link-external-newwindow: true
+    include-after-body: 
+      - _include/listing-config.html
+      - _include/collapse-config.html
+    include-in-header: 
+      - _include/mathjax-config.html
