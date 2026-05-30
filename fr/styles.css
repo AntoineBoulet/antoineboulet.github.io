@@ -1,0 +1,5 @@
+/* Internal links without underlines */
+a[href^="http://localhost:"],
+a[href^="https://antoineboulet.github.io/"] {
+  text-decoration: none;
+}

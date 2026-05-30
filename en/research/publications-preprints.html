@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Reference to my publications from 2017.">
 
-<title>publications-preprints – Antoine Boulet</title>
+<title>Publications &amp; Preprints – Antoine Boulet</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,33 +34,35 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../assets/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3e7735b7b22659e5fa437aca0bb49075.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a5301bcb766758ea794d58d17a0459a3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-530fa6407898f3a63ec8d31f0ed281c2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-a5301bcb766758ea794d58d17a0459a3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
-  "type": "overlay",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -74,6 +77,41 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-publications .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-category','listing-description','listing-tiles',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-category","listing-description","listing-tiles"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-publications'] = new List('listing-publications', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<script>
+    window.MathJax = {
+        tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+    };
+</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons/css/academicons.min.css">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -105,9 +143,172 @@ window.Quarto = {
 };
 </script>
 
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -148,9 +349,8 @@ window.Quarto = {
     </ul>
   </li>
   <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">teaching</span>
-    </span>
+    <a class="nav-link" href="../teaching/index.html"> 
+<span class="menu-text">teaching</span></a>
   </li>  
   <li class="nav-item">
     <span class="nav-link">
@@ -158,22 +358,11 @@ window.Quarto = {
     </span>
   </li>  
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../../fr"> 
-<span class="menu-text">FR</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://orcid.org/0000-0003-3839-6090"> 
-<span class="menu-text"><i class="ai  ai-cv" aria-label="cv"></i></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="mailto:antoine.boulet+research@protonmail.com"> 
-<span class="menu-text"><i class="fa-solid fa-at" aria-label="at"></i></span></a>
-  </li>  
-</ul>
           </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools tools-wide">
+    <a href="../cv.html" title="curriculum vitæ (EN)" class="quarto-navigation-tool px-1" aria-label="curriculum vitæ (EN)"><i class="bi bi-file-earmark-person"></i></a>
+    <a href="../../fr" title="Toggle in french (FR)" class="quarto-navigation-tool px-1" aria-label="Toggle in french (FR)"><i class="bi bi-translate"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -190,12 +379,749 @@ window.Quarto = {
 
 
 
+<div id="listing-publications" class="quarto-listing quarto-listing-container-custom">
+
+  <h2 class="anchored">Publications</h2>
+
+  <p></p>
+
+  <div class="list grid" style="--bs-gap: 0;">
+
+    
+
+      <div class="g-col-12 g-col-md-2">
+        <span class="badge bg-primary" style="width: 100px;">
+          
+            SciPost Phys.
+          
+        </span>
+        <span class="muted">
+          2025
+        </span>
+      </div>
+
+      <div class="g-col-12 g-col-md-10" data-index="0">
+        <p>
+          <b>Many-body perturbation theory for strongly correlated effective Hamiltonians using effective field theory methods</b>
+          <br>
+          
+            R. Photopoulos and A. Boulet, SciPost Phys. <b>18</b>, 003 (2025)
+          
+          
+                                
+            </p><div class="list grid" style="--bs-gap: 0;">
+              <div class="g-col-10 g-col-md-6">
+                
+                  <a href="https://arxiv.org/pdf/2402.17627" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-file-earmark-pdf"></i> .pdf
+                  </a>
+                
+                
+                  <a href="https://arxiv.org/abs/2402.17627" class="btn btn-outline-secondary btn-sm">
+                    <i class="ai ai-arxiv"></i> arXiv
+                  </a>
+                
+                
+                
+                  <a href="https://doi.org/10.21468/SciPostPhys.18.1.003" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-link-45deg"></i> link
+                  </a>
+                
+
+                
+                
+                  <button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#10.21468/SciPostPhys.18.1.003" aria-controls="10.21468/SciPostPhys.18.1.003">
+                    <i class="bi bi-body-text"></i> abstract
+                  </button>
+                
+                
+                
+              </div>
+
+              <div class="g-col-10 g-col-md-4">
+                
+                  <a href="https://doi.org/10.21468/SciPostPhys.18.1.003" style="text-decoration: none;">
+                    <code>doi:10.21468/SciPostPhys.18.1.003</code>
+                  </a>
+                
+                
+              </div>
+
+            </div>
+
+            
+            
+              <div class="collapse mt-2" id="10.21468/SciPostPhys.18.1.003">
+                <div class="small" style="font-family: 'New Computer Modern', serif;">
+                  Introducing low-energy effective Hamiltonians is usual to grasp most correlations in quantum many-body problems. 
+For instance, such effective Hamiltonians can be treated at the mean-field level to reproduce some physical properties of interest. 
+Employing effective Hamiltonians that contain many-body correlations renders the use of perturbative many-body techniques difficult because of the overcounting of correlations. 
+In this work, we develop a strategy to apply an extension of the many-body perturbation theory starting from an effective interaction that contains correlations beyond the mean-field level. 
+The goal is to re-organize the many-body calculation to avoid the overcounting of correlations originating from the introduction of correlated effective Hamiltonians in the description. 
+For this purpose, we generalize the formulation of the Rayleigh-Schrödinger perturbation theory by including free parameters adjusted to reproduce the appropriate limits. 
+In particular, the expansion in the bare weak-coupling regime and the strong-coupling limit serves as a valuable input to fix the value of the free parameters appearing in the resulting expression. 
+This method avoids double counting of correlations using beyond-mean-field strategies for the description of many-body systems. 
+The ground state energy of various systems relevant for ultracold atomic, nuclear, and condensed matter physics is reproduced qualitatively beyond the domain of validity of the standard many-body perturbation theory. 
+Finally, our method suggests interpreting the formal results obtained as an effective field theory using the proposed reorganization of the many-body calculation. 
+The results, like ground state energies, are improved systematically by considering higher orders in the extended many-body perturbation theory while maintaining a straightforward polynomial expansion.
+
+                </div>
+              </div>
+            
+            
+            
+        <p></p>
+
+      </div>
+
+      
+
+      <div class="g-col-12 g-col-md-2">
+        <span class="badge bg-primary" style="width: 100px;">
+          
+            Sci. Rep.
+          
+        </span>
+        <span class="muted">
+          2023
+        </span>
+      </div>
+
+      <div class="g-col-12 g-col-md-10" data-index="1">
+        <p>
+          <b>Generation and decay of Higgs mode in a strongly interacting Fermi gas</b>
+          <br>
+          
+            A. Barresi, A. Boulet, G. Wlazłowski, and P. Magierski, Sci. Rep. <b>13</b>, 11285 (2023)
+          
+          
+                                
+            </p><div class="list grid" style="--bs-gap: 0;">
+              <div class="g-col-10 g-col-md-6">
+                
+                  <a href="https://arxiv.org/pdf/2303.13394" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-file-earmark-pdf"></i> .pdf
+                  </a>
+                
+                
+                  <a href="https://arxiv.org/abs/2303.13394" class="btn btn-outline-secondary btn-sm">
+                    <i class="ai ai-arxiv"></i> arXiv
+                  </a>
+                
+                
+                
+                  <a href="https://doi.org/10.1038/s41598-023-38176-9" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-link-45deg"></i> link
+                  </a>
+                
+
+                
+                
+                  <button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#10.1038/s41598-023-38176-9" aria-controls="10.1038/s41598-023-38176-9">
+                    <i class="bi bi-body-text"></i> abstract
+                  </button>
+                
+                
+                
+              </div>
+
+              <div class="g-col-10 g-col-md-4">
+                
+                  <a href="https://doi.org/10.1038/s41598-023-38176-9" style="text-decoration: none;">
+                    <code>doi:10.1038/s41598-023-38176-9</code>
+                  </a>
+                
+                
+              </div>
+
+            </div>
+
+            
+            
+              <div class="collapse mt-2" id="10.1038/s41598-023-38176-9">
+                <div class="small" style="font-family: 'New Computer Modern', serif;">
+                  We investigate the life cycle of the large amplitude Higgs mode in strongly interacting superfluid Fermi gas. 
+Through numerical simulations with time-dependent density functional theory and the technique of the interaction quench, we verify the previous theoretical predictions on the mode’s frequency. 
+Next, we demonstrate that the mode is dynamically unstable against external perturbation and qualitatively examine the emerging state after the mode decays. 
+The post-decay state is characterized by spatial fluctuations of the order parameter and density at scales comparable to the superfluid coherence length scale. 
+We identify similarities with FFLO states, which become more prominent at higher dimensionalities and nonzero spin imbalances.
+
+                </div>
+              </div>
+            
+            
+            
+        <p></p>
+
+      </div>
+
+      
+
+      <div class="g-col-12 g-col-md-2">
+        <span class="badge bg-primary" style="width: 100px;">
+          
+            Phys. Rev. Lett.
+          
+        </span>
+        <span class="muted">
+          2023
+        </span>
+      </div>
+
+      <div class="g-col-12 g-col-md-10" data-index="2">
+        <p>
+          <b>Dissipative Dynamics of Quantum Vortices in Fermionic Superfluid</b>
+          <br>
+          
+            A. Barresi, A. Boulet, P. Magierski, and G. Wlazłowski, Phys. Rev. Lett. <b>130</b>, 043001 (2023)
+          
+          
+                                
+            </p><div class="list grid" style="--bs-gap: 0;">
+              <div class="g-col-10 g-col-md-6">
+                
+                  <a href="https://arxiv.org/pdf/2207.00870" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-file-earmark-pdf"></i> .pdf
+                  </a>
+                
+                
+                  <a href="https://arxiv.org/abs/2207.00870" class="btn btn-outline-secondary btn-sm">
+                    <i class="ai ai-arxiv"></i> arXiv
+                  </a>
+                
+                
+                
+                  <a href="https://doi.org/10.1103/PhysRevLett.130.043001" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-link-45deg"></i> link
+                  </a>
+                
+
+                
+                
+                  <button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#10.1103/PhysRevLett.130.043001" aria-controls="10.1103/PhysRevLett.130.043001">
+                    <i class="bi bi-body-text"></i> abstract
+                  </button>
+                
+                
+                
+              </div>
+
+              <div class="g-col-10 g-col-md-4">
+                
+                  <a href="https://doi.org/10.1103/PhysRevLett.130.043001" style="text-decoration: none;">
+                    <code>doi:10.1103/PhysRevLett.130.043001</code>
+                  </a>
+                
+                
+              </div>
+
+            </div>
+
+            
+            
+              <div class="collapse mt-2" id="10.1103/PhysRevLett.130.043001">
+                <div class="small" style="font-family: 'New Computer Modern', serif;">
+                  In a recent article, Kwon et al. [Nature (London) <b>600</b>, 64 (2021)] revealed nonuniversal dissipative dynamics of quantum vortices in a fermionic superfluid. 
+The enhancement of the dissipative process is pronounced for the Bardeen-Cooper-Schrieffer interaction regime, and it was suggested that the effect is due to the presence of quasiparticles localized inside the vortex core. 
+We test this hypothesis through numerical simulations with time-dependent density-functional theory: a fully microscopic framework with fermionic degrees of freedom. 
+The results of fully microscopic calculations expose the impact of the vortex-bound states on dissipative dynamics in a fermionic superfluid. 
+Their contribution is too weak to explain the experimental measurements, and we identify that thermal effects, giving rise to mutual friction between superfluid and the normal component, dominate the observed dynamics.
+
+                </div>
+              </div>
+            
+            
+            
+        <p></p>
+
+      </div>
+
+      
+
+      <div class="g-col-12 g-col-md-2">
+        <span class="badge bg-primary" style="width: 100px;">
+          
+            Phys. Rev. A
+          
+        </span>
+        <span class="muted">
+          2022
+        </span>
+      </div>
+
+      <div class="g-col-12 g-col-md-10" data-index="3">
+        <p>
+          <b>Local energy density functional for superfluid Fermi gases from effective field theory</b>
+          <br>
+          
+            A. Boulet, G. Wlazłowski, and P. Magierski, Phys. Rev. A <b>106</b>, 013306 (2022)
+          
+          
+                                
+            </p><div class="list grid" style="--bs-gap: 0;">
+              <div class="g-col-10 g-col-md-6">
+                
+                  <a href="https://arxiv.org/pdf/2201.07626" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-file-earmark-pdf"></i> .pdf
+                  </a>
+                
+                
+                  <a href="https://arxiv.org/abs/2201.07626" class="btn btn-outline-secondary btn-sm">
+                    <i class="ai ai-arxiv"></i> arXiv
+                  </a>
+                
+                
+                
+                  <a href="https://doi.org/10.1103/PhysRevA.106.013306" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-link-45deg"></i> link
+                  </a>
+                
+
+                
+                
+                  <button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#10.1103/PhysRevA.106.013306" aria-controls="10.1103/PhysRevA.106.013306">
+                    <i class="bi bi-body-text"></i> abstract
+                  </button>
+                
+                
+                
+              </div>
+
+              <div class="g-col-10 g-col-md-4">
+                
+                  <a href="https://doi.org/10.1103/PhysRevA.106.013306" style="text-decoration: none;">
+                    <code>doi:10.1103/PhysRevA.106.013306</code>
+                  </a>
+                
+                
+              </div>
+
+            </div>
+
+            
+            
+              <div class="collapse mt-2" id="10.1103/PhysRevA.106.013306">
+                <div class="small" style="font-family: 'New Computer Modern', serif;">
+                  Over the past two decades, many studies in the density functional theory context revealed new aspects and properties of strongly correlated superfluid quantum systems in numerous configurations that can be simulated in experiments. 
+This was made possible by the generalization of the local density approximation to superfluid systems by Bulgac [Phys. Rev. C <b>65</b>, 051305(R) (2002); Phys. Rev. A <b>76</b>, 040502(R) (2007)]. 
+In the present work, we propose an extension of the superfluid local density approximation, systematically improvable and applicable to a large range of many-body quantum problems getting rid of the fitting procedures of the functional parameters. 
+It turns out that only the knowledge of the density dependence of the quasiparticle properties, namely, the chemical potential, the effective mass, and the pairing gap function, are enough to obtain an explicit and accurate local functional of the densities without any adjustment a posteriori. 
+This opens the way toward an effective field theory formulation of the density functional theory in the sense that we obtain a universal expansion of the functional parameters entering in the theory as a series in pairing gap function. 
+Finally, we discuss possible applications of the developed approach allowing precise analysis of experimental observations. 
+In that context, we focus our applications on the static structure properties of superfluid vortices.
+
+                </div>
+              </div>
+            
+            
+            
+        <p></p>
+
+      </div>
+
+      
+
+      <div class="g-col-12 g-col-md-2">
+        <span class="badge bg-primary" style="width: 100px;">
+          
+            J. Phys. G
+          
+        </span>
+        <span class="muted">
+          2019
+        </span>
+      </div>
+
+      <div class="g-col-12 g-col-md-10" data-index="4">
+        <p>
+          <b>Approximate self-energy for Fermi systems with large s-wave scattering length: a step towards density functional theory</b>
+          <br>
+          
+            A. Boulet and D. Lacroix, J. Phys. G: Nucl. Part. Phys. <b>46</b>, 105104 (2019)
+          
+          
+                                
+            </p><div class="list grid" style="--bs-gap: 0;">
+              <div class="g-col-10 g-col-md-6">
+                
+                  <a href="https://arxiv.org/pdf/1902.05477" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-file-earmark-pdf"></i> .pdf
+                  </a>
+                
+                
+                  <a href="https://arxiv.org/abs/1902.05477" class="btn btn-outline-secondary btn-sm">
+                    <i class="ai ai-arxiv"></i> arXiv
+                  </a>
+                
+                
+                
+                  <a href="https://doi.org/10.1088/1361-6471/ab2f0b" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-link-45deg"></i> link
+                  </a>
+                
+
+                
+                
+                  <button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#10.1088/1361-6471/ab2f0b" aria-controls="10.1088/1361-6471/ab2f0b">
+                    <i class="bi bi-body-text"></i> abstract
+                  </button>
+                
+                
+                
+              </div>
+
+              <div class="g-col-10 g-col-md-4">
+                
+                  <a href="https://doi.org/10.1088/1361-6471/ab2f0b" style="text-decoration: none;">
+                    <code>doi:10.1088/1361-6471/ab2f0b</code>
+                  </a>
+                
+                
+              </div>
+
+            </div>
+
+            
+            
+              <div class="collapse mt-2" id="10.1088/1361-6471/ab2f0b">
+                <div class="small" style="font-family: 'New Computer Modern', serif;">
+                  In the present work, we start from a minimal Hamiltonian for Fermi systems where the $s$-wave scattering is the only low energy constant (LEC) at play.
+The many-body perturbative approach that is usually valid at rather low density is first discussed. 
+We then use the resummation technique with the ladder approximation to obtain compact expressions for both the energy and/or the on-shell self-energy in infinite spin-degenerated systems. 
+The diagrammatic resummation technique has the advantage in general to be predictive in a region of density larger compared to many-body perturbation theory. 
+It also leads to a non-diverging limit as $|a_sk_F| \to \infty$. Still, the obtained expressions are a rather complex function of the Fermi momentum $k_F$. 
+We introduce the full phase-space or the partial phase-space approximations respectively applied to the energy or to the self-energy to simplify their dependences in terms of $(a_sk_F)$ while keeping the correct limit at low density and the non-diverging property at large $|a_sk_F|$. 
+Quasi-particle properties of the Fermi system in various regimes of density and scattering length are then illustrated. 
+Our conclusion is that such simplified expressions where the direct link is made with the LEC without fine-tuning can provide a clear guidance to obtain density functional theory (DFT) beyond the perturbative regime. 
+However, quasi-particle properties close or near unitarity cannot be reproduced unless this limit is explicitly used as a constraint. 
+We finally discuss how such approximate treatment of quasi-particles can guide the development of DFT for strongly interacting Fermi systems.
+
+                </div>
+              </div>
+            
+            
+            
+        <p></p>
+
+      </div>
+
+      
+
+      <div class="g-col-12 g-col-md-2">
+        <span class="badge bg-primary" style="width: 100px;">
+          
+            Phys. Rev. C
+          
+        </span>
+        <span class="muted">
+          2018
+        </span>
+      </div>
+
+      <div class="g-col-12 g-col-md-10" data-index="5">
+        <p>
+          <b>Static response, collective frequencies, and ground-state thermodynamical properties of spin-saturated two-component cold atoms and neutron matter</b>
+          <br>
+          
+            A. Boulet and D. Lacroix, Phys. Rev. C <b>97</b>, 014301 (2018)
+          
+          
+                                
+            </p><div class="list grid" style="--bs-gap: 0;">
+              <div class="g-col-10 g-col-md-6">
+                
+                  <a href="https://arxiv.org/pdf/1709.05160" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-file-earmark-pdf"></i> .pdf
+                  </a>
+                
+                
+                  <a href="https://arxiv.org/abs/1709.05160" class="btn btn-outline-secondary btn-sm">
+                    <i class="ai ai-arxiv"></i> arXiv
+                  </a>
+                
+                
+                
+                  <a href="https://doi.org/10.1103/PhysRevC.97.014301" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-link-45deg"></i> link
+                  </a>
+                
+
+                
+                
+                  <button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#10.1103/PhysRevC.97.014301" aria-controls="10.1103/PhysRevC.97.014301">
+                    <i class="bi bi-body-text"></i> abstract
+                  </button>
+                
+                
+                
+              </div>
+
+              <div class="g-col-10 g-col-md-4">
+                
+                  <a href="https://doi.org/10.1103/PhysRevC.97.014301" style="text-decoration: none;">
+                    <code>doi:10.1103/PhysRevC.97.014301</code>
+                  </a>
+                
+                
+              </div>
+
+            </div>
+
+            
+            
+              <div class="collapse mt-2" id="10.1103/PhysRevC.97.014301">
+                <div class="small" style="font-family: 'New Computer Modern', serif;">
+                  The thermodynamical ground-state properties and static response in both cold atoms at or close to unitarity and neutron matter are determined using a recently proposed density functional theory (DFT) based on the $s$-wave scattering length $a_s$, effective range $r_e$, and unitary gas limit. 
+In cold atoms, when the effective range may be neglected, we show that the pressure, chemical potential, compressibility modulus, and sound velocity obtained with the DFT are compatible with experimental observations or exact theoretical estimates. 
+The static response in homogeneous infinite systems is also obtained and a possible influence of the effective range on the response is analyzed. 
+The neutron matter differs from unitary gas due to the noninfinite scattering length and to a significant influence of effective range, which affects all thermodynamical quantities as well as the static response. 
+In particular, we show for neutron matter that the latter response recently obtained in auxiliary-field diffusion Monte Carlo (AFDMC) can be qualitatively reproduced when the $p$-wave contribution is added to the functional. 
+Our study indicates that the close similarity between the exact AFDMC static response and the free-gas response might stem from the compensation of the $a_s$ effect by the effective range and $p$-wave contributions. 
+We finally consider the dynamical response of both atoms or neutron droplets in anisotropic traps. 
+Assuming the hydrodynamical regime and a polytropic equation of state, a reasonable description of the radial and axial collective frequencies in cold atoms is obtained. 
+Following a similar strategy, we estimate the equivalent collective frequencies of neutron drops in anisotropic traps. 
+
+                </div>
+              </div>
+            
+            
+            
+        <p></p>
+
+      </div>
+
+      
+
+      <div class="g-col-12 g-col-md-2">
+        <span class="badge bg-primary" style="width: 100px;">
+          
+            Phys. Rev. C
+          
+        </span>
+        <span class="muted">
+          2017
+        </span>
+      </div>
+
+      <div class="g-col-12 g-col-md-10" data-index="6">
+        <p>
+          <b>From bare interactions, low-energy constants, and unitary gas to nuclear density functionals without free parameters: Application to neutron matter</b>
+          <br>
+          
+            D. Lacroix, A. Boulet, M. Grasso, and C.-J. Yang, Phys. Rev. C <b>95</b>, 054306 (2017)
+          
+          
+                                
+            </p><div class="list grid" style="--bs-gap: 0;">
+              <div class="g-col-10 g-col-md-6">
+                
+                  <a href="https://arxiv.org/pdf/1704.08454" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-file-earmark-pdf"></i> .pdf
+                  </a>
+                
+                
+                  <a href="https://arxiv.org/abs/1704.08454" class="btn btn-outline-secondary btn-sm">
+                    <i class="ai ai-arxiv"></i> arXiv
+                  </a>
+                
+                
+                
+                  <a href="https://doi.org/10.1103/PhysRevC.95.054306" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-link-45deg"></i> link
+                  </a>
+                
+
+                
+                
+                  <button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#10.1103/PhysRevC.95.054306" aria-controls="10.1103/PhysRevC.95.054306">
+                    <i class="bi bi-body-text"></i> abstract
+                  </button>
+                
+                
+                
+              </div>
+
+              <div class="g-col-10 g-col-md-4">
+                
+                  <a href="https://doi.org/10.1103/PhysRevC.95.054306" style="text-decoration: none;">
+                    <code>doi:10.1103/PhysRevC.95.054306</code>
+                  </a>
+                
+                
+              </div>
+
+            </div>
+
+            
+            
+              <div class="collapse mt-2" id="10.1103/PhysRevC.95.054306">
+                <div class="small" style="font-family: 'New Computer Modern', serif;">
+                  We further progress along the line of Ref. [D. Lacroix, Phys. Rev. A <b>94</b>, 043614 (2016)] where a functional for Fermi systems with anomalously large $s$-wave scattering length $a_s$ was proposed that has no free parameters. 
+The functional is designed to correctly reproduce the unitary limit in Fermi gases together with the leading-order contributions in the $s$- and $p$-wave channels at low density. 
+The functional is shown to be predictive up to densities $\sim 0.01 ~ \text{fm}^{-3}$ that is much higher densities compared to the Lee-Yang functional, valid for $\rho &lt; 10^{-6} ~ \text{fm}^{-3}$. 
+The form of the functional retained in this work is further motivated. 
+It is shown that the new functional corresponds to an expansion of the energy in ($a_sk_F$) and ($r_ek_F$) to all orders, where $r_e$ is the effective range and $k_F$ is the Fermi momentum. 
+One conclusion from the present work is that, except in the extremely low-density regime, nuclear systems can be treated perturbatively in $-(a_sk_F)^{-1}$ with respect to the unitary limit. 
+Starting from the functional, we introduce density-dependent scales and show that scales associated with the bare interaction are strongly renormalized by medium effects. 
+As a consequence, some of the scales at play around saturation are dominated by the unitary gas properties and not directly by low-energy constants. 
+For instance, we show that the scale in the $s$-wave channel around saturation is proportional to the so-called Bertsch parameter $\xi_0$ and becomes independent of $a_s$. 
+We also point out that these scales are of the same order of magnitude than those empirically obtained in the Skyrme energy density functional. 
+We finally propose a slight modification of the functional such that it becomes accurate up to the saturation density $\rho\approx 0.16 ~ \text{fm}^{-3}$.
+
+                </div>
+              </div>
+            
+            
+            
+        <p></p>
+
+      </div>
+
+      
+
+  </div>
+
+  <h2 class="anchored">Thesis</h2>
+
+  <p></p>
+
+  <div class="list grid" style="--bs-gap: 0;">
+
+    
+
+      <div class="g-col-12 g-col-md-2">
+        <span class="badge bg-primary" style="width: 100px;">
+          
+            Ph. D.
+          
+        </span>
+        <span class="muted">
+          2019
+        </span>
+      </div>
+
+      <div class="g-col-12 g-col-md-10" data-index="7">
+        <p>
+          <b>Density functional theory for Fermi systems with large s-wave scattering length : application to atomic and nuclear physics</b>
+          <br>
+          
+          
+            A. Boulet, Paris-Saclay University, 2019
+          
+                                
+            </p><div class="list grid" style="--bs-gap: 0;">
+              <div class="g-col-10 g-col-md-6">
+                
+                  <a href="https://theses.hal.science/tel-02355418/document" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-file-earmark-pdf"></i> .pdf
+                  </a>
+                
+                
+                
+                  <a href="https://hal.science/tel-02355418" class="btn btn-outline-secondary btn-sm">
+                    <i class="ai ai-hal"></i> hal
+                  </a>
+                
+                
+                  <a href="https://hal.science/tel-02355418" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-link-45deg"></i> link
+                  </a>
+                
+
+                
+                
+                
+                  <button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#2019SACLS212">
+                    <i class="bi bi-body-text"></i> abstract
+                  </button>
+                
+                
+              </div>
+
+              <div class="g-col-10 g-col-md-4">
+                
+                
+                  <a href="https://theses.fr/2019SACLS212" style="text-decoration: none;">
+                    <code>nnt:2019SACLS212</code>
+                  </a>
+                
+              </div>
+
+            </div>
+
+            
+            
+            
+              <div class="collapse mt-2" id="2019SACLS212">
+                <div class="small" style="font-family: 'New Computer Modern', serif;">
+                  In the present work, a density functional theory (DFT) is developed for systems interacting through an anomalously large $s$-wave scattering length $a_s$. 
+Examples of such systems are atomic gas or neutron matter. The Many-Body Perturbation Theory (MBPT) is first discussed to describe dilute Fermi systems. 
+This approach leads to the well-known Lee-Yang functional valid in a very narrow range of density when the $s$-wave scattering length is large. 
+To extend the domain of validity of the perturbative approach, resummation techniques with the ladder approximation is used. 
+This leads to compact expressions for both the energy and/or the on-shell self-energy in infinite spin-degenerated systems that can be applied from diluted to dense systems. 
+It also leads to finite energy in atomic gas at the unitary limit, i.e. when $|a_sk_F| \to +\infty$. 
+The deduced functionals remain rather complex and lacks of predictive power in general. 
+To simplify the functional, approximations called phase-space or partial phase-space approximations respectively for the energy or for the self-energy, are proposed. 
+These approximations not only simplify the form of the functionals, but also improve their predictive power at various density while properly reproducing the low density limit. 
+Guided by the non-perturbative resummation technique developed in this thesis, several novel functionals are proposed as well as extensions of them to include effective range effects. 
+These non-empirical functionals, that essentially contain no free parameters, are tested against cold atom and/or neutron matter properties. 
+A very good reproduction of ab initio and experimental observations in cold atom is obtained. 
+The equation of state obtained for neutron matter is also reproduced up to $\rho = 0.01 ~ \text{fm}^{-3}$. 
+The static response of neutron matter, recently obtained from ab initio theory, is also better reproduced compared to standardly used empirical nuclear DFT. 
+This study has also pointed out the necessity to better understand quasi-particle properties like the effective mass. 
+To further progress, starting from resummed expressions of the self-energy together with partial phase-space approximation, compact expressions of the chemical potential and effective masses are obtained that are eventually compatible with the DFTs proposed in the first part of this thesis. 
+These expressions are anticipated to significantly extend the domain of validity compared to the perturbative approach. 
+We finally show that the developments made in this work are also useful to reconcile the parameters generally used in the empirical nuclear DFT with the properties of the strong nuclear interaction.
+
+                </div>
+              </div>
+            
+            
+        <p></p>
+
+      </div>
+
+      
+
+  </div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+
+
 
 
 
 </main> <!-- /main -->
+<script>
+    const trestles = document.querySelector(".quarto-about-trestles");
+    const listing = document.getElementById("listing-selected");
+    trestles.insertAdjacentElement("afterend", listing);
+</script>
+<script>
+    document.querySelectorAll('[data-bs-toggle="collapse"]').forEach(btn => {
+        const targetId = btn.getAttribute('data-bs-target').replace('#', '');
+        const collapse = document.getElementById(targetId);
+        if (!collapse) return;
+        collapse.addEventListener('show.bs.collapse', () => btn.classList.add('active'));
+        collapse.addEventListener('hide.bs.collapse', () => btn.classList.remove('active'));
+    });
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -267,7 +1193,7 @@ window.Quarto = {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/antoineboulet\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -281,6 +1207,11 @@ window.Quarto = {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

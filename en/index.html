@@ -33,32 +33,39 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./assets/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3e7735b7b22659e5fa437aca0bb49075.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-a5301bcb766758ea794d58d17a0459a3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-530fa6407898f3a63ec8d31f0ed281c2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a5301bcb766758ea794d58d17a0459a3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/bootstrap-icons-1.13.1/bootstrap-icons.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
-  "type": "overlay",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -73,6 +80,40 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-selected .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-category','listing-description','listing-tiles',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-category","listing-description","listing-tiles"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-selected'] = new List('listing-selected', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<script>
+    window.MathJax = {
+        tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+    };
+</script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -104,9 +145,172 @@ window.Quarto = {
 };
 </script>
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -147,9 +351,8 @@ window.Quarto = {
     </ul>
   </li>
   <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">teaching</span>
-    </span>
+    <a class="nav-link" href="./teaching/index.html"> 
+<span class="menu-text">teaching</span></a>
   </li>  
   <li class="nav-item">
     <span class="nav-link">
@@ -157,22 +360,11 @@ window.Quarto = {
     </span>
   </li>  
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./../fr"> 
-<span class="menu-text">FR</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://orcid.org/0000-0003-3839-6090"> 
-<span class="menu-text"><i class="ai  ai-cv" aria-label="cv"></i></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="mailto:antoine.boulet+research@protonmail.com"> 
-<span class="menu-text"><i class="fa-solid fa-at" aria-label="at"></i></span></a>
-  </li>  
-</ul>
           </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools tools-wide">
+    <a href="./cv.html" title="curriculum vitæ (EN)" class="quarto-navigation-tool px-1" aria-label="curriculum vitæ (EN)"><i class="bi bi-file-earmark-person"></i></a>
+    <a href="./../fr" title="Toggle in french (FR)" class="quarto-navigation-tool px-1" aria-label="Toggle in french (FR)"><i class="bi bi-translate"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -183,68 +375,215 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-solana column-body">
+<div class="quarto-about-trestles">
   <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+    <img src="assets/profile.jpg" class="about-image
+  rounded " style="width: 20em;">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Antoine Boulet</h1>
 <p class="subtitle lead">theoretical physicist<br>
-lecturer <span class="citation" data-cites="ISMANS">@ISMANS</span> engineering school</p>
+lecturer <span class="citation" data-cites="ISMANS">@ISMANS</span></p>
 </div>
 <div class="quarto-title-meta">
   </div>
-</header> <div class="about-links">
-  <a href="https://antoineboulet.github.io/fr" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="fa-solid fa-book" aria-label="book"></i> Teaching Portfolio (French)</span>
+</header>
+    <div class="about-links">
+  <a href="https://orcid.org/0000-0003-3839-6090" class="about-link" rel="" target="">
+     <span class="about-link-text"><i class="ai  ai-orcid" aria-label="orcid"></i> ORCiD</span>
+  </a>
+  <a href="https://arxiv.org/search/?query=Boulet%2C+Antoine&amp;searchtype=author&amp;source=header" class="about-link" rel="" target="">
+     <span class="about-link-text"><i class="ai  ai-arxiv" aria-label="arxiv"></i> arXiv</span>
+  </a>
+  <a href="https://inspirehep.net/authors/1631018" class="about-link" rel="" target="">
+     <span class="about-link-text"><i class="ai  ai-inspire" aria-label="inspire"></i> INSPIRE</span>
+  </a>
+  <a href="https://scholar.google.com/citations?user=UVnxCpwAAAAJ" class="about-link" rel="" target="">
+     <span class="about-link-text"><i class="ai  ai-google-scholar" aria-label="google-scholar"></i> Scholar</span>
+  </a>
+  <a href="https://hal.science/search/index/?q=*&amp;authFullName_s=Antoine%20Boulet" class="about-link" rel="" target="">
+     <span class="about-link-text"><i class="ai  ai-hal" aria-label="hal"></i> HAL</span>
+  </a>
+  <a href="https://github.com/AntoineBoulet" class="about-link" rel="" target="">
+     <span class="about-link-text"><i class="bi-github " style="" role="img" aria-hidden="true"></i> Github</span>
   </a>
 </div>
-      <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>EN</p>
-<p><strong>Research</strong><br>
-My research interests are primarily focused on quantum many-body problems and development of <em>ab initio</em>, i.e.&nbsp;from first principle, density functional theories with applications to nuclear, atomic, chemistry, and condensed matter physics.</p>
-<p><em>For more informations, check out my research page.</em></p>
-<p><strong>Currently</strong><br>
-I am lecturer in fundamental science at the ISMANS CESI engineering school in Le Mans (France) from 2022. The subjects I teach at undergraduate and graduate levels are physics, chemistry, mathematics and programming.</p>
-<p><em>For more informations, check out my lectures pages.</em></p>
-<p><strong>Previously</strong></p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 30%">
-<col style="width: 30%">
-<col style="width: 40%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>2020 - 2022</td>
-<td>research associate <span class="citation" data-cites="NTG">@NTG</span></td>
-<td style="text-align: right;">(Warsaw University of Technology)</td>
-</tr>
-<tr class="even">
-<td>2019 - 2020</td>
-<td>research associate <span class="citation" data-cites="FRIB/NSCL">@FRIB/NSCL</span></td>
-<td style="text-align: right;">(Michigan State University)</td>
-</tr>
-<tr class="odd">
-<td>2016 - 2019</td>
-<td>Ph.D.&nbsp;student <span class="citation" data-cites="IPNO">@IPNO</span></td>
-<td style="text-align: right;">(University of Paris-Saclay)</td>
-</tr>
-</tbody>
-</table>
-<p><em>For more informations, check out my curriculum vitæ.</em></p>
-
-
-
-</main></div>
-    </div>
-    <img src="assets/profile_picture.jpg" class="about-image
-  rounded " style="width: 15em;">
   </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
+
+<section id="research" class="level3">
+<h3 data-anchor-id="research">Research</h3>
+<p>My research interests are primarily focused on quantum many-body problems and development of <em>ab initio</em>, i.e.&nbsp;from first principle, density functional theories with applications to nuclear, atomic, chemistry, and condensed matter physics.</p>
+<p><em>For more informations, check out my <a href="research/">research page</a>.</em></p>
+</section>
+<section id="teaching" class="level3">
+<h3>Teaching</h3>
+<p>I am lecturer in fundamental science at the ISMANS CESI engineering school in Le Mans (France) since 2022. I teach at undergraduate and graduate levels: physics, chemistry, mathematics and programming.</p>
+<p><em>For more informations, check out my <a href="teaching/">teaching page</a>.</em></p>
+<hr>
+<div class="callout callout-style-default callout-note callout-titled" title="Contact">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Contact
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Antoine Boulet</strong><br>
+Institut Supérieur des Matériaux et Mécaniques Avancés<br>
+44 avenue Frédéric Auguste Bartholdi, 72000 Le Mans, FRANCE</p>
+<p><i class="fa-solid fa-building" aria-label="building"></i> Office 51 (first floor)</p>
+<p><i class="fa-solid fa-at" aria-label="at"></i> <script type="text/javascript">
+<!--
+h='&#112;&#114;&#x6f;&#116;&#x6f;&#110;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#x61;&#110;&#116;&#x6f;&#x69;&#110;&#x65;&#46;&#98;&#x6f;&#x75;&#108;&#x65;&#116;&#x2b;&#x77;&#x65;&#98;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>antoine.boulet+web at protonmail dot com</noscript><br>
+<i class="fa-solid fa-phone" aria-label="phone"></i> +33 6 26 96 41 96</p>
+</div>
+</div>
+<div id="listing-selected" class="quarto-listing quarto-listing-container-custom">
+  <h2 data-anchor-id="teaching">Selected Publications</h2>
+  <p></p>
+  <div class="list grid" style="--bs-gap: 0;">
+      <div class="g-col-12 g-col-md-2">
+        <span class="badge bg-primary" style="width: 100px;">
+            Phys. Rev. A
+        </span>
+        <span class="muted">
+          2022
+        </span>
+      </div>
+      <div class="g-col-12 g-col-md-10" data-index="0">
+        <p>
+          <b>Local energy density functional for superfluid Fermi gases from effective field theory</b>
+          <br>
+            A. Boulet, G. Wlazłowski, and P. Magierski, Phys. Rev. A <b>106</b>, 013306 (2022)
+            </p><div class="list grid" style="--bs-gap: 0;">
+              <div class="g-col-10 g-col-md-6">
+                  <a href="https://arxiv.org/pdf/2201.07626" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-file-earmark-pdf"></i> .pdf
+                  </a>
+                  <a href="https://arxiv.org/abs/2201.07626" class="btn btn-outline-secondary btn-sm">
+                    <i class="ai ai-arxiv"></i> arXiv
+                  </a>
+                  <a href="https://doi.org/10.1103/PhysRevA.106.013306" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-link-45deg"></i> link
+                  </a>
+                  <button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#10.1103/PhysRevA.106.013306" aria-controls="10.1103/PhysRevA.106.013306">
+                    <i class="bi bi-body-text"></i> abstract
+                  </button>
+              </div>
+              <div class="g-col-10 g-col-md-4">
+                  <a href="https://doi.org/10.1103/PhysRevA.106.013306" style="text-decoration: none;">
+                    <code>doi:10.1103/PhysRevA.106.013306</code>
+                  </a>
+              </div>
+            </div>
+              <div class="collapse mt-2" id="10.1103/PhysRevA.106.013306">
+                <div class="small" style="font-family: 'New Computer Modern', serif;">
+                  Over the past two decades, many studies in the density functional theory context revealed new aspects and properties of strongly correlated superfluid quantum systems in numerous configurations that can be simulated in experiments. 
+This was made possible by the generalization of the local density approximation to superfluid systems by Bulgac [Phys. Rev. C <b>65</b>, 051305(R) (2002); Phys. Rev. A <b>76</b>, 040502(R) (2007)]. 
+In the present work, we propose an extension of the superfluid local density approximation, systematically improvable and applicable to a large range of many-body quantum problems getting rid of the fitting procedures of the functional parameters. 
+It turns out that only the knowledge of the density dependence of the quasiparticle properties, namely, the chemical potential, the effective mass, and the pairing gap function, are enough to obtain an explicit and accurate local functional of the densities without any adjustment a posteriori. 
+This opens the way toward an effective field theory formulation of the density functional theory in the sense that we obtain a universal expansion of the functional parameters entering in the theory as a series in pairing gap function. 
+Finally, we discuss possible applications of the developed approach allowing precise analysis of experimental observations. 
+In that context, we focus our applications on the static structure properties of superfluid vortices.
+                </div>
+              </div>
+        <p></p>
+      </div>
+      <div class="g-col-12 g-col-md-2">
+        <span class="badge bg-primary" style="width: 100px;">
+            J. Phys. G
+        </span>
+        <span class="muted">
+          2019
+        </span>
+      </div>
+      <div class="g-col-12 g-col-md-10" data-index="1">
+        <p>
+          <b>Approximate self-energy for Fermi systems with large s-wave scattering length: a step towards density functional theory</b>
+          <br>
+            A. Boulet and D. Lacroix, J. Phys. G: Nucl. Part. Phys. <b>46</b>, 105104 (2019)
+            </p><div class="list grid" style="--bs-gap: 0;">
+              <div class="g-col-10 g-col-md-6">
+                  <a href="https://arxiv.org/pdf/1902.05477" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-file-earmark-pdf"></i> .pdf
+                  </a>
+                  <a href="https://arxiv.org/abs/1902.05477" class="btn btn-outline-secondary btn-sm">
+                    <i class="ai ai-arxiv"></i> arXiv
+                  </a>
+                  <a href="https://doi.org/10.1088/1361-6471/ab2f0b" class="btn btn-outline-secondary btn-sm">
+                    <i class="bi bi-link-45deg"></i> link
+                  </a>
+                  <button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#10.1088/1361-6471/ab2f0b" aria-controls="10.1088/1361-6471/ab2f0b">
+                    <i class="bi bi-body-text"></i> abstract
+                  </button>
+              </div>
+              <div class="g-col-10 g-col-md-4">
+                  <a href="https://doi.org/10.1088/1361-6471/ab2f0b" style="text-decoration: none;">
+                    <code>doi:10.1088/1361-6471/ab2f0b</code>
+                  </a>
+              </div>
+            </div>
+              <div class="collapse mt-2" id="10.1088/1361-6471/ab2f0b">
+                <div class="small" style="font-family: 'New Computer Modern', serif;">
+                  In the present work, we start from a minimal Hamiltonian for Fermi systems where the $s$-wave scattering is the only low energy constant (LEC) at play.
+The many-body perturbative approach that is usually valid at rather low density is first discussed. 
+We then use the resummation technique with the ladder approximation to obtain compact expressions for both the energy and/or the on-shell self-energy in infinite spin-degenerated systems. 
+The diagrammatic resummation technique has the advantage in general to be predictive in a region of density larger compared to many-body perturbation theory. 
+It also leads to a non-diverging limit as $|a_sk_F| \to \infty$. Still, the obtained expressions are a rather complex function of the Fermi momentum $k_F$. 
+We introduce the full phase-space or the partial phase-space approximations respectively applied to the energy or to the self-energy to simplify their dependences in terms of $(a_sk_F)$ while keeping the correct limit at low density and the non-diverging property at large $|a_sk_F|$. 
+Quasi-particle properties of the Fermi system in various regimes of density and scattering length are then illustrated. 
+Our conclusion is that such simplified expressions where the direct link is made with the LEC without fine-tuning can provide a clear guidance to obtain density functional theory (DFT) beyond the perturbative regime. 
+However, quasi-particle properties close or near unitarity cannot be reproduced unless this limit is explicitly used as a constraint. 
+We finally discuss how such approximate treatment of quasi-particles can guide the development of DFT for strongly interacting Fermi systems.
+                </div>
+              </div>
+        <p></p>
+      </div>
+  </div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+
+
+
+</section>
+</main></div>
 </div>
  <!-- /main -->
+<script>
+    const trestles = document.querySelector(".quarto-about-trestles");
+    const listing = document.getElementById("listing-selected");
+    trestles.insertAdjacentElement("afterend", listing);
+</script>
+<script>
+    document.querySelectorAll('[data-bs-toggle="collapse"]').forEach(btn => {
+        const targetId = btn.getAttribute('data-bs-target').replace('#', '');
+        const collapse = document.getElementById(targetId);
+        if (!collapse) return;
+        collapse.addEventListener('show.bs.collapse', () => btn.classList.add('active'));
+        collapse.addEventListener('hide.bs.collapse', () => btn.classList.remove('active'));
+    });
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -309,7 +648,7 @@ I am lecturer in fundamental science at the ISMANS CESI engineering school in Le
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/antoineboulet\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -323,6 +662,11 @@ I am lecturer in fundamental science at the ISMANS CESI engineering school in Le
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
