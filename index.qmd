@@ -73,7 +73,7 @@ Mes recherches portent principalement sur les problèmes quantiques à N corps e
 ---
 
 ### Enseignement
-Je suis maître de conférences en sciences fondamentales à l'école d'ingénieurs ISMANS CESI du Mans (France) depuis 2022.
+Je suis enseignant en sciences fondamentales à l'école d'ingénieurs ISMANS CESI du Mans (France) depuis 2022.
 J'enseigne, aux niveaux licence et master : la physique, la chimie, les mathématiques et la programmation.  
 
 *Pour plus d'informations, consultez ma [page d'enseignement](teaching/).*
