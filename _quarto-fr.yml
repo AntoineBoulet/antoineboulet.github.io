@@ -16,12 +16,9 @@ website:
       - text: enseignement
         href: content/enseignement/index.qmd
     right:
-      - text: "**carnet**"
-        href: https://antoineboulet.github.io/carnet/
-    tools:
-      - icon: file-earmark-person
-        text: "Curriculum Vitæ (FR)"
+      - text: "**cv**"
         href: content/cv.qmd
+    tools:
       - icon: translate 
         text: "Basculer en anglais (EN)"
         href: https://antoineboulet.github.io/en/

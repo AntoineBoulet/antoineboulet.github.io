@@ -23,13 +23,10 @@ website:
             href: content/research/code-tools.qmd
       - text: teaching
         href: content/teaching/index.qmd
-    right:
-      - text: "**notebook**"
-        href: https://antoineboulet.github.io/notebook/
-    tools:
-      - icon: file-earmark-person
-        text: "Curriculum Vitæ (EN)"
+    right: 
+      - text: "**cv**"
         href: content/cv.qmd
+    tools:
       - icon: translate 
         text: "Toggle in french (FR)"
         href: https://antoineboulet.github.io/fr/
