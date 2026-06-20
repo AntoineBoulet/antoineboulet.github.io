@@ -1,0 +1,18 @@
+- id: wslda
+  title: "W-SLDA Toolkit"
+  author:
+    - G. Wlazłowski
+  language:
+    - C
+    - C++
+  period:
+    start: 2020
+    end: present
+  license: GPL-3.0
+  status: active
+  links:
+    website: https://wslda.fizyka.pw.edu.pl/
+    repository: https://gitlab.fizyka.pw.edu.pl/wtools/wslda
+    documentation: https://doi.org/10.48550/arXiv.2602.08982
+  description: |
+    A simulation platform for ultracold Fermi gases.

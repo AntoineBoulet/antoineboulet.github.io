@@ -1,0 +1,67 @@
+- id: UE-1.2-2.2-3.2-4.2
+  promotion: CP ISMANS A1 & A2
+  course-title:
+    en: General physics
+    fr: Physique générale
+  years:
+    - 2024
+    - 2025
+  teaching:
+    lecture:
+      hours: 77
+    tutorials:
+      hours: 77
+  course-description:
+    en: |
+      Core topics include classical mechanics, wave phenomena, optics, electromagnetism, thermodynamics, statistical physics, transport phenomena, fluid dynamics, and selected concepts from modern physics.
+    fr: |
+      Les principaux thèmes abordés incluent la mécanique classique, les phénomènes ondulatoires, l'optique, l'électromagnétisme, la thermodynamique, la physique statistique, les phénomènes de transport, la mécanique des fluides ainsi que certains concepts de la physique moderne.
+  materials: https://antoineboulet.github.io/
+
+- id: UE-2.4
+  promotion: CP ISMANS A1 & A2
+  course-title:
+    en: Lightning project
+    fr: Projet éclair
+  years:
+    - 2024
+    - 2025
+  teaching:
+    lecture:
+      hours: 21
+    tutorials:
+      hours: 21
+    project: true
+  course-description:
+    en: |
+      An integrated learning experience in electromagnetism, including lectures, tutorials, and an applied engineering project. The course focuses on fundamental theory, mathematical modeling, and engineering applications.
+    fr: |
+      Une expérience d'apprentissage intégrée en électromagnétisme comprenant des cours magistraux, des travaux dirigés et un projet d'ingénierie appliqué. L'enseignement met l'accent sur les fondements théoriques, la modélisation mathématique et les applications en ingénierie.
+  materials: https://antoineboulet.github.io/
+
+- id: CPI-CESI
+  promotion: CP ISMANS A1 & A2
+  course-title:
+    en: Engineering sciences
+    fr: Sciences de l'ingénieur
+  years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+  teaching:
+    lecture:
+      hours: 80
+      approximate: true
+    tutorials:
+      hours: 80
+      approximate: true
+    laboratory:
+      hours: 16
+      approximate: true
+    project: true
+  course-description:
+    en: |
+      Active-learning courses covering fundamental concepts in physics, chemistry, mathematics, and computer programming, with an emphasis on quantitative modeling, experimentation, computational methods, and engineering applications.
+    fr: |
+      Enseignements fondés sur des pédagogies actives couvrant les concepts fondamentaux de la physique, de la chimie, des mathématiques et de la programmation informatique, avec un accent particulier sur la modélisation quantitative, l'expérimentation, les méthodes numériques et les applications en ingénierie.

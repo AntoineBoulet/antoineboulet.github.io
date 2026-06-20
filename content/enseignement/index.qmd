@@ -1,0 +1,43 @@
+---
+pagetitle: "Enseignement"
+listing: 
+  - id: preparatory
+    template: ../../system/templates/listings/badges-buttons-link-accordion.ejs.html
+    contents: ../../data/teaching/preparatory.yml
+    template-params:
+      type: course
+      lang: fr
+  - id: undergraduate
+    template: ../../system/templates/listings/badges-buttons-link-accordion.ejs.html
+    contents: ../../data/teaching/undergraduate.yml
+    template-params:
+      type: course
+      lang: fr
+  - id: graduate
+    template: ../../system/templates/listings/badges-buttons-link-accordion.ejs.html
+    contents: ../../data/teaching/graduate.yml
+    template-params:
+      type: course
+      lang: fr
+---
+
+
+# Cours de premier cycle
+
+Les enseignements suivants correspondent à des cours de niveau licence que j’enseigne actuellement ou que j’ai enseignés à des étudiants de première et deuxième années.
+
+::: {#preparatory}
+:::
+
+Les enseignements suivants correspondent à des cours de niveau licence que j’enseigne actuellement ou que j’ai enseignés à des étudiants de troisième année.
+
+::: {#undergraduate}
+:::
+
+# Cours de deuxième cycle
+
+Les enseignements suivants correspondent à des cours de niveau master que j’enseigne actuellement ou que j’ai enseignés.
+
+::: {#graduate}
+:::
+

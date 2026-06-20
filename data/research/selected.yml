@@ -1,0 +1,45 @@
+- id: Boulet2022a
+  title: "Local energy density functional for superfluid Fermi gases from effective field theory"
+  author:
+    - A. Boulet
+    - G. Wlazłowski
+    - P. Magierski
+  journal: "Phys. Rev. A"
+  abbreviation: "Phys. Rev. A"
+  volume: 106
+  pages: 013306
+  year: 2022
+  doi: "10.1103/PhysRevA.106.013306"
+  arxiv: 2201.07626
+  abstract: |
+    Over the past two decades, many studies in the density functional theory context revealed new aspects and properties of strongly correlated superfluid quantum systems in numerous configurations that can be simulated in experiments. 
+    This was made possible by the generalization of the local density approximation to superfluid systems by Bulgac [Phys. Rev. C <b>65</b>, 051305(R) (2002); Phys. Rev. A <b>76</b>, 040502(R) (2007)]. 
+    In the present work, we propose an extension of the superfluid local density approximation, systematically improvable and applicable to a large range of many-body quantum problems getting rid of the fitting procedures of the functional parameters. 
+    It turns out that only the knowledge of the density dependence of the quasiparticle properties, namely, the chemical potential, the effective mass, and the pairing gap function, are enough to obtain an explicit and accurate local functional of the densities without any adjustment a posteriori. 
+    This opens the way toward an effective field theory formulation of the density functional theory in the sense that we obtain a universal expansion of the functional parameters entering in the theory as a series in pairing gap function. 
+    Finally, we discuss possible applications of the developed approach allowing precise analysis of experimental observations. 
+    In that context, we focus our applications on the static structure properties of superfluid vortices.
+
+- id: Boulet2019a
+  title: "Approximate self-energy for Fermi systems with large s-wave scattering length: a step towards density functional theory"
+  author:
+    - A. Boulet
+    - D. Lacroix
+  journal: "J. Phys. G: Nucl. Part. Phys."
+  abbreviation: "J. Phys. G"
+  volume: 46
+  pages: 105104
+  year: 2019
+  doi: "10.1088/1361-6471/ab2f0b"
+  arxiv: 1902.05477
+  abstract: |
+    In the present work, we start from a minimal Hamiltonian for Fermi systems where the $s$-wave scattering is the only low energy constant (LEC) at play.
+    The many-body perturbative approach that is usually valid at rather low density is first discussed. 
+    We then use the resummation technique with the ladder approximation to obtain compact expressions for both the energy and/or the on-shell self-energy in infinite spin-degenerated systems. 
+    The diagrammatic resummation technique has the advantage in general to be predictive in a region of density larger compared to many-body perturbation theory. 
+    It also leads to a non-diverging limit as $|a_sk_F| \to \infty$. Still, the obtained expressions are a rather complex function of the Fermi momentum $k_F$. 
+    We introduce the full phase-space or the partial phase-space approximations respectively applied to the energy or to the self-energy to simplify their dependences in terms of $(a_sk_F)$ while keeping the correct limit at low density and the non-diverging property at large $|a_sk_F|$. 
+    Quasi-particle properties of the Fermi system in various regimes of density and scattering length are then illustrated. 
+    Our conclusion is that such simplified expressions where the direct link is made with the LEC without fine-tuning can provide a clear guidance to obtain density functional theory (DFT) beyond the perturbative regime. 
+    However, quasi-particle properties close or near unitarity cannot be reproduced unless this limit is explicitly used as a constraint. 
+    We finally discuss how such approximate treatment of quasi-particles can guide the development of DFT for strongly interacting Fermi systems.

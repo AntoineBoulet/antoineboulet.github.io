@@ -1,0 +1,124 @@
+name: Deploy to GitHub Pages
+
+# Construit le site (profils en + fr) et le publie sur GitHub Pages.
+#
+# Pré-requis côté dépôt (à faire une seule fois, manuellement) :
+#   Settings > Pages > Build and deployment > Source : "GitHub Actions"
+#
+# La version de Quarto épinglée ici doit rester synchronisée avec celle
+# documentée dans README.md (section 1 - Prérequis) et avec
+# .github/workflows/build-check.yml.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive  # récupère system/ du repo quarto-shared
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: "1.9.38"
+
+      - name: Render (EN profile) -> _site/en
+        run: quarto render
+        env:
+          QUARTO_PROFILE: en
+
+      - name: Render (FR profile) -> _site/fr
+        run: quarto render
+        env:
+          QUARTO_PROFILE: fr
+
+      # _quarto-en.yml / _quarto-fr.yml écrivent dans _site/en et _site/fr,
+      # mais il n'y a pas de page à la racine de _site/. On ajoute une
+      # redirection statique vers /en/ (langue par défaut) pour que
+      # https://antoineboulet.github.io/ fonctionne.
+      - name: Add root redirect to /en/
+        run: |
+          cat > _site/index.html << 'EOF'
+          <meta http-equiv="refresh" content="0; url=/en/">
+          EOF
+ 
+# Pour la page 404, Quarto génère des chemins ABSOLUS
+      # (/site_libs/..., /en/cv.html, /fr/, /index.html...) en considérant
+      # le dossier de sortie du profil (_site/en ou _site/fr) comme la
+      # racine du site. Comme la racine réellement déployée est _site/, on
+      # préfixe ces chemins par /en (resp. /fr) pour qu'ils continuent de
+      # pointer au bon endroit une fois le site déployé en entier.
+      # Le fichier source system/404.qmd est désormais reproduit sous
+      # _site/<lang>/system/404.html (Quarto conserve l'arborescence du .qmd).
+      - name: Fix absolute paths in per-language 404 pages
+        run: |
+          for lang in en fr; do
+            perl -i -pe '
+              s{(href|src)="(?!https?://|//|#|mailto:|data:)/([^"]*)"}{$1="/'"$lang"'/$2"}g;
+              s{(href|src)=""}{$1="/'"$lang"'/"}g;
+            ' "_site/$lang/system/404.html"
+          done
+
+      # GitHub Pages ne sert une page 404 personnalisée que si un fichier
+      # 404.html existe à la RACINE du site publié, et cette même page est
+      # utilisée quel que soit le chemin demandé. Pour éviter de renvoyer
+      # systématiquement la version anglaise à un visiteur perdu dans /fr/,
+      # cette page racine se contente de rediriger vers /en/system/404.html
+      # ou /fr/system/404.html selon le préfixe de l'URL demandée.
+      - name: Add root 404 page (language-aware redirect)
+        run: |
+          cat > _site/404.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+            <head>
+              <meta charset="utf-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+              <title>404</title>
+              <script>
+                var lang = location.pathname.indexOf('/fr/') === 0 ? 'fr' : 'en';
+                location.replace('/' + lang + '/system/404.html' + location.search + location.hash);
+              </script>
+            </head>
+            <body>
+              <noscript>
+                <p>Page not found.<br>Page non trouvée.</p>
+                <p>
+                  <a href="/en/">Go to the English site</a>
+                  &nbsp;·&nbsp;
+                  <a href="/fr/">Aller au site en français</a>
+                </p>
+              </noscript>
+            </body>
+          </html>
+          EOF
+          
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

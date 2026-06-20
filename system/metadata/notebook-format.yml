@@ -1,0 +1,27 @@
+format:
+  html:
+    lang: en-US
+    date-format: "MMMM DD, YYYY"
+    link-external-newwindow: true
+    link-external-icon: true
+    include-in-header:
+      - system/scripts/mathjax-config-notebook.html
+      - system/scripts/redirect-navbar-en.html
+      - system/includes/icons.html
+    theme:
+      light: 
+        - flatly
+        - brand
+      dark: 
+        - darkly
+        - brand
+
+    toc: true
+
+    css: 
+      - system/styles/theme.css
+      - system/styles/notebook.css
+
+    html-math-method:
+      method: mathjax
+      url: "https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"

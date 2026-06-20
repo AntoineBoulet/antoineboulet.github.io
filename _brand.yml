@@ -1,0 +1,14 @@
+typography:
+  fonts:
+    - family: IBM Plex Sans
+      source: google
+    - family: IBM Plex Mono
+      source: google
+    - family: STIX Two Text
+      source: google
+  base:
+    family: IBM Plex Sans
+  headings:
+    family: IBM Plex Sans
+  monospace:
+    family: IBM Plex Mono

@@ -1,0 +1,26 @@
+---
+title: "Talks & Lectures"
+listing: 
+  - id: conferences
+    template: ../../system/templates/listings/badges-buttons-link-accordion.ejs.html
+    contents: ../../data/research/conferences.yml
+    template-params:
+      type: conference
+      lang: en
+  - id: seminars
+    template: ../../system/templates/listings/badges-buttons-link-accordion.ejs.html
+    contents: ../../data/research/seminars.yml
+    template-params:
+      type: seminar
+      lang: en
+description: |
+  List of my talks from 2017.  
+---
+
+## Conferences
+::: {#conferences}
+:::
+
+## Seminars
+::: {#seminars}
+:::

@@ -1,0 +1,121 @@
+---
+title: "Antoine Boulet"
+subtitle: |
+    <span class="content-visible" when-profile="en">*{{< meta personal-informations.en.job >}}*</span>
+    <span class="content-visible" when-profile="fr">*{{< meta personal-informations.fr.job >}}*</span>
+
+about:
+  id: description
+  template: trestles
+  image: assets/profile.jpg
+  links:
+    - text: <i class="ai ai-orcid"></i> ORCID
+      href: https://orcid.org/0000-0003-3839-6090
+    - text: <i class="ai ai-arxiv"></i> arXiv
+      href: https://arxiv.org/search/?query=Boulet%2C+Antoine&searchtype=author&source=header
+    - text: <i class="ai ai-inspire"></i> INSPIRE
+      href: https://inspirehep.net/authors/1631018
+    - text: <i class="ai ai-google-scholar"></i> Google Scholar
+      href: https://scholar.google.com/citations?user=UVnxCpwAAAAJ
+    - text: <i class="ai ai-hal"></i> HAL
+      href: https://hal.science/search/index/?q=*&authFullName_s=Antoine%20Boulet
+    - text: <i class="bi bi-github"></i> Github
+      href: https://github.com/AntoineBoulet
+
+listing:
+  - id: selected-publications
+    template: ./system/templates/listings/badges-buttons-link-accordion.ejs.html
+    contents: ./data/research/selected.yml
+    template-params:
+      type: article
+      lang: en
+  - id: selected-courses
+    template: ./system/templates/listings/badges-buttons-link-accordion.ejs.html
+    contents: ./data/teaching/selected.yml
+    template-params:
+      type: course
+      lang: fr
+
+metadata-files:
+  - ./data/about.yml
+
+toc: false
+
+css: system/styles/about.css
+---
+
+
+
+::: {.content-visible when-profile="en"}
+:::{#description}
+
+### Reserach
+{{< meta research.en >}}  
+
+*For more informations, check out my [research page](content/research/overview-highlights.qmd).*
+
+### Teaching
+{{< meta teaching.en >}}  
+
+*For more information, check out my [teaching page](content/teaching/).*
+
+<h3><br></h3>
+
+::: {.callout-note title="Contact details" icon=false .contact-box}
+<i class="fa fa-location-dot"></i><a href="{{< meta personal-informations.map >}}" title="">{{< meta personal-informations.en.office >}}</a>
+<div style="margin-left: 1.65em;">
+  {{< meta personal-informations.address >}}
+</div>
+
+<i class="fa fa-at"></i><a href="mailto:{{< meta personal-informations.email >}}" title="">{{< meta personal-informations.email >}}</a>  
+<i class="fa fa-phone"></i><a href="tel:{{< meta personal-informations.phone >}}" title="">{{< meta personal-informations.phone >}}</a>
+:::
+
+:::
+
+## Selected publications
+::: {#selected-publications}
+:::
+
+::: {#selected-courses style="display:none;"}
+:::
+
+:::
+
+
+
+::: {.content-visible when-profile="fr"}
+:::{#description}
+
+### Recherche
+{{< meta research.fr >}}  
+
+*Pour en savoir plus, consultez ma [page de recherche](content/recherche/).*
+
+### Enseignement
+{{< meta teaching.fr >}}  
+
+*Pour en savoir plus, consultez ma [page d'enseignement](content/enseignement/).*
+
+<h3><br></h3>
+
+::: {.callout-note title="Coordonnées" icon=false .contact-box}
+<i class="fa fa-location-dot"></i><a href="{{< meta personal-informations.map >}}" title="">{{< meta personal-informations.fr.office >}}</a>
+<div style="margin-left: 1.65em;">
+  {{< meta personal-informations.address >}}
+</div>
+
+<i class="fa fa-at"></i><a href="mailto:{{< meta personal-informations.email >}}" title="">{{< meta personal-informations.email >}}</a>  
+<i class="fa fa-phone"></i><a href="tel:{{< meta personal-informations.phone >}}" title="">{{< meta personal-informations.phone >}}</a>
+:::
+
+:::
+
+::: {#selected-publications style="display:none;"}
+:::
+
+### Cours sélectionnés
+::: {#selected-courses}
+:::
+
+:::

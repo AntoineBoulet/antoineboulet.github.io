@@ -1,0 +1,20 @@
+---
+pagetitle: "Code & Tools"
+
+listing: 
+  - id: hpc
+    template: ../../system/templates/listings/badges-buttons-link-accordion.ejs.html
+    contents: ../../data/research/hpc.yml
+    template-params:
+      type: hpc
+      lang: en
+---
+
+# HPC code
+
+High-Performance Computing code to which I contributed.
+
+
+::: {#hpc}
+:::
+

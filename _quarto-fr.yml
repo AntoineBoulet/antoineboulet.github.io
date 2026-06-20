@@ -1,0 +1,27 @@
+project:
+  output-dir: ./_site/fr
+
+lang: fr
+
+format:
+  html:
+    lang: fr-FR
+    date-format: "DD MMMM YYYY"
+    
+website:
+  navbar:
+    left:
+      - text: recherche
+        href: content/recherche/index.qmd
+      - text: enseignement
+        href: content/enseignement/index.qmd
+    right:
+      - text: "**carnet**"
+        href: https://antoineboulet.github.io/carnet/
+    tools:
+      - icon: file-earmark-person
+        text: "Curriculum Vitæ (FR)"
+        href: content/cv.qmd
+      - icon: translate 
+        text: "Basculer en anglais (EN)"
+        href: https://antoineboulet.github.io/en/

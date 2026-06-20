@@ -1,0 +1,38 @@
+- id: PhD
+  degree:
+    en: PhD in theoretical physics
+    fr: Doctorat en physique théorique
+  focus:
+    en: nuclear structure and reactions
+    fr: structure et réactions nucléaires
+  period:
+    start: 2016
+    end: 2019
+  institution:
+    en: Paris-Saclay University, France
+    fr: Université Paris-Saclay, France
+
+- id: MSc
+  degree:
+    en: MSc in fundamental concepts of physics
+    fr: Master en concepts fondamentaux de la physique
+  focus:
+    en: condensed matter physics
+    fr: physique de la matière condensée
+  period:
+    start: 2014
+    end: 2016
+  institution:
+    en: Paris-Saclay University, France
+    fr: Université Paris-Saclay, France
+
+- id: BSc
+  degree:
+    en: BSc in fundamental physics
+    fr: Licence en physique fondamentale
+  period:
+    start: 2011
+    end: 2014
+  institution:
+    en: Paris-Sud University, France
+    fr: Université Paris-Sud, France

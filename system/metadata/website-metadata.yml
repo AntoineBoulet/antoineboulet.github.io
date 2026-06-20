@@ -1,0 +1,6 @@
+website:
+  favicon: system/favicon.svg
+  search: 
+    location: navbar
+  navbar:
+    background: light

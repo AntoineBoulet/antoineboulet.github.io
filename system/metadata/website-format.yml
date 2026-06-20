@@ -1,0 +1,16 @@
+format:
+  html:
+    lang: fr-FR
+    date-format: "DD MMMM YYYY"
+    link-external-newwindow: true
+    link-external-icon: true
+    include-in-header:
+      - system/scripts/mathjax-config-notebook.html
+      - system/scripts/redirect-navbar-fr.html
+      - system/includes/icons.html
+
+    toc: true
+
+    html-math-method:
+      method: mathjax
+      url: "https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"

@@ -1,0 +1,114 @@
+- id: ECUE-5.6.1
+  promotion: CI ISMANS A3 FISE
+  course-title:
+    en: Sutructure of matter
+    fr: Structure de la matière
+  years:
+    - 2025
+  teaching:
+    lecture:
+      hours: 21
+    tutorials:
+      hours: 14
+  course-description:
+    en: |
+      An introductory course on the microscopic and quantum description of matter. Topics include atomic structure, chemical bonding, crystalline solids, and fundamental concepts underlying condensed matter physics, with emphasis on the link between microscopic models and macroscopic properties.
+    fr: |
+      Cours d'introduction à la description microscopique et quantique de la matière. Les thèmes abordés incluent la structure atomique, les liaisons chimiques, les solides cristallins ainsi que les concepts fondamentaux de la physique de la matière condensée, avec un accent particulier sur le lien entre les modèles microscopiques et les propriétés macroscopiques.
+  materials: https://antoineboulet.github.io/
+
+- id: ECUE-6.2.5
+  promotion: CI ISMANS A3 FISE
+  course-title:
+    en: Quantum mechanics
+    fr: Mécanique quantique
+  years:
+    - 2024
+    - 2025
+  teaching:
+    lecture:
+      hours: 10.5
+    tutorials:
+      hours: 10.5
+  course-description:
+    en: |
+      An introduction to the fundamental principles of quantum mechanics. The course covers wave–particle duality, the Schrödinger equation, quantum states and operators, simple quantum systems, and basic approximation methods, with applications to physical systems of engineering relevance.
+    fr: |
+      Introduction aux principes fondamentaux de la mécanique quantique. Le cours couvre la dualité onde-particule, l'équation de Schrödinger, les états quantiques et les opérateurs, les systèmes quantiques simples ainsi que les principales méthodes d'approximation, avec des applications à des systèmes physiques présentant un intérêt pour l'ingénierie.
+  materials: https://antoineboulet.github.io/
+
+- id: ECUE-6.2.2
+  promotion: CI ISMANS A3 FISA
+  course-title:
+    en: Differential equations
+    fr: Équations différentielles
+  years:
+    - 2024
+    - 2025
+  teaching:
+    lecture:
+      hours: 14
+    tutorials:
+      hours: 21
+  course-description:
+    en: |
+      A course on ordinary differential equations with applications to physical and engineering systems, covering first-order processes, second-order systems, and nonlinear dynamics, with emphasis on modeling and solution methods.
+    fr: |
+      Cours consacré aux équations différentielles ordinaires et à leurs applications aux systèmes physiques et d'ingénierie. Les notions abordées incluent les processus du premier ordre, les systèmes du second ordre et les dynamiques non linéaires, avec un accent mis sur la modélisation et les méthodes de résolution.
+
+- id: ECUE-5.3.1
+  promotion: CI ISMANS A3 FISA
+  course-title:
+    en: Mathematical tools
+    fr: Outils mathématiques
+  years:
+    - 2023
+    - 2024
+    - 2025
+  teaching:
+    tutorials:
+      hours: 35
+  course-description:
+    en: |
+      An introductory course in mathematical methods for physics and engineering, covering set theory and logic, matrices and determinants, eigenvalue problems and diagonalization, complex numbers, and basic geometry, with emphasis on problem-solving and applications.
+    fr: |
+      Introduction aux méthodes mathématiques pour la physique et l'ingénierie. Le cours couvre la théorie des ensembles et la logique, les matrices et déterminants, les problèmes de valeurs propres et la diagonalisation, les nombres complexes ainsi que les bases de la géométrie, avec un accent particulier sur la résolution de problèmes et les applications.
+
+- id: ECUE-5.4.2
+  promotion: CI ISMANS A3 FISE
+  course-title:
+    en: Surface modeling
+    fr: Modélisation surfacique
+  years:
+    - 2023
+  teaching:
+    tutorials:
+      hours: 9
+  course-description:
+    en: |
+      A course on surface modeling for CAD applications, focusing on parametric representations, spline-based methods, mesh modeling, and geometric design techniques used in engineering and industrial contexts.
+    fr: |
+      Cours consacré à la modélisation surfacique pour les applications de CAO, portant sur les représentations paramétriques, les méthodes basées sur les splines, la modélisation par maillages et les techniques de conception géométrique utilisées dans les contextes industriels et d'ingénierie.
+
+- id: CESI-CI-A3-FISA-G
+  promotion: CI CESI A3 FISA G
+  course-title:
+    en: Engineering sciences
+    fr: Sciences de l'ingénieur
+  years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+  teaching:
+    lecture:
+      hours: 25
+      approximate: true
+    tutorials:
+      hours: 25
+      approximate: true
+  course-description:
+    en: |
+      Active-learning courses covering fundamental concepts in physics, chemistry, mathematics, and computer programming, with an emphasis on quantitative modeling, experimentation, computational methods, and engineering applications.
+    fr: |
+      Enseignements fondés sur des pédagogies actives couvrant les concepts fondamentaux de la physique, de la chimie, des mathématiques et de la programmation informatique, avec un accent particulier sur la modélisation quantitative, l'expérimentation, les méthodes numériques et les applications en ingénierie.

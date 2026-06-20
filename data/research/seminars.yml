@@ -1,0 +1,47 @@
+- id: Barcelona2022
+  title: "Towards ab initio Density Functional Theory from atomic to nuclear systems"
+  year: 2022
+  event: Group seminar
+  location: Hadron and Nuclear Theory group, University of Barcelona, Spain
+
+- id: WUT2020
+  title: "Density Functional Theory for Fermi systems with large s‑wave scattering length: application to nuclear and atomic physics"
+  year: 2020
+  event: Group seminar
+  location: Nuclear Theory Group, Warsaw University of Technology, Poland
+
+- id: FRIB2020
+  title: "Variational Perturbation Theory for Density Functional Theory: Towards a systematic improvement of the Hartree‑Fock‑Bogoliubov approximation"
+  year: 2020
+  event: Research discussion
+  location: FRIB/NSCL, Michigan State University, MI USA
+
+- id: PhD2019
+  title: "Density functional theory for Fermi systems with large s‑wave scattering length: application to atomic and nuclear physics"
+  year: 2019
+  event: PhD desense
+  location: IPN Orsay, Paris‑Saclay University, France
+
+- id: SNIF2019
+  title: "Connecting EFT to DFT for strongly interacting fermions"
+  year: 2019
+  event: SNIF meeting
+  location: DPhN/IRFU, CEA Saclay, France
+
+- id: IPN2019
+  title: "Quasi‑particle properties of Fermi gas from low density to unitary limits"
+  year: 2019
+  event: Group seminar
+  location: IPN Orsay, Paris‑Sud University, France
+
+- id: ECT2018
+  title: "Bridging nuclear ab‑initio methods and Energy Density Functional Theories: from ultracold atoms to nuclear matter"
+  year: 2018
+  event: Microscopic theories of nuclear structure, dynamics, and electroweak currents (ECT* Doctoral Training Program)
+  location: ECT*, Italy
+
+- id: PHENIICS2017
+  title: "Density Functional Theory based on bare interaction: from ultra‑cold atoms to nuclear matter"
+  year: 2017
+  event: Doctioral student seminar
+  location: Paris‑Sud University, France

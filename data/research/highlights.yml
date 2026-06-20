@@ -1,0 +1,73 @@
+- id: IPN
+  header:
+    en: "Non-Empirical Density Functional Theory and Quasiparticle Properties"
+    fr: "Théorie de la fonctionnelle de la densité non empirique et propriétés des quasiparticules"
+  body:
+    en: |
+      During my doctoral work at IPN Orsay (Paris-Saclay University), I developed non-empirical Density Functional Theory for strongly interacting fermionic systems, constructed within an Effective Field Theory framework using systematic diagrammatic resummation methods. In contrast to conventional Nuclear Energy Density Functional, whose coupling constants are fitted to experimental nuclear masses and radii, the functionals developed in this work are expressed directly in terms of the low-energy constants of the bare interaction — the s-wave scattering length, the effective range — as well as the universal parameters of the unitary Fermi gas, in particular the Bertsch parameter. This connection to first-principles quantities is what gives the approach its non-empirical character [Phys. Rev. C **95**, 054306 (2017)].
+
+      A central part of this work concerned quasiparticle properties. Within a framework rooted in Landau–Fermi liquid theory, I developed an explicit treatment of the self-energy and effective mass of interacting fermions. This extension made it possible to describe thermodynamic properties, static response functions, and collective modes within a single coherent functional framework, over a broad range of interaction strengths, providing constraints of microscopic origin directly applicable to Nuclear Energy Density Functional approaches [J. Phys. G: Nucl. Part. Phys. **46**, 105104 (2019)].
+    fr: |
+      Au cours de ma thèse à l'IPN d'Orsay (Université Paris-Saclay), j'ai développé des fonctionnelles de la densité non empiriques pour les systèmes fermioniques fortement corrélés, construites dans le cadre de la théorie effective des champs au moyen de techniques de resommation diagrammatique systématiques. Contrairement aux fonctionnelles de la densité nucléaires conventionnelles, dont les constantes de couplage sont ajustées sur les masses et rayons de noyaux mesurés experimentalement, les fonctionnelles développées ici s'expriment directement en fonction des constantes de basse énergie de l'interaction nue — longueur de diffusion en onde s, portée effective — ainsi que des paramètres universels du gaz de Fermi à la limite unitaire, en particulier le paramètre de Bertsch. C'est ce lien aux grandeurs fondamentales qui confère à l'approche son caractère non empirique [Phys. Rev. C **95**, 054306 (2017)].
+
+      Une partie centrale de ce travail a porté sur les propriétés des quasiparticules. Dans un cadre ancré dans la théorie des liquides de Fermi de Landau, j'ai développé un traitement explicite de l'énergie propre et de la masse effective des fermions en interaction. Cette extension a rendu possible la description des propriétés thermodynamiques, des fonctions de réponse statique et des modes collectifs au sein d'un cadre cohérent, sur une large gamme de forces d'interaction, fournissant des contraintes d'origine microscopique directement utilisables dans les approches par fonctionnelles de la densité nucléaires [J. Phys. G: Nucl. Part. Phys. **46**, 105104 (2019)].
+
+- id: MSU
+  header:
+    en: "Microscopically-Motivated Nuclear Energy Density Functional"
+    fr: "Théorie de la fonctionnelle de la densité nucléaire à fondements microscopiques"
+  body:
+    en: |
+      During my postdoctoral appointment at FRIB/NSCL (Michigan State University), I pursued two lines of investigation aimed at establishing systematic connections between *ab initio* many-body methods and Nuclear Energy Density Functional.
+        
+      The first focused on the Density Matrix Expansion, an approach that maps the non-local density matrix produced by *ab initio* calculations onto local densities and their gradients that enter Nuclear Energy Density Functional. Particular attention was given to the role of three-nucleon forces, whose accurate treatment is a prerequisite for any microscopically grounded nuclear functional.
+        
+      The second, which constitutes an ongoing research program, aims at the systematic extension of the Hartree–Fock–Bogoliubov framework to incorporate beyond-mean-field correlations into the self-consistent equations, formulated within an effective action framework cast in path-integral form. This approach accommodates spontaneous symmetry breaking and improves the Hartree–Fock–Bogoliubov equations order by order, while preserving their structure and retaining the normal and anomalous densities as degrees of freedom. Built on Variational Perturbation Theory, this program works toward an *ab initio* formulation of Nuclear Energy Density Functional.
+    fr: |
+      Durant mon postdoctorat au FRIB/NSCL (Michigan State University), j'ai travaillé sur deux axes visant à établir des liens systématiques entre les méthodes *ab initio* et la théorie de la fonctionnelle de la densité nucléaire.
+        
+      Le premier a porté sur le Développement en Matrice de Densité, une approche qui permet d'exprimer la matrice de densité non locale issue des calculs *ab initio* en termes de densités locales et de leurs gradients, directement utilisables dans les fonctionnelles de la densité nucléaires. Ces travaux ont accordé une attention particulière au rôle des forces à trois nucléons, dont la prise en compte conditionne la qualité de toute fonctionnelle à fondements microscopiques.
+        
+      Le second axe, qui constitue un programme de recherche en cours, vise l'extension systématique de l'approche Hartree–Fock–Bogoliubov pour incorporer des corrélations au-delà du champ moyen dans les équations auto-cohérentes, dans le cadre du formalisme de l'action effective formulé en intégrale de chemin. Ce cadre permet de traiter la brisure spontanée de symétrie et d'améliorer les équations Hartree–Fock–Bogoliubov ordre par ordre, en conservant leur structure ainsi que les densités normale et anormale comme degrés de liberté. Fondé sur la théorie des perturbations variationnelle, ce programme a pour objectif à terme une formulation *ab initio* de la théorie de la fonctionnelle de la densité nucléaire.
+
+- id: WUT-1
+  header:
+    en: "Superfluid Fermi Systems and Quantum Dynamics"
+    fr: "Systèmes de Fermi superfluides et dynamique quantique"
+  body:
+    en: |
+      At Warsaw University of Technology, I extended the non-empirical density functional framework introduced previously to superfluid systems. The central development was a superfluid Energy Density Functional derived from Effective Field Theory principles and formulated within the time-dependent Density Functional Theory framework, constructed without phenomenological parameters and valid across the BEC–BCS crossover — from a weakly correlated BCS superfluid (at small in magnitude and negative scattering length) to the strongly correlated unitary regime. This framework enabled quantitative studies of both static equilibrium properties and quantum dynamics in homogeneous and spatially confined superfluid Fermi systems [Phys. Rev. A **106**, 013306 (2022)].
+    fr: |
+      À l'Université de Technologie de Varsovie, j'ai étendu le cadre de la fonctionnelle de la densité non empirique indroduit précédemment aux systèmes superfluides. Le développement central a été une fonctionnelle de la densité superfluide dérivée des principes de la théorie effective des champs, formulée dans le cadre de la théorie de la fonctionnelle de la densité dépendante du temps, construite sans paramètres phénoménologiques et valable d'un superfluide BCS faiblement corrélé à longueur de diffusion faible en module et négative jusqu'au régime unitaire fortement corrélé. Ce cadre a permis des études quantitatives des propriétés d'équilibre statique et de la dynamique quantique dans des systèmes de Fermi superfluides homogènes et confinés [Phys. Rev. A **106**, 013306 (2022)].
+
+- id: WUT-2
+  header:
+    en: "Quantum Vortices and Collective Modes"
+    fr: "Vortex quantiques et modes collectifs"
+  body:
+    en: |
+      Using large-scale simulations of strongly interacting superfluid Fermi gases, I studied two classes of collective phenomena: quantum vortex dynamics and amplitude (Higgs) modes.
+
+      On vortex dynamics, we established that the dominant dissipation mechanism in a rotating superfluid is the mutual friction between the superfluid and normal fluid components, generated by the scattering of thermal excitations off quantized vortices, rather than the contribution of Andreev bound states localized within the vortex core. This clarifies the microscopic origin of friction observed in rotating superfluid experiments and places constraints on phenomenological models of vortex dynamics in neutron star interiors [Phys. Rev. Lett. **130**, 043001 (2023)].
+
+      On collective modes, we investigated the generation and decay of large-amplitude Higgs modes in strongly correlated Fermi gases. We found that these modes are dynamically unstable: rather than decaying into quasiparticle pairs or Goldstone modes, they give rise to non-equilibrium states with spatially modulated pairing fields. The structure of these states bears a close resemblance to the FFLO phase — the Fulde–Ferrell–Larkin–Ovchinnikov state of unconventional pairing with spontaneously broken translational symmetry — suggesting a dynamical pathway to FFLO-like order in driven systems [Sci. Rep. **13**, 11285 (2023)].
+    fr: |
+      En utilisant des simulations à grande échelle de gaz de Fermi superfluides fortement corrélés, j'ai étudié deux classes de phénomènes collectifs : la dynamique des vortex quantiques et les modes d'amplitude (modes de Higgs).
+
+      Sur la dynamique des vortex, nous avons établi que le mécanisme de dissipation dominant dans un superfluide en rotation est la friction mutuelle entre les composantes superfluide et fluide normal, générée par la diffusion des excitations thermiques sur les vortex quantifiés, plutôt que la contribution des états liés d'Andreev localisés dans le cœur des vortex. Ce résultat clarifie l'origine microscopique de la friction observée dans les expériences sur les superfluides en rotation et contraint les modèles phénoménologiques de dynamique des vortex dans les étoiles à neutrons [Phys. Rev. Lett. **130**, 043001 (2023)].
+
+      Sur les modes collectifs, nous avons étudié la génération et la décroissance des modes de Higgs de grande amplitude dans des gaz de Fermi fortement corrélés. Nous avons montré que ces modes sont dynamiquement instables : au lieu de se désintégrer en paires de quasiparticules ou en modes de Goldstone, ils donnent naissance à des états hors équilibre avec des champs d'appariement spatialement modulés. La structure de ces états présente une forte similitude avec la phase FFLO — l'état de Fulde–Ferrell–Larkin–Ovchinnikov d'appariement non conventionnel avec brisure spontanée de la symétrie de translation — suggérant l'existence d'une voie dynamique vers un ordre de type FFLO dans les systèmes forcés hors de l'équilibre [Sci. Rep. **13**, 11285 (2023)].
+
+- id: ISMANS
+  header:
+    en: "Extended Many-Body Perturbation Theory"
+    fr: "Théorie des perturbations à N corps étendue"
+  body:
+    en: |
+      In recent work with R. Photopoulos, I developed a systematic extension of many-body perturbation theory designed to treat effective Hamiltonians whose parameters already encode beyond-mean-field correlations. The central difficulty with such Hamiltonians is that a naive perturbative expansion leads to double-counting: correlations already encoded in the effective interaction are generated a second time by the perturbative corrections. The framework we developed reorganizes the perturbative expansion to avoid this double-counting by construction, and yields results that are systematically improvable order by order.
+
+      The approach was validated on two exactly solvable models — the Richardson pairing model and the Hubbard Hamiltonian — where comparisons with exact solutions allow unambiguous assessment of the convergence properties. Applications to strongly interacting ultracold atomic gases are also presented [SciPost Phys. **18**, 003 (2025)].
+    fr: |
+      Dans des travaux récents avec R. Photopoulos, j'ai développé une extension systématique de la théorie des perturbations à N corps conçue pour traiter des hamiltoniens effectifs dont les paramètres encodent déjà des corrélations au-delà du champ moyen. La difficulté centrale avec de tels hamiltoniens est qu'un développement perturbatif naïf conduit à un double comptage : les corrélations déjà encodées dans l'interaction effective sont générées une seconde fois par les corrections perturbatives. Le cadre développé réorganise le développement perturbatif pour éviter ce double comptage par construction, et fournit des résultats systématiquement améliorables ordre par ordre.
+        
+      L'approche a été validée sur deux modèles exactement solubles — le modèle d'appariement de Richardson et le hamiltonien de Hubbard — où la comparaison avec les solutions exactes permet une évaluation sans ambiguïté des propriétés de convergence. Des applications aux gaz atomiques ultrafroids fortement en interaction sont également présentées [SciPost Phys. **18**, 003 (2025)].

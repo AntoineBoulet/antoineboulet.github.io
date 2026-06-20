@@ -1,0 +1,162 @@
+- id: Photopoulos2025a
+  title: "Many-body perturbation theory for strongly correlated effective Hamiltonians using effective field theory methods"
+  author:
+    - R. Photopoulos
+    - A. Boulet
+  journal: "SciPost Phys."
+  abbreviation: "SciPost Phys."
+  volume: 18
+  pages: 003
+  year: 2025
+  doi: "10.21468/SciPostPhys.18.1.003"
+  arxiv: 2402.17627
+  abstract: |
+    Introducing low-energy effective Hamiltonians is usual to grasp most correlations in quantum many-body problems. 
+    For instance, such effective Hamiltonians can be treated at the mean-field level to reproduce some physical properties of interest. 
+    Employing effective Hamiltonians that contain many-body correlations renders the use of perturbative many-body techniques difficult because of the overcounting of correlations. 
+    In this work, we develop a strategy to apply an extension of the many-body perturbation theory starting from an effective interaction that contains correlations beyond the mean-field level. 
+    The goal is to re-organize the many-body calculation to avoid the overcounting of correlations originating from the introduction of correlated effective Hamiltonians in the description. 
+    For this purpose, we generalize the formulation of the Rayleigh-Schrödinger perturbation theory by including free parameters adjusted to reproduce the appropriate limits. 
+    In particular, the expansion in the bare weak-coupling regime and the strong-coupling limit serves as a valuable input to fix the value of the free parameters appearing in the resulting expression. 
+    This method avoids double counting of correlations using beyond-mean-field strategies for the description of many-body systems. 
+    The ground state energy of various systems relevant for ultracold atomic, nuclear, and condensed matter physics is reproduced qualitatively beyond the domain of validity of the standard many-body perturbation theory. 
+    Finally, our method suggests interpreting the formal results obtained as an effective field theory using the proposed reorganization of the many-body calculation. 
+    The results, like ground state energies, are improved systematically by considering higher orders in the extended many-body perturbation theory while maintaining a straightforward polynomial expansion.
+
+- id: Barresi2023b
+  title: "Generation and decay of Higgs mode in a strongly interacting Fermi gas"
+  author:
+    - A. Barresi
+    - A. Boulet
+    - G. Wlazłowski
+    - P. Magierski
+  journal: "Sci. Rep."
+  abbreviation: "Sci. Rep."
+  volume: 13
+  pages: 11285
+  year: 2023
+  doi: "10.1038/s41598-023-38176-9"
+  arxiv: 2303.13394
+  abstract: |
+    We investigate the life cycle of the large amplitude Higgs mode in strongly interacting superfluid Fermi gas. 
+    Through numerical simulations with time-dependent density functional theory and the technique of the interaction quench, we verify the previous theoretical predictions on the mode’s frequency. 
+    Next, we demonstrate that the mode is dynamically unstable against external perturbation and qualitatively examine the emerging state after the mode decays. 
+    The post-decay state is characterized by spatial fluctuations of the order parameter and density at scales comparable to the superfluid coherence length scale. 
+    We identify similarities with FFLO states, which become more prominent at higher dimensionalities and nonzero spin imbalances.
+
+- id: Barresi2023a
+  title: "Dissipative Dynamics of Quantum Vortices in Fermionic Superfluid"
+  author:
+    - A. Barresi
+    - A. Boulet$
+    - P. Magierski
+    - G. Wlazłowski
+  journal: "Phys. Rev. Lett."
+  abbreviation: "Phys. Rev. Lett."
+  volume: 130
+  pages: 043001
+  year: 2023
+  doi: "10.1103/PhysRevLett.130.043001"
+  arxiv: 2207.00870
+  abstract: |
+    In a recent article, Kwon et al. [Nature (London) <b>600</b>, 64 (2021)] revealed nonuniversal dissipative dynamics of quantum vortices in a fermionic superfluid. 
+    The enhancement of the dissipative process is pronounced for the Bardeen-Cooper-Schrieffer interaction regime, and it was suggested that the effect is due to the presence of quasiparticles localized inside the vortex core. 
+    We test this hypothesis through numerical simulations with time-dependent density-functional theory: a fully microscopic framework with fermionic degrees of freedom. 
+    The results of fully microscopic calculations expose the impact of the vortex-bound states on dissipative dynamics in a fermionic superfluid. 
+    Their contribution is too weak to explain the experimental measurements, and we identify that thermal effects, giving rise to mutual friction between superfluid and the normal component, dominate the observed dynamics.
+
+- id: Boulet2022a
+  title: "Local energy density functional for superfluid Fermi gases from effective field theory"
+  author:
+    - A. Boulet
+    - G. Wlazłowski
+    - P. Magierski
+  journal: "Phys. Rev. A"
+  abbreviation: "Phys. Rev. A"
+  volume: 106
+  pages: 013306
+  year: 2022
+  doi: "10.1103/PhysRevA.106.013306"
+  arxiv: 2201.07626
+  abstract: |
+    Over the past two decades, many studies in the density functional theory context revealed new aspects and properties of strongly correlated superfluid quantum systems in numerous configurations that can be simulated in experiments. 
+    This was made possible by the generalization of the local density approximation to superfluid systems by Bulgac [Phys. Rev. C <b>65</b>, 051305(R) (2002); Phys. Rev. A <b>76</b>, 040502(R) (2007)]. 
+    In the present work, we propose an extension of the superfluid local density approximation, systematically improvable and applicable to a large range of many-body quantum problems getting rid of the fitting procedures of the functional parameters. 
+    It turns out that only the knowledge of the density dependence of the quasiparticle properties, namely, the chemical potential, the effective mass, and the pairing gap function, are enough to obtain an explicit and accurate local functional of the densities without any adjustment a posteriori. 
+    This opens the way toward an effective field theory formulation of the density functional theory in the sense that we obtain a universal expansion of the functional parameters entering in the theory as a series in pairing gap function. 
+    Finally, we discuss possible applications of the developed approach allowing precise analysis of experimental observations. 
+    In that context, we focus our applications on the static structure properties of superfluid vortices.
+
+- id: Boulet2019a
+  title: "Approximate self-energy for Fermi systems with large s-wave scattering length: a step towards density functional theory"
+  author:
+    - A. Boulet
+    - D. Lacroix
+  journal: "J. Phys. G: Nucl. Part. Phys."
+  abbreviation: "J. Phys. G"
+  volume: 46
+  pages: 105104
+  year: 2019
+  doi: "10.1088/1361-6471/ab2f0b"
+  arxiv: 1902.05477
+  abstract: |
+    In the present work, we start from a minimal Hamiltonian for Fermi systems where the $s$-wave scattering is the only low energy constant (LEC) at play.
+    The many-body perturbative approach that is usually valid at rather low density is first discussed. 
+    We then use the resummation technique with the ladder approximation to obtain compact expressions for both the energy and/or the on-shell self-energy in infinite spin-degenerated systems. 
+    The diagrammatic resummation technique has the advantage in general to be predictive in a region of density larger compared to many-body perturbation theory. 
+    It also leads to a non-diverging limit as $|a_sk_F| \to \infty$. Still, the obtained expressions are a rather complex function of the Fermi momentum $k_F$. 
+    We introduce the full phase-space or the partial phase-space approximations respectively applied to the energy or to the self-energy to simplify their dependences in terms of $(a_sk_F)$ while keeping the correct limit at low density and the non-diverging property at large $|a_sk_F|$. 
+    Quasi-particle properties of the Fermi system in various regimes of density and scattering length are then illustrated. 
+    Our conclusion is that such simplified expressions where the direct link is made with the LEC without fine-tuning can provide a clear guidance to obtain density functional theory (DFT) beyond the perturbative regime. 
+    However, quasi-particle properties close or near unitarity cannot be reproduced unless this limit is explicitly used as a constraint. 
+    We finally discuss how such approximate treatment of quasi-particles can guide the development of DFT for strongly interacting Fermi systems.
+
+- id: Boulet2018a
+  title: "Static response, collective frequencies, and ground-state thermodynamical properties of spin-saturated two-component cold atoms and neutron matter"
+  author:
+    - A. Boulet
+    - D. Lacroix
+  journal: "Phys. Rev. C"
+  abbreviation: "Phys. Rev. C"
+  volume: 97
+  pages: 014301
+  year: 2018
+  doi: "10.1103/PhysRevC.97.014301"
+  arxiv: 1709.05160
+  abstract: |
+    The thermodynamical ground-state properties and static response in both cold atoms at or close to unitarity and neutron matter are determined using a recently proposed density functional theory (DFT) based on the $s$-wave scattering length $a_s$, effective range $r_e$, and unitary gas limit. 
+    In cold atoms, when the effective range may be neglected, we show that the pressure, chemical potential, compressibility modulus, and sound velocity obtained with the DFT are compatible with experimental observations or exact theoretical estimates. 
+    The static response in homogeneous infinite systems is also obtained and a possible influence of the effective range on the response is analyzed. 
+    The neutron matter differs from unitary gas due to the noninfinite scattering length and to a significant influence of effective range, which affects all thermodynamical quantities as well as the static response. 
+    In particular, we show for neutron matter that the latter response recently obtained in auxiliary-field diffusion Monte Carlo (AFDMC) can be qualitatively reproduced when the $p$-wave contribution is added to the functional. 
+    Our study indicates that the close similarity between the exact AFDMC static response and the free-gas response might stem from the compensation of the $a_s$ effect by the effective range and $p$-wave contributions. 
+    We finally consider the dynamical response of both atoms or neutron droplets in anisotropic traps. 
+    Assuming the hydrodynamical regime and a polytropic equation of state, a reasonable description of the radial and axial collective frequencies in cold atoms is obtained. 
+    Following a similar strategy, we estimate the equivalent collective frequencies of neutron drops in anisotropic traps.
+
+- id: Boulet2017a
+  title: "From bare interactions, low-energy constants, and unitary gas to nuclear density functionals without free parameters: Application to neutron matter"
+  author:
+    - D. Lacroix
+    - A. Boulet
+    - M. Grasso
+    - C.-J. Yang
+  journal: "Phys. Rev. C"
+  abbreviation: "Phys. Rev. C"
+  volume: 95
+  pages: 054306
+  year: 2017
+  doi: "10.1103/PhysRevC.95.054306"
+  arxiv: 1704.08454
+  abstract: |
+    We further progress along the line of Ref. [D. Lacroix, Phys. Rev. A <b>94</b>, 043614 (2016)] where a functional for Fermi systems with anomalously large $s$-wave scattering length $a_s$ was proposed that has no free parameters. 
+    The functional is designed to correctly reproduce the unitary limit in Fermi gases together with the leading-order contributions in the $s$- and $p$-wave channels at low density. 
+    The functional is shown to be predictive up to densities $\sim 0.01 ~ \text{fm}^{-3}$ that is much higher densities compared to the Lee-Yang functional, valid for $\rho < 10^{-6} ~ \text{fm}^{-3}$. 
+    The form of the functional retained in this work is further motivated. 
+    It is shown that the new functional corresponds to an expansion of the energy in ($a_sk_F$) and ($r_ek_F$) to all orders, where $r_e$ is the effective range and $k_F$ is the Fermi momentum. 
+    One conclusion from the present work is that, except in the extremely low-density regime, nuclear systems can be treated perturbatively in $-(a_sk_F)^{-1}$ with respect to the unitary limit. 
+    Starting from the functional, we introduce density-dependent scales and show that scales associated with the bare interaction are strongly renormalized by medium effects. 
+    As a consequence, some of the scales at play around saturation are dominated by the unitary gas properties and not directly by low-energy constants. 
+    For instance, we show that the scale in the $s$-wave channel around saturation is proportional to the so-called Bertsch parameter $\xi_0$ and becomes independent of $a_s$. 
+    We also point out that these scales are of the same order of magnitude than those empirically obtained in the Skyrme energy density functional. 
+    We finally propose a slight modification of the functional such that it becomes accurate up to the saturation density $\rho\approx 0.16 ~ \text{fm}^{-3}$.

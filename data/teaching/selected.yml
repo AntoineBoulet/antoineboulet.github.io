@@ -1,0 +1,58 @@
+- id: UE-1.2-2.2-3.2-4.2
+  promotion: CP ISMANS A1 & A2
+  course-title:
+    en: General physics
+    fr: Physique générale
+  years:
+    - 2024
+    - 2025
+  teaching:
+    lecture:
+      hours: 77
+    tutorials:
+      hours: 77
+  course-description:
+    en: |
+      Core topics include classical mechanics, wave phenomena, optics, electromagnetism, thermodynamics, statistical physics, transport phenomena, fluid dynamics, and selected concepts from modern physics.
+    fr: |
+      Les principaux thèmes abordés incluent la mécanique classique, les phénomènes ondulatoires, l'optique, l'électromagnétisme, la thermodynamique, la physique statistique, les phénomènes de transport, la mécanique des fluides ainsi que certains concepts de la physique moderne.
+  materials: https://antoineboulet.github.io/
+
+- id: ECUE-5.6.1
+  promotion: CI ISMANS A3 FISE
+  course-title:
+    en: Sutructure of matter
+    fr: Structure de la matière
+  years:
+    - 2025
+  teaching:
+    lecture:
+      hours: 21
+    tutorials:
+      hours: 14
+  course-description:
+    en: |
+      An introductory course on the microscopic and quantum description of matter. Topics include atomic structure, chemical bonding, crystalline solids, and fundamental concepts underlying condensed matter physics, with emphasis on the link between microscopic models and macroscopic properties.
+    fr: |
+      Cours d'introduction à la description microscopique et quantique de la matière. Les thèmes abordés incluent la structure atomique, les liaisons chimiques, les solides cristallins ainsi que les concepts fondamentaux de la physique de la matière condensée, avec un accent particulier sur le lien entre les modèles microscopiques et les propriétés macroscopiques.
+  materials: https://antoineboulet.github.io/
+
+- id: ECUE-6.2.5
+  promotion: CI ISMANS A3 FISE
+  course-title:
+    en: Quantum mechanics
+    fr: Mécanique quantique
+  years:
+    - 2024
+    - 2025
+  teaching:
+    lecture:
+      hours: 10.5
+    tutorials:
+      hours: 10.5
+  course-description:
+    en: |
+      An introduction to the fundamental principles of quantum mechanics. The course covers wave–particle duality, the Schrödinger equation, quantum states and operators, simple quantum systems, and basic approximation methods, with applications to physical systems of engineering relevance.
+    fr: |
+      Introduction aux principes fondamentaux de la mécanique quantique. Le cours couvre la dualité onde-particule, l'équation de Schrödinger, les états quantiques et les opérateurs, les systèmes quantiques simples ainsi que les principales méthodes d'approximation, avec des applications à des systèmes physiques présentant un intérêt pour l'ingénierie.
+  materials: https://antoineboulet.github.io/

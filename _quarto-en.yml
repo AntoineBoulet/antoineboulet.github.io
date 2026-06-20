@@ -1,0 +1,35 @@
+project:
+  output-dir: ./_site/en
+
+lang: en
+
+format:
+  html:
+    lang: en-US
+    date-format: "MMMM DD, YYYY"
+
+website:
+  navbar:
+    left:
+      - text: research
+        menu: 
+          - text: overview & highlights
+            href: content/research/overview-highlights.qmd
+          - text: publications & preprints
+            href: content/research/publications-preprints.qmd
+          - text: talks & lectures
+            href: content/research/talks-lectures.qmd
+          - text: code & tools
+            href: content/research/code-tools.qmd
+      - text: teaching
+        href: content/teaching/index.qmd
+    right:
+      - text: "**notebook**"
+        href: https://antoineboulet.github.io/notebook/
+    tools:
+      - icon: file-earmark-person
+        text: "Curriculum Vitæ (EN)"
+        href: content/cv.qmd
+      - icon: translate 
+        text: "Toggle in french (FR)"
+        href: https://antoineboulet.github.io/fr/

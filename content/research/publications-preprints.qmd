@@ -1,0 +1,33 @@
+---
+title: "Publications & Preprints"
+listing:
+  - id: articles
+    template: ../../system/templates/listings/badges-buttons-link-accordion.ejs.html
+    contents: ../../data/research/articles.yml
+    template-params:
+      type: article
+      lang: en
+  - id: thesis
+    template: ../../system/templates/listings/badges-buttons-link-accordion.ejs.html
+    contents: ../../data/research/thesis.yml
+    template-params:
+      type: thesis
+      lang: en
+description: |
+  References to my publications from 2017.    
+---
+
+
+## Preprints
+
+## Publications
+
+::: {#articles}
+:::
+
+
+
+## Thesis
+
+::: {#thesis}
+:::

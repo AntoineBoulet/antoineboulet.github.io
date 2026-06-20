@@ -1,0 +1,67 @@
+---
+title: "Curriculum vitæ"
+listing: 
+  - id: education-en
+    template: ../system/templates/listings/badges-buttons-link-accordion.ejs.html
+    contents: ../data/cv/education.yml
+    template-params:
+      type: education
+      lang: en
+  - id: experience-en
+    template: ../system/templates/listings/badges-buttons-link-accordion.ejs.html
+    contents: ../data/cv/experience.yml
+    template-params:
+      type: experience
+      lang: en
+  - id: education-fr
+    template: ../system/templates/listings/badges-buttons-link-accordion.ejs.html
+    contents: ../data/cv/education.yml
+    template-params:
+      type: education
+      lang: fr
+  - id: experience-fr
+    template: ../system/templates/listings/badges-buttons-link-accordion.ejs.html
+    contents: ../data/cv/experience.yml
+    template-params:
+      type: experience
+      lang: fr
+---
+
+::: {.content-visible when-profile="en"}
+
+## Academic and Research experience
+
+::: {#experience-en}
+:::
+
+## Education and Diploma
+::: {#education-en}
+:::
+
+::: {#experience-fr style="display:none;"}
+:::
+
+::: {#education-fr style="display:none;"}
+:::
+
+:::
+
+
+::: {.content-visible when-profile="fr"}
+
+## Parcours académique et expérience de recherche
+::: {#experience-fr}
+:::
+
+## Formation et diplômes
+
+::: {#education-fr}
+:::
+
+::: {#experience-en style="display:none;"}
+:::
+
+::: {#education-en style="display:none;"}
+:::
+
+:::

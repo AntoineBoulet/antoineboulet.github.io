@@ -1,0 +1,44 @@
+project:
+  type: website
+  
+profile:
+  default: en
+  group: [en, fr]
+
+website:
+  title: "Antoine Boulet"
+  favicon: system/favicon.svg
+  search: 
+    location: navbar
+  open-graph: true
+  navbar: 
+    background: light
+    title: "Antoine Boulet"
+
+default-image-extension: ""
+
+format:
+  html:
+    link-external-newwindow: true
+    link-external-icon: true
+    include-in-header:
+      - system/scripts/mathjax-config.html
+      - system/includes/icons.html
+    theme:
+      light: 
+        - flatly
+        - brand
+      dark: 
+        - darkly
+        - brand
+
+    toc: true
+
+    css: 
+      - system/styles/theme.css
+
+    html-math-method:
+      method: mathjax
+      url: "https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"
+      
+    

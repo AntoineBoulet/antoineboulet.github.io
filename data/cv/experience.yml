@@ -1,0 +1,54 @@
+- id: ISMANS
+  position:
+    en: Lecturer in fundamental sciences
+    fr: Enseignant en sciences fondamentales
+  period:
+    start: 2022
+    end: present
+  location:
+    en: ISMANS-CESI, France
+    fr: ISMANS-CESI, France
+
+- id: WUT
+  position:
+    en: Research associate
+    fr: Chercheur associé
+  period:
+    start: 2020
+    end: 2022
+  location:
+    en: Warsaw University of Technology, Poland
+    fr: Université de Technologie de Varsovie, Pologne
+
+- id: MSU
+  position:
+    en: Research associate
+    fr: Chercheur associé
+  period:
+    start: 2019
+    end: 2020
+  location:
+    en: FRIB/NCSL, Michigan State University, United States
+    fr: FRIB/NCSL, Université d'État du Michigan, États-Unis
+
+- id: IUT
+  position:
+    en: Graduate teaching assistant
+    fr: Attaché temporaire d'enseignement
+  period:
+    start: 2017
+    end: 2019
+  location:
+    en: IUT Orsay, Paris-Saclay University, France
+    fr: IUT d'Orsay, Université Paris-Saclay, France
+
+- id: IPN
+  position:
+    en: PhD student
+    fr: Doctorant
+  period:
+    start: 2016
+    end: 2019
+  location:
+    en: IPN Orsay, Paris-Saclay University, France
+    fr: IPN d'Orsay, Université Paris-Saclay, France

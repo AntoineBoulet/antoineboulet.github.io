@@ -1,0 +1,37 @@
+- id: CTI-2024
+  promotion: CI ISMANS A4 MTRX
+  course-title:
+    en: Fundamental physics
+    fr: Physique fondamentale
+  years:
+    - 2022
+    - 2023
+  teaching:
+    tutorials:
+      hours: 30
+      approximate: true
+  course-description:
+    en: |
+      A graduate level support course in fundamental physics, covering wave optics, quantum mechanics, statistical physics, mathematical methods, and scientific computing, with emphasis on conceptual understanding and problem-solving skills.
+    fr: |
+      Cours de soutien de niveau master en physique fondamentale couvrant l'optique ondulatoire, la mécanique quantique, la physique statistique, les méthodes mathématiques et le calcul scientifique, avec un accent particulier sur la compréhension des concepts et le développement des compétences en résolution de problèmes.
+
+- id: ECUE-7.3.2
+  promotion: CI ISMANS A4 FISA
+  course-title:
+    en: Finite Element Method
+    fr: Méthode des éléments finis
+  years:
+    - 2024
+  teaching:
+    lecture:
+      hours: 3.5
+    tutorials:
+      hours: 10.5
+    laboratory:
+      hours: 7
+  course-description:
+    en: |
+      A course introducing the finite element method for structural mechanics applications. Topics include basic formulation, elementary beam and bar models, numerical implementation aspects, and standard finite elements such as three-node triangular and four-node quadrilateral elements. Applications include bars under self-weight, simply supported beams, and an introductory bridge design project.
+    fr: |
+      Cours d'introduction à la méthode des éléments finis appliquée à la mécanique des structures. Les thèmes abordés incluent la formulation de base, les modèles élémentaires de poutres et de barres, les aspects liés à l'implémentation numérique ainsi que les éléments finis standards tels que les éléments triangulaires à trois nœuds et quadrilatéraux à quatre nœuds. Les applications comprennent l'étude de barres soumises à leur propre poids, de poutres simplement appuyées et un projet introductif de conception de pont.

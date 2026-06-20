@@ -1,0 +1,11 @@
+format:
+  html:
+    theme:
+      light: 
+        - flatly
+        - brand
+      dark: 
+        - darkly
+        - brand
+    css: 
+      - system/styles/theme.css

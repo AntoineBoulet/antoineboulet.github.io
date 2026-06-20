@@ -1,0 +1,44 @@
+---
+pagetitle: "Teaching"
+listing: 
+  - id: preparatory
+    template: ../../system/templates/listings/badges-buttons-link-accordion.ejs.html
+    contents: ../../data/teaching/preparatory.yml
+    template-params:
+      type: course
+      lang: en
+  - id: undergraduate
+    template: ../../system/templates/listings/badges-buttons-link-accordion.ejs.html
+    contents: ../../data/teaching/undergraduate.yml
+    template-params:
+      type: course
+      lang: en
+  - id: graduate
+    template: ../../system/templates/listings/badges-buttons-link-accordion.ejs.html
+    contents: ../../data/teaching/graduate.yml
+    template-params:
+      type: course
+      lang: en
+---
+
+
+# Undergraduate courses
+
+The following are undergraduate-level courses that I currently teach or have taught to first- and second-year students.
+
+::: {#preparatory}
+:::
+
+
+The following are undergraduate-level courses that I currently teach or have taught to third-year students.
+
+::: {#undergraduate}
+:::
+
+# Graduate courses
+The following are graduate-level courses that I currently teach or have taught.
+
+::: {#graduate}
+:::
+
+

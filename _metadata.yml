@@ -1,0 +1,27 @@
+personal-informations: 
+  first-name: Antoine
+  last-name: Boulet
+  profile-picture: assets/profile.jpg
+  website: https://antoineboulet.github.io
+  email: antoine.boulet+website@protonmail.com
+  phone: +33 6 26 96 41 96
+  address: |
+    ISMANS CESI, école d'ingénieurs  
+    44 avenue Frédéric Auguste Bartholdi  
+    72000 Le Mans, France
+  map: https://www.openstreetmap.org/relation/13604669
+  en:
+    office: Office 51 (first floor)
+    job: |
+      | theoretical physicist
+      | lecturer @ISMANS
+  fr:
+    office: Bureau 51 (premier étage)
+    job: |
+      | physicien théoricien
+      | enseignant @ISMANS
+  social:
+    github: AntoineBoulet
+    orcid: 0000-0003-3839-6090
+
+
