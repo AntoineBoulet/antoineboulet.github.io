@@ -11,10 +11,6 @@ format:
       - system/includes/icons.html
 
 metadata-files: 
-  - system/fragments/default-header.yml
-  - system/fragments/default-theme.yml
-  - system/fragments/default-website.yml
-  - system/fragments/portfolio-header.yml
-  - system/fragments/portfolio-theme.yml
-  - system/fragments/portfolio-website.yml
+  - system/fragments/default.yml
+  - system/fragments/portfolio.yml
     
