@@ -57,7 +57,7 @@ jobs:
           <meta http-equiv="refresh" content="0; url=/en/">
           EOF
  
-# Pour la page 404, Quarto génère des chemins ABSOLUS
+      # Pour la page 404, Quarto génère des chemins ABSOLUS
       # (/site_libs/..., /en/cv.html, /fr/, /index.html...) en considérant
       # le dossier de sortie du profil (_site/en ou _site/fr) comme la
       # racine du site. Comme la racine réellement déployée est _site/, on
@@ -83,29 +83,12 @@ jobs:
       - name: Add root 404 page (language-aware redirect)
         run: |
           cat > _site/404.html << 'EOF'
-          <!DOCTYPE html>
-          <html lang="en">
-            <head>
-              <meta charset="utf-8">
-              <meta name="viewport" content="width=device-width, initial-scale=1">
-              <title>404</title>
-              <script>
-                var lang = location.pathname.indexOf('/fr/') === 0 ? 'fr' : 'en';
-                location.replace('/' + lang + '/system/404.html' + location.search + location.hash);
-              </script>
-            </head>
-            <body>
-              <noscript>
-                <p>Page not found.<br>Page non trouvée.</p>
-                <p>
-                  <a href="/en/">Go to the English site</a>
-                  &nbsp;·&nbsp;
-                  <a href="/fr/">Aller au site en français</a>
-                </p>
-              </noscript>
-            </body>
-          </html>
+          <script>
+            var lang = location.pathname.indexOf('/fr/') === 0 ? 'fr' : 'en';
+            location.replace('/' + lang + '/system/404.html' + location.search + location.hash);
+          </script>
           EOF
+         
           
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
